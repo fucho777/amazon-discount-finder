@@ -2,34 +2,48 @@
   "min_discount_percent": 25,
   "search_items": [
     {
-      "category": "Electronics"
+      "category": "Electronics",
+      "keyword": "　"
     },
     {
-      "category": "Kitchen"
+      "category": "HomeAndKitchen",
+      "keyword": "　"
     },
     {
-      "category": "VideoGames"
+      "category": "VideoGames",
+      "keyword": "　"
     },
     {
-      "category": "Beauty"
+      "category": "Beauty",
+      "keyword": "　"
     },
     {
-      "category": "Apparel"
+      "category": "Fashion",
+      "keyword": "　"
     },
     {
-      "category": "Watches"
+      "category": "HealthPersonalCare",
+      "keyword": "　"
     },
     {
-      "category": "OfficeProducts"
+      "category": "PetSupplies",
+      "keyword": "　"
     },
     {
-      "category": "MusicalInstruments"
+      "category": "OfficeProducts",
+      "keyword": "　"
     },
     {
-      "category": "Toys"
+      "category": "Toys",
+      "keyword": "　"
     },
     {
-      "category": "PetSupplies"
+      "category": "Hobbies",
+      "keyword": "　"
+    },
+    {
+      "category": "All",
+      "keyword": "　"
     }
   ]
 }
