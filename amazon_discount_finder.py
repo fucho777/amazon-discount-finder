@@ -445,7 +445,7 @@ def post_to_threads(product):
         text += f"❌ 元の価格: {original_price:,.0f}円\n"
         text += f"💰 割引額: {discount_amount:,.0f}円\n\n"
         text += f"🛒 商品ページ: {product['url']}\n\n"
-        text += f"#Amazonセール #お買い得 #タイムセール"
+        text += f"#Amazonセール #お買い得 #タイムセール #PR"
         
         # ステップ1: コンテナID作成
         upload_url = f"https://graph.threads.net/v1.0/{THREADS_INSTAGRAM_ACCOUNT_ID}/threads"
