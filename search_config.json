@@ -1,0 +1,35 @@
+{
+  "min_discount_percent": 25,
+  "search_items": [
+    {
+      "category": "Electronics"
+    },
+    {
+      "category": "Kitchen"
+    },
+    {
+      "category": "VideoGames"
+    },
+    {
+      "category": "Beauty"
+    },
+    {
+      "category": "Apparel"
+    },
+    {
+      "category": "Watches"
+    },
+    {
+      "category": "OfficeProducts"
+    },
+    {
+      "category": "MusicalInstruments"
+    },
+    {
+      "category": "Toys"
+    },
+    {
+      "category": "PetSupplies"
+    }
+  ]
+}
