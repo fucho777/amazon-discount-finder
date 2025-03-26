@@ -1,49 +1,49 @@
 {
-  "min_discount_percent": 25,
+  "min_discount_percent": 15,
   "search_items": [
     {
       "category": "Electronics",
-      "keyword": "　"
+      "keyword": "セール"
     },
     {
       "category": "HomeAndKitchen",
-      "keyword": "　"
+      "keyword": "セール"
     },
     {
       "category": "VideoGames",
-      "keyword": "　"
+      "keyword": "セール"
     },
     {
       "category": "Beauty",
-      "keyword": "　"
+      "keyword": "セール"
     },
     {
       "category": "Fashion",
-      "keyword": "　"
+      "keyword": "セール"
     },
     {
-      "category": "HealthPersonalCare",
-      "keyword": "　"
+      "category": "Electronics",
+      "keyword": "グラフィックボード"
     },
     {
       "category": "PetSupplies",
-      "keyword": "　"
+      "keyword": "セール"
     },
     {
       "category": "OfficeProducts",
-      "keyword": "　"
+      "keyword": "セール"
     },
     {
       "category": "Toys",
-      "keyword": "　"
+      "keyword": "セール"
     },
     {
       "category": "Watch",
-      "keyword": "　"
+      "keyword": "セール"
     },
     {
       "category": "All",
-      "keyword": "　"
+      "keyword": "セール"
     }
   ]
 }
