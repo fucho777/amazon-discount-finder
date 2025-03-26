@@ -49,21 +49,49 @@ RESULTS_FILE = "discount_results.json"
 MIN_DISCOUNT_PERCENT = 20  # デフォルトの最小割引率
 API_WAIT_TIME = 3  # APIリクエスト間の待機時間（秒）
 
-# 日本のAmazonで使用可能なカテゴリマッピング
+# 日本のAmazonで使用可能なカテゴリマッピング（全カテゴリー対応）
 VALID_CATEGORIES = {
     "All": "All",
-    "Electronics": "Electronics",
-    "Kitchen": "HomeAndKitchen",  # 修正：KitchenではなくHomeAndKitchen
-    "HomeAndKitchen": "HomeAndKitchen",
-    "VideoGames": "VideoGames",
-    "Beauty": "Beauty",
+    "AmazonDevices": "AmazonDevices",
+    "AmazonVideo": "AmazonVideo",
     "Apparel": "Fashion",  # 修正：ApparelではなくFashion
-    "Fashion": "Fashion",
+    "Appliances": "Appliances",
+    "Automotive": "Automotive",
+    "Baby": "Baby",
+    "Beauty": "Beauty",
     "Books": "Books",
-    "Toys": "Toys",
-    "PetSupplies": "PetSupplies",
-    "OfficeProducts": "OfficeProducts",
+    "Classical": "Classical",
+    "Computers": "Computers",
+    "CreditCards": "CreditCards",
+    "DigitalMusic": "DigitalMusic",
+    "Electronics": "Electronics",
+    "EverythingElse": "EverythingElse",
+    "Fashion": "Fashion",
+    "FashionBaby": "FashionBaby",
+    "FashionMen": "FashionMen",
+    "FashionWomen": "FashionWomen",
+    "ForeignBooks": "ForeignBooks",
+    "GiftCards": "GiftCards",
+    "GroceryAndGourmetFood": "GroceryAndGourmetFood",
+    "HealthPersonalCare": "HealthPersonalCare",
+    "Hobbies": "Hobbies",
+    "HomeAndKitchen": "HomeAndKitchen",
+    "Industrial": "Industrial",
+    "Jewelry": "Jewelry",
+    "KindleStore": "KindleStore",
+    "Kitchen": "HomeAndKitchen",  # 修正：KitchenではなくHomeAndKitchen
+    "MobileApps": "MobileApps",
+    "MoviesAndTV": "MoviesAndTV",
+    "Music": "Music",
     "MusicalInstruments": "MusicalInstruments",
+    "OfficeProducts": "OfficeProducts",
+    "PetSupplies": "PetSupplies",
+    "Shoes": "Shoes",
+    "Software": "Software",
+    "SportsAndOutdoors": "SportsAndOutdoors",
+    "ToolsAndHomeImprovement": "ToolsAndHomeImprovement",
+    "Toys": "Toys",
+    "VideoGames": "VideoGames",
     "Watches": "Watches"
 }
 
