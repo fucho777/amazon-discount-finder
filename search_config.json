@@ -2,6 +2,10 @@
   "min_discount_percent": 15,
   "search_items": [
     {
+      "category": "HealthPersonalCare",
+      "keyword": "セール"
+    },
+    {
       "category": "Electronics",
       "keyword": "セール"
     },
@@ -22,8 +26,8 @@
       "keyword": "セール"
     },
     {
-      "category": "Electronics",
-      "keyword": "グラフィックボード"
+      "category": "Hobbies",
+      "keyword": "セール"
     },
     {
       "category": "PetSupplies",
@@ -42,7 +46,7 @@
       "keyword": "スマートフォン"
     },
     {
-      "category": "All",
+      "category": "AmazonDevices",
       "keyword": "セール"
     }
   ]
