@@ -1,1 +1,107 @@
+name: Amazon Discount Finder
 
+on:
+schedule:
+# 3時間に一回実行
+- cron: '0 0/3 * * *'
+workflow_dispatch:
+# 手動実行用のトリガー
+
+jobs:
+find-discounts:
+runs-on: ubuntu-latest
+
+steps:
+- name: Checkout repository
+uses: actions/checkout@v3
+with:
+fetch-depth: 0 # 完全な履歴を取得（より安定したpushのため）
+
+- name: Set up Python
+uses: actions/setup-python@v4
+with:
+python-version: '3.9'
+
+- name: Install dependencies
+run: |
+python -m pip install --upgrade pip
+pip install python-dotenv requests
+
+- name: Create initial files if not exist
+run: |
+if [ ! -f "discount_results.json" ]; then
+echo "[]" > discount_results.json
+echo "初期ファイルを作成しました"
+fi
+
+if [ ! -f "search_config.json" ]; then
+echo '{
+"min_discount_percent": 25,
+"search_items": [
+{"category": "Electronics", "keyword": "セール"},
+{"category": "HomeAndKitchen", "keyword": "特価"},
+{"category": "VideoGames", "keyword": "割引"},
+{"category": "Beauty", "keyword": "お買い得"},
+{"category": "Fashion", "keyword": "価格"}
+]
+}' > search_config.json
+echo "検索設定ファイルを作成しました"
+fi
+
+- name: Run discount finder
+env:
+# Amazon PA-API 設定
+PA_API_KEY: ${{ secrets.PA_API_KEY }}
+PA_API_SECRET: ${{ secrets.PA_API_SECRET }}
+PARTNER_TAG: ${{ secrets.PARTNER_TAG }}
+
+# Threads API 設定
+THREADS_APP_ID: ${{ secrets.THREADS_APP_ID }}
+THREADS_APP_SECRET: ${{ secrets.THREADS_APP_SECRET }}
+THREADS_LONG_LIVED_TOKEN: ${{ secrets.THREADS_LONG_LIVED_TOKEN }}
+THREADS_INSTAGRAM_ACCOUNT_ID: ${{ secrets.THREADS_INSTAGRAM_ACCOUNT_ID }}
+run: |
+# 実行時のエラーをより詳細に表示
+set -x
+
+# スクリプト実行
+python amazon_discount_finder2.py || {
+echo "::warning::スクリプト実行中にエラーが発生しましたが、処理を継続します"
+# エラーの詳細が見られるようにログファイルをキャプチャ
+if [ -f "discount_finder.log" ]; then
+echo "::group::エラーログ"
+tail -n 50 discount_finder.log
+echo "::endgroup::"
+fi
+}
+
+- name: Commit changes
+run: |
+git config --global user.name 'GitHub Actions Bot'
+git config --global user.email 'actions@github.com'
+
+# 追跡対象ファイルの確認（存在するファイルのみ追加）
+FILES_TO_COMMIT=""
+
+if [ -f "discount_results.json" ]; then
+FILES_TO_COMMIT="${FILES_TO_COMMIT} discount_results.json"
+fi
+
+if [ -f "discount_finder.log" ]; then
+FILES_TO_COMMIT="${FILES_TO_COMMIT} discount_finder.log"
+fi
+
+# ファイルが存在する場合のみgit addを実行
+if [ -n "${FILES_TO_COMMIT}" ]; then
+git add ${FILES_TO_COMMIT}
+
+# 変更がある場合のみコミットとプッシュ
+if git diff --staged --quiet; then
+echo "変更はありません"
+else
+git commit -m "Update discount results [automated]"
+git push origin HEAD:${GITHUB_REF#refs/heads/}
+fi
+else
+echo "コミット対象のファイルが見つかりません"
+fi
