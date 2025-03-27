@@ -664,7 +664,7 @@ def main():
         for i, product in enumerate(all_discounted_items[:post_limit]):
             logger.info(f"商品 {i+1}/{post_limit} を投稿: {product['title'][:30]}...")
             
-             Xに投稿（コメントアウト）
+            # Xに投稿
              if twitter_api:
                  post_result = post_to_twitter(twitter_api, product)
                  logger.info(f"Twitter投稿結果: {'成功' if post_result else '失敗'}")
