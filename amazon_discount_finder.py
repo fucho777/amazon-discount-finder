@@ -31,7 +31,7 @@ PARTNER_TAG = os.getenv("PARTNER_TAG")
 MARKETPLACE = "www.amazon.co.jp"
 REGION = "us-west-2"  # PA-APIのリージョン
 
-# X API設定（コメントアウト）
+# X API設定
 TWITTER_CONSUMER_KEY = os.getenv("TWITTER_CONSUMER_KEY")
 TWITTER_CONSUMER_SECRET = os.getenv("TWITTER_CONSUMER_SECRET")
 TWITTER_ACCESS_TOKEN = os.getenv("TWITTER_ACCESS_TOKEN")
@@ -52,8 +52,6 @@ API_WAIT_TIME = 3  # APIリクエスト間の待機時間（秒）
 # 日本のAmazonで使用可能なカテゴリマッピング（全カテゴリー対応）
 VALID_CATEGORIES = {
     "All": "All",
-    "AmazonDevices": "AmazonDevices",
-    "AmazonVideo": "AmazonVideo",
     "Apparel": "Fashion",  # 修正：ApparelではなくFashion
     "Appliances": "Appliances",
     "Automotive": "Automotive",
@@ -355,52 +353,52 @@ def filter_discounted_items(items, min_discount_percent=MIN_DISCOUNT_PERCENT):
     
     return discounted_items
 
- def setup_twitter_api():
-     """Twitter APIの設定"""
-     try:
-         auth = tweepy.OAuthHandler(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET)
-         auth.set_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
-         api = tweepy.API(auth)
-         logger.info("Twitter API認証成功")
-         return api
-     except Exception as e:
-         logger.error(f"Twitter API認証エラー: {e}")
-         return None
+def setup_twitter_api():
+    """Twitter APIの設定"""
+    try:
+        auth = tweepy.OAuthHandler(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET)
+        auth.set_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
+        api = tweepy.API(auth)
+        logger.info("Twitter API認証成功")
+        return api
+    except Exception as e:
+        logger.error(f"Twitter API認証エラー: {e}")
+        return None
 
- def post_to_twitter(api, product):
-     """Xに商品情報を投稿"""
-     if not api:
-         logger.error("Twitter APIが初期化されていません")
-         return False
-     
-     try:
-         # 投稿文を作成
-         discount_percent = product["discount_percent"]
-         current_price = product["current_price"]
-         original_price = product["original_price"]
-         discount_amount = product["discount_amount"]
-         
-         post = f"🔥【{discount_percent:.1f}%オフ】Amazon割引情報🔥#PR\n\n"
-         post += f"{product['title']}\n\n"
-         post += f"✅ 現在価格: {current_price:,.0f}円\n"
-         post += f"❌ 元の価格: {original_price:,.0f}円\n"
-         post += f"💰 割引額: {discount_amount:,.0f}円\n\n"
-         post += f"🛒 商品ページ: {product['url']}\n\n"
-         
-         # 投稿が280文字を超える場合は調整
-         if len(post) > 280:
-             title_max = len(product['title']) - (len(post) - 270)
-             short_title = product['title'][:title_max] + "..."
-             post = post.replace(product['title'], short_title)
-         
-         # Xに投稿
-         api.update_status(post)
-         logger.info(f"Xに投稿しました: {product['title'][:30]}...")
-         return True
-         
-     except Exception as e:
-         logger.error(f"X投稿エラー: {e}")
-         return False
+def post_to_twitter(api, product):
+    """Xに商品情報を投稿"""
+    if not api:
+        logger.error("Twitter APIが初期化されていません")
+        return False
+    
+    try:
+        # 投稿文を作成
+        discount_percent = product["discount_percent"]
+        current_price = product["current_price"]
+        original_price = product["original_price"]
+        discount_amount = product["discount_amount"]
+        
+        post = f"🔥【{discount_percent:.1f}%オフ】Amazon割引情報🔥#PR\n\n"
+        post += f"{product['title']}\n\n"
+        post += f"✅ 現在価格: {current_price:,.0f}円\n"
+        post += f"❌ 元の価格: {original_price:,.0f}円\n"
+        post += f"💰 割引額: {discount_amount:,.0f}円\n\n"
+        post += f"🛒 商品ページ: {product['url']}\n\n"
+        
+        # 投稿が280文字を超える場合は調整
+        if len(post) > 280:
+            title_max = len(product['title']) - (len(post) - 270)
+            short_title = product['title'][:title_max] + "..."
+            post = post.replace(product['title'], short_title)
+        
+        # Xに投稿
+        api.update_status(post)
+        logger.info(f"Xに投稿しました: {product['title'][:30]}...")
+        return True
+        
+    except Exception as e:
+        logger.error(f"X投稿エラー: {e}")
+        return False
 
 def get_threads_access_token():
     """Threads APIのアクセストークンを取得"""
@@ -538,10 +536,10 @@ def load_search_config():
         "min_discount_percent": MIN_DISCOUNT_PERCENT,
         "search_items": [
             {"category": "Electronics", "keyword": "セール"},
-            {"category": "HomeAndKitchen", "keyword": "特価"},
-            {"category": "VideoGames", "keyword": "割引"},
-            {"category": "Beauty", "keyword": "お買い得"},
-            {"category": "Fashion", "keyword": "価格"}
+            {"category": "HomeAndKitchen", "keyword": "セール"},
+            {"category": "VideoGames", "keyword": "セール"},
+            {"category": "Beauty", "keyword": "セール"},
+            {"category": "Fashion", "keyword": "セール"}
         ]
     }
     
@@ -664,10 +662,11 @@ def main():
             logger.info(f"商品 {i+1}/{post_limit} を投稿: {product['title'][:30]}...")
             
             # Xに投稿
-             if twitter_api:
-                 post_result = post_to_twitter(twitter_api, product)
-                 logger.info(f"Twitter投稿結果: {'成功' if post_result else '失敗'}")
-            
+            if twitter_api:
+                post_result = post_to_twitter(twitter_api, product)
+                logger.info(f"Twitter投稿結果: {'成功' if post_result else '失敗'}")
+            else:
+                logger.info("Twitter APIの制限により投稿をスキップします")
             
             # Threadsに投稿
             threads_credentials = THREADS_INSTAGRAM_ACCOUNT_ID and (THREADS_LONG_LIVED_TOKEN or (THREADS_APP_ID and THREADS_APP_SECRET))
