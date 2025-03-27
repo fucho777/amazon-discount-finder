@@ -355,54 +355,53 @@ def filter_discounted_items(items, min_discount_percent=MIN_DISCOUNT_PERCENT):
     
     return discounted_items
 
-# Twitter API関連の関数をコメントアウト
-# def setup_twitter_api():
-#     """Twitter APIの設定"""
-#     try:
-#         auth = tweepy.OAuthHandler(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET)
-#         auth.set_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
-#         api = tweepy.API(auth)
-#         logger.info("Twitter API認証成功")
-#         return api
-#     except Exception as e:
-#         logger.error(f"Twitter API認証エラー: {e}")
-#         return None
+ Twitter API関連の関数をコメントアウト
+ def setup_twitter_api():
+     """Twitter APIの設定"""
+     try:
+         auth = tweepy.OAuthHandler(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET)
+         auth.set_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
+         api = tweepy.API(auth)
+         logger.info("Twitter API認証成功")
+         return api
+     except Exception as e:
+         logger.error(f"Twitter API認証エラー: {e}")
+         return None
 
-# def post_to_twitter(api, product):
-#     """Xに商品情報を投稿"""
-#     if not api:
-#         logger.error("Twitter APIが初期化されていません")
-#         return False
-#     
-#     try:
-#         # 投稿文を作成
-#         discount_percent = product["discount_percent"]
-#         current_price = product["current_price"]
-#         original_price = product["original_price"]
-#         discount_amount = product["discount_amount"]
-#         
-#         post = f"🔥【{discount_percent:.1f}%オフ】Amazon割引情報🔥\n\n"
-#         post += f"{product['title']}\n\n"
-#         post += f"✅ 現在価格: {current_price:,.0f}円\n"
-#         post += f"❌ 元の価格: {original_price:,.0f}円\n"
-#         post += f"💰 割引額: {discount_amount:,.0f}円\n\n"
-#         post += f"🛒 商品ページ: {product['url']}\n\n"
-#         post += f"#Amazonセール #お買い得 #タイムセール"
-#         
-#         # 投稿が280文字を超える場合は調整
-#         if len(post) > 280:
-#             title_max = len(product['title']) - (len(post) - 270)
-#             short_title = product['title'][:title_max] + "..."
-#             post = post.replace(product['title'], short_title)
-#         
-#         # Xに投稿
-#         api.update_status(post)
-#         logger.info(f"Xに投稿しました: {product['title'][:30]}...")
-#         return True
-#         
-#     except Exception as e:
-#         logger.error(f"X投稿エラー: {e}")
-#         return False
+ def post_to_twitter(api, product):
+     """Xに商品情報を投稿"""
+     if not api:
+         logger.error("Twitter APIが初期化されていません")
+         return False
+     
+     try:
+         # 投稿文を作成
+         discount_percent = product["discount_percent"]
+         current_price = product["current_price"]
+         original_price = product["original_price"]
+         discount_amount = product["discount_amount"]
+         
+         post = f"🔥【{discount_percent:.1f}%オフ】Amazon割引情報🔥#PR\n\n"
+         post += f"{product['title']}\n\n"
+         post += f"✅ 現在価格: {current_price:,.0f}円\n"
+         post += f"❌ 元の価格: {original_price:,.0f}円\n"
+         post += f"💰 割引額: {discount_amount:,.0f}円\n\n"
+         post += f"🛒 商品ページ: {product['url']}\n\n"
+         
+         # 投稿が280文字を超える場合は調整
+         if len(post) > 280:
+             title_max = len(product['title']) - (len(post) - 270)
+             short_title = product['title'][:title_max] + "..."
+             post = post.replace(product['title'], short_title)
+         
+         # Xに投稿
+         api.update_status(post)
+         logger.info(f"Xに投稿しました: {product['title'][:30]}...")
+         return True
+         
+     except Exception as e:
+         logger.error(f"X投稿エラー: {e}")
+         return False
 
 def get_threads_access_token():
     """Threads APIのアクセストークンを取得"""
