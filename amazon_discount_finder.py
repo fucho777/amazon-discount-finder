@@ -356,9 +356,17 @@ def filter_discounted_items(items, min_discount_percent=MIN_DISCOUNT_PERCENT):
 def setup_twitter_api():
     """Twitter APIの設定"""
     try:
+        # API認証情報のチェック
+        if not all([TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET]):
+            logger.warning("Twitter認証情報が不足しています。Twitter投稿はスキップされます。")
+            return None
+            
         auth = tweepy.OAuthHandler(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET)
         auth.set_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
         api = tweepy.API(auth)
+        
+        # 認証テスト
+        api.verify_credentials()
         logger.info("Twitter API認証成功")
         return api
     except Exception as e:
@@ -549,7 +557,26 @@ def load_search_config():
             content = f.read().strip()
             if not content:  # 空ファイルの場合
                 raise json.JSONDecodeError("Empty file", "", 0)
-            return json.loads(content)
+            config = json.loads(content)
+            
+            # 設定ファイルから読み込んだ後、無効なカテゴリをフィルタリング
+            if "search_items" in config:
+                filtered_items = []
+                for item in config["search_items"]:
+                    category = item.get("category", "All")
+                    # カテゴリが有効かチェック
+                    if category in VALID_CATEGORIES:
+                        filtered_items.append(item)
+                    else:
+                        logger.warning(f"無効なカテゴリをスキップ: {category}")
+                        # 有効なカテゴリで置き換える
+                        item["category"] = "All"
+                        filtered_items.append(item)
+                
+                # フィルタリングされたアイテムで置き換え
+                config["search_items"] = filtered_items
+            
+            return config
     except (FileNotFoundError, json.JSONDecodeError) as e:
         # ファイルが存在しないか、不正なJSON形式の場合
         error_type = "見つかりません" if isinstance(e, FileNotFoundError) else "不正な形式です"
@@ -605,22 +632,21 @@ def main():
     # 新しい検索結果
     all_discounted_items = []
     
-    # 各カテゴリで検索
+    # 設定ファイルから読み込んだカテゴリのみを検索
     for search_item in config.get("search_items", []):
         category = search_item.get("category", "All")
         keyword = search_item.get("keyword", "セール")  # デフォルトキーワード
         
-        # カテゴリマッピングを使用
-        if category in VALID_CATEGORIES:
-            mapped_category = VALID_CATEGORIES[category]
-        else:
+        # カテゴリがVALID_CATEGORIESに存在するか確認
+        if category not in VALID_CATEGORIES:
             logger.warning(f"無効なカテゴリ: {category}、Allを使用します")
-            mapped_category = "All"
+            category = "All"
         
+        mapped_category = VALID_CATEGORIES[category]
         logger.info(f"検索開始: カテゴリ={mapped_category}, キーワード={keyword}")
         
         # 商品検索
-        items = search_items(keyword, mapped_category)
+        items = search_items(keyword, category)
         if not items:
             logger.warning(f"検索結果なし: カテゴリ={mapped_category}, キーワード={keyword}")
             continue
@@ -666,13 +692,15 @@ def main():
                 post_result = post_to_twitter(twitter_api, product)
                 logger.info(f"Twitter投稿結果: {'成功' if post_result else '失敗'}")
             else:
-                logger.info("Twitter APIの制限により投稿をスキップします")
+                logger.warning("Twitter API認証に失敗したため投稿をスキップします")
             
             # Threadsに投稿
             threads_credentials = THREADS_INSTAGRAM_ACCOUNT_ID and (THREADS_LONG_LIVED_TOKEN or (THREADS_APP_ID and THREADS_APP_SECRET))
             if threads_credentials:
                 threads_result = post_to_threads(product)
                 logger.info(f"Threads投稿結果: {'成功' if threads_result else '失敗'}")
+            else:
+                logger.warning("Threads認証情報が不足しているため投稿をスキップします")
             
             # 連続投稿を避けるために待機
             time.sleep(5)
