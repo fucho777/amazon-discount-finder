@@ -1,0 +1,98 @@
+{
+
+"min_discount_percent": 15,
+
+"search_items": [
+
+{
+
+"category": "HealthPersonalCare",
+
+"keyword": "セール"
+
+},
+
+{
+
+"category": "Electronics",
+
+"keyword": "セール"
+
+},
+
+{
+
+"category": "HomeAndKitchen",
+
+"keyword": "セール"
+
+},
+
+{
+
+"category": "VideoGames",
+
+"keyword": "セール"
+
+},
+
+{
+
+"category": "Beauty",
+
+"keyword": "セール"
+
+},
+
+{
+
+"category": "Fashion",
+
+"keyword": "セール"
+
+},
+
+{
+
+"category": "Hobbies",
+
+"keyword": "セール"
+
+},
+
+{
+
+"category": "PetSupplies",
+
+"keyword": "セール"
+
+},
+
+{
+
+"category": "OfficeProducts",
+
+"keyword": "セール"
+
+},
+
+{
+
+"category": "Toys",
+
+"keyword": "セール"
+
+},
+
+{
+
+"category": "Electronics",
+
+"keyword": "スマートフォン"
+
+}
+
+]
+
+}
+
