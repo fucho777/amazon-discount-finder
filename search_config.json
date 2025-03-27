@@ -1,98 +1,20 @@
 {
-
-"min_discount_percent": 15,
-
-"search_items": [
-
-{
-
-"category": "HealthPersonalCare",
-
-"keyword": "¥"
-
-},
-
-{
-
-"category": "Electronics",
-
-"keyword": "¥"
-
-},
-
-{
-
-"category": "HomeAndKitchen",
-
-"keyword": "¥"
-
-},
-
-{
-
-"category": "VideoGames",
-
-"keyword": "セール"
-
-},
-
-{
-
-"category": "Beauty",
-
-"keyword": "¥"
-
-},
-
-{
-
-"category": "Fashion",
-
-"keyword": "¥"
-
-},
-
-{
-
-"category": "Hobbies",
-
-"keyword": "¥"
-
-},
-
-{
-
-"category": "PetSupplies",
-
-"keyword": "¥"
-
-},
-
-{
-
-"category": "OfficeProducts",
-
-"keyword": "¥"
-
-},
-
-{
-
-"category": "Toys",
-
-"keyword": "¥"
-
-},
-
-{
-
-"category": "Electronics",
-
-"keyword": "¥"
-
+  "min_discount_percent": 15,
+  "max_discount_percent": 80,
+  "search_items": [
+    {"category": "Electronics", "keyword": "セール"},
+    {"category": "Electronics", "keyword": "タイムセール"},
+    {"category": "HomeAndKitchen", "keyword": "特価"},
+    {"category": "HomeAndKitchen", "keyword": "割引"},
+    {"category": "VideoGames", "keyword": "セール"},
+    {"category": "Beauty", "keyword": "お買い得"},
+    {"category": "Fashion", "keyword": "セール"},
+    {"category": "OfficeProducts", "keyword": "特価"},
+    {"category": "HealthPersonalCare", "keyword": "SALE"},
+    {"category": "PetSupplies", "keyword": "タイムセール"},
+    {"category": "Toys", "keyword": "お買い得"},
+    {"category": "Books", "keyword": "割引"},
+    {"category": "MusicalInstruments", "keyword": "特価"},
+    {"category": "SportsAndOutdoors", "keyword": "セール"}
+  ]
 }
-
-]
-
-}
-
