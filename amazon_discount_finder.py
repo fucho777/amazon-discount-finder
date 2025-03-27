@@ -46,13 +46,14 @@ THREADS_INSTAGRAM_ACCOUNT_ID = os.getenv("THREADS_INSTAGRAM_ACCOUNT_ID")
 # 設定
 CONFIG_FILE = "search_config.json"
 RESULTS_FILE = "discount_results.json"
-MIN_DISCOUNT_PERCENT = 20  # デフォルトの最小割引率
+MIN_DISCOUNT_PERCENT = 15  # デフォルトの最小割引率
+MAX_DISCOUNT_PERCENT = 80  # 最大許容割引率（偽の割引を除外）
 API_WAIT_TIME = 3  # APIリクエスト間の待機時間（秒）
 
 # 日本のAmazonで使用可能なカテゴリマッピング（全カテゴリー対応）
 VALID_CATEGORIES = {
     "All": "All",
-    "Apparel": "Fashion",  # 修正：ApparelではなくFashion
+    "Apparel": "Fashion",
     "Appliances": "Appliances",
     "Automotive": "Automotive",
     "Baby": "Baby",
@@ -77,7 +78,7 @@ VALID_CATEGORIES = {
     "Industrial": "Industrial",
     "Jewelry": "Jewelry",
     "KindleStore": "KindleStore",
-    "Kitchen": "HomeAndKitchen",  # 修正：KitchenではなくHomeAndKitchen
+    "Kitchen": "HomeAndKitchen",
     "MobileApps": "MobileApps",
     "MoviesAndTV": "MoviesAndTV",
     "Music": "Music",
@@ -186,21 +187,24 @@ def search_items(keyword, category="All"):
         "Keywords": keyword,
         "Resources": [
             "ItemInfo.Title",
+            "ItemInfo.ByLineInfo",
             "Offers.Listings.Price",
+            "Offers.Listings.MerchantInfo",
             "Images.Primary.Small"
         ],
         "PartnerTag": PARTNER_TAG,
         "PartnerType": "Associates",
         "Marketplace": MARKETPLACE,
         "SearchIndex": mapped_category,
-        "ItemCount": 10  # 検索結果の最大数
+        "ItemCount": 10,  # 検索結果の最大数
+        "Merchant": "Amazon"  # Amazon直販の商品のみに限定
     }
     
     payload_json = json.dumps(payload)
     headers = sign_request(host, path, payload_json, "SearchItems")
     
     try:
-        logger.info(f"商品検索中... キーワード: {keyword}, カテゴリ: {mapped_category}")
+        logger.info(f"商品検索中... キーワード: {keyword}, カテゴリ: {mapped_category}, 出品者: Amazon")
         response = requests.post(url, headers=headers, data=payload_json)
         
         # デバッグ用にリクエスト内容を表示
@@ -248,13 +252,16 @@ def get_product_info(asin):
         "ItemIds": [asin],
         "Resources": [
             "ItemInfo.Title",
+            "ItemInfo.ByLineInfo",
             "Offers.Listings.Price",
-            "Offers.Listings.SavingBasis",  # 修正: SavePriceではなくSavingBasis
-            "Images.Primary.Large"  # 修正: MediumではなくLarge
+            "Offers.Listings.SavingBasis",
+            "Offers.Listings.MerchantInfo",
+            "Images.Primary.Large"
         ],
         "PartnerTag": PARTNER_TAG,
         "PartnerType": "Associates",
-        "Marketplace": MARKETPLACE
+        "Marketplace": MARKETPLACE,
+        "Merchant": "Amazon"  # Amazon直販の商品のみに限定
     }
     
     payload_json = json.dumps(payload)
@@ -293,6 +300,40 @@ def get_product_info(asin):
         # API制限を避けるために待機
         time.sleep(API_WAIT_TIME)
 
+def is_amazon_merchant(product_info):
+    """商品がAmazon直販かチェック"""
+    try:
+        if "Offers" in product_info and "Listings" in product_info["Offers"] and len(product_info["Offers"]["Listings"]) > 0:
+            listing = product_info["Offers"]["Listings"][0]
+            
+            if "MerchantInfo" in listing and "Name" in listing["MerchantInfo"]:
+                merchant_name = listing["MerchantInfo"]["Name"]
+                return merchant_name.lower() == "amazon" or "amazon.co.jp" in merchant_name.lower()
+        
+        return False
+    except Exception as e:
+        logger.error(f"出品者チェックエラー: {e}")
+        return False
+
+def is_reasonable_discount(current_price, original_price):
+    """割引率が合理的かどうかをチェック"""
+    if original_price <= current_price:
+        return False
+    
+    discount_percent = ((original_price - current_price) / original_price) * 100
+    
+    # 割引率が異常に高い場合はフラグを立てる（例: 80%以上）
+    if discount_percent >= MAX_DISCOUNT_PERCENT:
+        logger.warning(f"不合理な割引率を検出: {discount_percent:.1f}% (元価格: {original_price:,.0f}円, 現在価格: {current_price:,.0f}円)")
+        return False
+    
+    # 極端に元価格が高い場合は不審
+    if original_price > current_price * 3:  # 元価格が現在価格の3倍以上
+        logger.warning(f"不審な元価格を検出: 元価格が現在価格の{original_price/current_price:.1f}倍 (元価格: {original_price:,.0f}円, 現在価格: {current_price:,.0f}円)")
+        return False
+    
+    return True
+
 def filter_discounted_items(items, min_discount_percent=MIN_DISCOUNT_PERCENT):
     """割引商品をフィルタリング"""
     discounted_items = []
@@ -303,6 +344,11 @@ def filter_discounted_items(items, min_discount_percent=MIN_DISCOUNT_PERCENT):
         # 詳細情報を取得
         product_info = get_product_info(asin)
         if not product_info:
+            continue
+        
+        # Amazon直販チェック
+        if not is_amazon_merchant(product_info):
+            logger.info(f"Amazon直販ではないためスキップ: {asin}")
             continue
         
         # タイトルを取得
@@ -329,10 +375,10 @@ def filter_discounted_items(items, min_discount_percent=MIN_DISCOUNT_PERCENT):
         discount_amount = original_price - current_price
         discount_percent = (discount_amount / original_price) * 100
         
-        # 最小割引率以上ならリストに追加
-        if discount_percent >= min_discount_percent:
+        # 割引率チェック - 最小割引率以上かつ合理的な割引率
+        if discount_percent >= min_discount_percent and is_reasonable_discount(current_price, original_price):
             # 商品情報を辞書に格納
-            product_info = {
+            product_data = {
                 "asin": asin,
                 "title": title,
                 "current_price": current_price,
@@ -344,9 +390,9 @@ def filter_discounted_items(items, min_discount_percent=MIN_DISCOUNT_PERCENT):
             
             # 画像URLがあれば追加
             if "Images" in product_info and "Primary" in product_info["Images"] and "Large" in product_info["Images"]["Primary"]:
-                product_info["image_url"] = product_info["Images"]["Primary"]["Large"]["URL"]
+                product_data["image_url"] = product_info["Images"]["Primary"]["Large"]["URL"]
             
-            discounted_items.append(product_info)
+            discounted_items.append(product_data)
     
     # 割引率の高い順にソート
     discounted_items.sort(key=lambda x: x["discount_percent"], reverse=True)
@@ -361,22 +407,30 @@ def setup_twitter_api():
             logger.warning("Twitter認証情報が不足しています。Twitter投稿はスキップされます。")
             return None
             
-        auth = tweepy.OAuthHandler(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET)
-        auth.set_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
-        api = tweepy.API(auth)
+        # v2 API用の設定
+        client = tweepy.Client(
+            consumer_key=TWITTER_CONSUMER_KEY,
+            consumer_secret=TWITTER_CONSUMER_SECRET,
+            access_token=TWITTER_ACCESS_TOKEN,
+            access_token_secret=TWITTER_ACCESS_TOKEN_SECRET
+        )
         
-        # 認証テスト
-        api.verify_credentials()
-        logger.info("Twitter API認証成功")
-        return api
+        # 認証テスト - v2 APIのユーザー情報取得で検証
+        me = client.get_me()
+        if me.data:
+            logger.info(f"Twitter API v2認証成功: @{me.data.username}")
+            return client
+        else:
+            logger.error("Twitter認証に失敗しました")
+            return None
     except Exception as e:
         logger.error(f"Twitter API認証エラー: {e}")
         return None
 
-def post_to_twitter(api, product):
+def post_to_twitter(client, product):
     """Xに商品情報を投稿"""
-    if not api:
-        logger.error("Twitter APIが初期化されていません")
+    if not client:
+        logger.error("Twitter APIクライアントが初期化されていません")
         return False
     
     try:
@@ -386,8 +440,8 @@ def post_to_twitter(api, product):
         original_price = product["original_price"]
         discount_amount = product["discount_amount"]
         
-        post = f"🔥【{discount_percent:.1f}%オフ】Amazon割引情報🔥#PR\n\n"
-        post += f"{product['title']}\n\n"
+        post = f"🔥【{discount_percent:.1f}%オフ】Amazon直販商品割引情報🔥#PR\n\n"
+        post += f"{product['title'][:80]}...\n\n"
         post += f"✅ 現在価格: {current_price:,.0f}円\n"
         post += f"❌ 元の価格: {original_price:,.0f}円\n"
         post += f"💰 割引額: {discount_amount:,.0f}円\n\n"
@@ -395,15 +449,20 @@ def post_to_twitter(api, product):
         
         # 投稿が280文字を超える場合は調整
         if len(post) > 280:
-            title_max = len(product['title']) - (len(post) - 270)
+            title_max = 50  # タイトルを固定で50文字に制限
             short_title = product['title'][:title_max] + "..."
-            post = post.replace(product['title'], short_title)
+            post = post.replace(f"{product['title'][:80]}...", short_title)
         
-        # Xに投稿
-        api.update_status(post)
-        logger.info(f"Xに投稿しました: {product['title'][:30]}...")
-        return True
-        
+        # v2 APIでツイート
+        response = client.create_tweet(text=post)
+        if response.data and 'id' in response.data:
+            tweet_id = response.data['id']
+            logger.info(f"Xに投稿しました: ID={tweet_id} {product['title'][:30]}...")
+            return True
+        else:
+            logger.error("X投稿に失敗: レスポンスにツイートIDがありません")
+            return False
+            
     except Exception as e:
         logger.error(f"X投稿エラー: {e}")
         return False
@@ -471,8 +530,8 @@ def post_to_threads(product):
         original_price = product["original_price"]
         discount_amount = product["discount_amount"]
         
-        text = f"🔥【{discount_percent:.1f}%オフ】Amazon割引情報🔥\n\n"
-        text += f"{product['title']}\n\n"
+        text = f"🔥【{discount_percent:.1f}%オフ】Amazon直販商品割引情報🔥\n\n"
+        text += f"{product['title'][:80]}...\n\n"
         text += f"✅ 現在価格: {current_price:,.0f}円\n"
         text += f"❌ 元の価格: {original_price:,.0f}円\n"
         text += f"💰 割引額: {discount_amount:,.0f}円\n\n"
@@ -539,15 +598,19 @@ def post_to_threads(product):
 
 def load_search_config():
     """検索設定ファイルを読み込む"""
-    # デフォルト設定
+    # デフォルト設定 - より有効なキーワードを使用
     default_config = {
         "min_discount_percent": MIN_DISCOUNT_PERCENT,
+        "max_discount_percent": MAX_DISCOUNT_PERCENT,
         "search_items": [
             {"category": "Electronics", "keyword": "セール"},
-            {"category": "HomeAndKitchen", "keyword": "セール"},
-            {"category": "VideoGames", "keyword": "セール"},
-            {"category": "Beauty", "keyword": "セール"},
-            {"category": "Fashion", "keyword": "セール"}
+            {"category": "HomeAndKitchen", "keyword": "タイムセール"},
+            {"category": "VideoGames", "keyword": "割引"},
+            {"category": "Beauty", "keyword": "お買い得"},
+            {"category": "Fashion", "keyword": "特価"},
+            {"category": "Books", "keyword": "クーポン"},
+            {"category": "HealthPersonalCare", "keyword": "限定価格"},
+            {"category": "Toys", "keyword": "SALE"}
         ]
     }
     
@@ -559,176 +622,30 @@ def load_search_config():
                 raise json.JSONDecodeError("Empty file", "", 0)
             config = json.loads(content)
             
+            # 最大割引率設定がなければ追加
+            if "max_discount_percent" not in config:
+                config["max_discount_percent"] = MAX_DISCOUNT_PERCENT
+                logger.info(f"設定に最大割引率を追加: {MAX_DISCOUNT_PERCENT}%")
+            
             # 設定ファイルから読み込んだ後、無効なカテゴリをフィルタリング
             if "search_items" in config:
                 filtered_items = []
                 for item in config["search_items"]:
                     category = item.get("category", "All")
+                    keyword = item.get("keyword", "セール")
+                    
+                    # 無効なキーワードをチェック（単なる記号は除外）
+                    if keyword in ["¥", "$", "円"]:
+                        logger.warning(f"無効なキーワードを検出: '{keyword}' を 'セール' に変更します")
+                        keyword = "セール"
+                        item["keyword"] = keyword
+                    
                     # カテゴリが有効かチェック
                     if category in VALID_CATEGORIES:
-                        filtered_items.append(item)
+                        # カテゴリが有効ならそのまま追加
+                filtered_items.append(item)
                     else:
                         logger.warning(f"無効なカテゴリをスキップ: {category}")
                         # 有効なカテゴリで置き換える
                         item["category"] = "All"
                         filtered_items.append(item)
-                
-                # フィルタリングされたアイテムで置き換え
-                config["search_items"] = filtered_items
-            
-            return config
-    except (FileNotFoundError, json.JSONDecodeError) as e:
-        # ファイルが存在しないか、不正なJSON形式の場合
-        error_type = "見つかりません" if isinstance(e, FileNotFoundError) else "不正な形式です"
-        logger.warning(f"{CONFIG_FILE}が{error_type}。デフォルト設定を使用します。")
-        
-        # 設定ファイルを保存
-        with open(CONFIG_FILE, 'w', encoding='utf-8') as f:
-            json.dump(default_config, f, ensure_ascii=False, indent=2)
-        return default_config
-
-def save_results(results):
-    """検索結果を保存"""
-    with open(RESULTS_FILE, 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-    logger.info(f"検索結果を {RESULTS_FILE} に保存しました")
-
-def load_previous_results():
-    """前回の検索結果を読み込む（重複投稿防止用）"""
-    try:
-        with open(RESULTS_FILE, 'r', encoding='utf-8') as f:
-            content = f.read().strip()
-            if not content:  # 空ファイルの場合
-                return []
-            return json.loads(content)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return []
-
-def main():
-    """メイン処理"""
-    parser = argparse.ArgumentParser(description='Amazon割引商品検索 & SNS投稿ツール')
-    parser.add_argument('--dry-run', action='store_true', help='投稿せずに実行（テスト用）')
-    parser.add_argument('--min-discount', type=float, help=f'最小割引率（デフォルト: {MIN_DISCOUNT_PERCENT}%）')
-    args = parser.parse_args()
-    
-    # 設定を読み込む
-    config = load_search_config()
-    
-    # 最小割引率を設定
-    min_discount = MIN_DISCOUNT_PERCENT
-    if args.min_discount:
-        min_discount = args.min_discount
-    elif "min_discount_percent" in config:
-        min_discount = config["min_discount_percent"]
-    
-    logger.info(f"最小割引率: {min_discount}%")
-    
-    twitter_api = setup_twitter_api()
-    
-    # 前回の検索結果を読み込む（重複投稿防止）
-    previous_results = load_previous_results()
-    previous_asins = [item["asin"] for item in previous_results] if previous_results else []
-    
-    # 新しい検索結果
-    all_discounted_items = []
-    
-    # 設定ファイルから読み込んだカテゴリのみを検索
-    for search_item in config.get("search_items", []):
-        category = search_item.get("category", "All")
-        keyword = search_item.get("keyword", "セール")  # デフォルトキーワード
-        
-        # カテゴリがVALID_CATEGORIESに存在するか確認
-        if category not in VALID_CATEGORIES:
-            logger.warning(f"無効なカテゴリ: {category}、Allを使用します")
-            category = "All"
-        
-        mapped_category = VALID_CATEGORIES[category]
-        logger.info(f"検索開始: カテゴリ={mapped_category}, キーワード={keyword}")
-        
-        # 商品検索
-        items = search_items(keyword, category)
-        if not items:
-            logger.warning(f"検索結果なし: カテゴリ={mapped_category}, キーワード={keyword}")
-            continue
-        
-        # 割引商品をフィルタリング
-        discounted_items = filter_discounted_items(items, min_discount)
-        
-        # 重複を除外
-        new_items = [item for item in discounted_items if item["asin"] not in previous_asins]
-        
-        if not new_items:
-            logger.info(f"新しい割引商品はありませんでした: カテゴリ={mapped_category}")
-            continue
-        
-        logger.info(f"割引商品発見: {len(new_items)}件 (カテゴリ={mapped_category})")
-        all_discounted_items.extend(new_items)
-    
-    # 結果がなければ終了
-    if not all_discounted_items:
-        logger.info("新しい割引商品は見つかりませんでした")
-        return
-    
-    # 割引率順にソート
-    all_discounted_items.sort(key=lambda x: x["discount_percent"], reverse=True)
-    
-    # 結果を保存
-    all_results = all_discounted_items + previous_results
-    save_results(all_results[:100])  # 最新100件だけ保存
-    
-    # 結果表示
-    logger.info(f"合計 {len(all_discounted_items)}件の新しい割引商品が見つかりました")
-    
-    # SNSに投稿（ドライランでなければ）
-    if not args.dry_run:
-        # 投稿する商品数を制限（API制限やスパム防止のため）
-        post_limit = min(5, len(all_discounted_items))
-        
-        for i, product in enumerate(all_discounted_items[:post_limit]):
-            logger.info(f"商品 {i+1}/{post_limit} を投稿: {product['title'][:30]}...")
-            
-            # Xに投稿
-            if twitter_api:
-                post_result = post_to_twitter(twitter_api, product)
-                logger.info(f"Twitter投稿結果: {'成功' if post_result else '失敗'}")
-            else:
-                logger.warning("Twitter API認証に失敗したため投稿をスキップします")
-            
-            # Threadsに投稿
-            threads_credentials = THREADS_INSTAGRAM_ACCOUNT_ID and (THREADS_LONG_LIVED_TOKEN or (THREADS_APP_ID and THREADS_APP_SECRET))
-            if threads_credentials:
-                threads_result = post_to_threads(product)
-                logger.info(f"Threads投稿結果: {'成功' if threads_result else '失敗'}")
-            else:
-                logger.warning("Threads認証情報が不足しているため投稿をスキップします")
-            
-            # 連続投稿を避けるために待機
-            time.sleep(5)
-    else:
-        logger.info("ドライラン: SNSへの投稿はスキップされました")
-        
-        # ドライラン時は商品情報を表示
-        print("\n" + "="*70)
-        print(f"【割引商品検索結果: {len(all_discounted_items)}件】")
-        print("="*70)
-        
-        for i, product in enumerate(all_discounted_items[:10], 1):  # 最大10件表示
-            print(f"\n{i}. {product['title']}")
-            print(f"   ASIN: {product['asin']}")
-            print(f"   現在価格: {product['current_price']:,.0f}円")
-            print(f"   元の価格: {product['original_price']:,.0f}円")
-            print(f"   割引額: {product['discount_amount']:,.0f}円 ({product['discount_percent']:.1f}%オフ)")
-            print(f"   URL: {product['url']}")
-            
-            if "image_url" in product:
-                print(f"   画像: {product['image_url']}")
-        
-        print("\n" + "="*70)
-
-if __name__ == "__main__":
-    try:
-        main()
-    except KeyboardInterrupt:
-        logger.info("ユーザーによる中断を検出しました。プログラムを終了します。")
-    except Exception as e:
-        logger.error(f"予期しないエラーが発生しました: {e}", exc_info=True)
