@@ -643,9 +643,23 @@ def load_search_config():
                     # カテゴリが有効かチェック
                     if category in VALID_CATEGORIES:
                         # カテゴリが有効ならそのまま追加
-                filtered_items.append(item)
+                        filtered_items.append(item)
                     else:
                         logger.warning(f"無効なカテゴリをスキップ: {category}")
                         # 有効なカテゴリで置き換える
                         item["category"] = "All"
                         filtered_items.append(item)
+                
+                # フィルタリングされたアイテムで置き換え
+                config["search_items"] = filtered_items
+            
+            return config
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        # ファイルが存在しないか、不正なJSON形式の場合
+        error_type = "見つかりません" if isinstance(e, FileNotFoundError) else "不正な形式です"
+        logger.warning(f"{CONFIG_FILE}が{error_type}。デフォルト設定を使用します。")
+        
+        # 設定ファイルを保存
+        with open(CONFIG_FILE, 'w', encoding='utf-8') as f:
+            json.dump(default_config, f, ensure_ascii=False, indent=2)
+        return default_config
