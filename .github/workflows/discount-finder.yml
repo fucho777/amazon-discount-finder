@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install python-dotenv requests
+          pip install python-dotenv requests tweepy
       
       - name: Create initial files if not exist
         run: |
