@@ -65,7 +65,7 @@ jobs:
         set -x
         
         # スクリプト実行
-        python amazon_discount_finder.py || {
+        python amazon_discount_finder2.py || {
           echo "::warning::スクリプト実行中にエラーが発生しましたが、処理を継続します"
           # エラーの詳細が見られるようにログファイルをキャプチャ
           if [ -f "discount_finder.log" ]; then
