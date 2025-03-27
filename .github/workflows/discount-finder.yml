@@ -21,10 +21,29 @@ jobs:
         with:
           python-version: '3.9'
       
+      - name: Check file structure
+        run: |
+          echo "現在のディレクトリ構造:"
+          ls -la
+          echo "Pythonスクリプトの確認:"
+          if [ -f "amazon_discount_finder.py" ]; then
+            echo "amazon_discount_finder.py が存在します"
+          else
+            echo "エラー: amazon_discount_finder.py が見つかりません"
+            exit 1
+          fi
+      
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install python-dotenv requests tweepy
+          if [ -f "requirements.txt" ]; then
+            pip install -r requirements.txt
+          else
+            echo "requirements.txtが見つからないため、個別にインストールします"
+            pip install python-dotenv requests tweepy pandas
+          fi
+          # インストールされたパッケージの確認
+          pip list
       
       - name: Create initial files if not exist
         run: |
@@ -63,16 +82,28 @@ jobs:
           THREADS_LONG_LIVED_TOKEN: ${{ secrets.THREADS_LONG_LIVED_TOKEN }}
           THREADS_INSTAGRAM_ACCOUNT_ID: ${{ secrets.THREADS_INSTAGRAM_ACCOUNT_ID }}
         run: |
+          # 環境変数の確認（シークレット値は表示しない）
+          echo "環境変数チェック:"
+          if [ -n "$PA_API_KEY" ]; then echo "PA_API_KEY: 設定済み"; else echo "警告: PA_API_KEY が設定されていません"; fi
+          if [ -n "$PA_API_SECRET" ]; then echo "PA_API_SECRET: 設定済み"; else echo "警告: PA_API_SECRET が設定されていません"; fi
+          if [ -n "$PARTNER_TAG" ]; then echo "PARTNER_TAG: 設定済み"; else echo "警告: PARTNER_TAG が設定されていません"; fi
+          
           # 実行時のエラーをより詳細に表示
           set -x
-          # スクリプト実行
-          python amazon_discount_finder.py || {
+          
+          # スクリプトの実行権限を確認
+          chmod +x amazon_discount_finder.py
+          
+          # スクリプト実行（Pythonを明示的にパスで指定）
+          python3 amazon_discount_finder.py || {
             echo "::warning::スクリプト実行中にエラーが発生しましたが、処理を継続します"
             # エラーの詳細が見られるようにログファイルをキャプチャ
             if [ -f "discount_finder.log" ]; then
               echo "::group::エラーログ"
-              tail -n 50 discount_finder.log
+              cat discount_finder.log
               echo "::endgroup::"
+            else
+              echo "エラーログファイルが見つかりません"
             fi
           }
       
