@@ -513,7 +513,7 @@ def post_to_twitter(client, product):
         original_price = product["original_price"]
         discount_amount = product["discount_amount"]
         
-        post = f"🔥【{discount_percent:.1f}%オフ】Amazon直販商品割引情報🔥#PR\n\n"
+        post = f"🔥【{discount_percent:.1f}%オフ】Amazon直販割引🔥#PR\n\n"
         post += f"{product['title'][:80]}...\n\n"
         post += f"✅ 現在価格: {current_price:,.0f}円\n"
         post += f"❌ 元の価格: {original_price:,.0f}円\n"
