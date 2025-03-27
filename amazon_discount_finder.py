@@ -5,7 +5,7 @@ import requests
 import hashlib
 import hmac
 import argparse
-# import tweepy
+import tweepy
 import time
 from datetime import datetime
 from dotenv import load_dotenv
@@ -598,8 +598,7 @@ def main():
     
     logger.info(f"最小割引率: {min_discount}%")
     
-    # Twitter APIを初期化（コメントアウト）
-    # twitter_api = setup_twitter_api()
+    twitter_api = setup_twitter_api()
     
     # 前回の検索結果を読み込む（重複投稿防止）
     previous_results = load_previous_results()
