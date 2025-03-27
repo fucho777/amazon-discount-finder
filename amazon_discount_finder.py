@@ -664,13 +664,11 @@ def main():
         for i, product in enumerate(all_discounted_items[:post_limit]):
             logger.info(f"商品 {i+1}/{post_limit} を投稿: {product['title'][:30]}...")
             
-            # Xに投稿（コメントアウト）
-            # if twitter_api:
-            #     post_result = post_to_twitter(twitter_api, product)
-            #     logger.info(f"Twitter投稿結果: {'成功' if post_result else '失敗'}")
+             Xに投稿（コメントアウト）
+             if twitter_api:
+                 post_result = post_to_twitter(twitter_api, product)
+                 logger.info(f"Twitter投稿結果: {'成功' if post_result else '失敗'}")
             
-            # Twitter投稿はスキップすることをログに記録
-            logger.info("Twitter APIの制限により投稿をスキップします")
             
             # Threadsに投稿
             threads_credentials = THREADS_INSTAGRAM_ACCOUNT_ID and (THREADS_LONG_LIVED_TOKEN or (THREADS_APP_ID and THREADS_APP_SECRET))
