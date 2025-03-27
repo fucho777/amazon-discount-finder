@@ -5,7 +5,7 @@ import requests
 import hashlib
 import hmac
 import argparse
-# import tweepy  # Twitter API関連のインポートをコメントアウト
+# import tweepy
 import time
 from datetime import datetime
 from dotenv import load_dotenv
@@ -32,10 +32,10 @@ MARKETPLACE = "www.amazon.co.jp"
 REGION = "us-west-2"  # PA-APIのリージョン
 
 # X API設定（コメントアウト）
-# TWITTER_CONSUMER_KEY = os.getenv("TWITTER_CONSUMER_KEY")
-# TWITTER_CONSUMER_SECRET = os.getenv("TWITTER_CONSUMER_SECRET")
-# TWITTER_ACCESS_TOKEN = os.getenv("TWITTER_ACCESS_TOKEN")
-# TWITTER_ACCESS_TOKEN_SECRET = os.getenv("TWITTER_ACCESS_TOKEN_SECRET")
+TWITTER_CONSUMER_KEY = os.getenv("TWITTER_CONSUMER_KEY")
+TWITTER_CONSUMER_SECRET = os.getenv("TWITTER_CONSUMER_SECRET")
+TWITTER_ACCESS_TOKEN = os.getenv("TWITTER_ACCESS_TOKEN")
+TWITTER_ACCESS_TOKEN_SECRET = os.getenv("TWITTER_ACCESS_TOKEN_SECRET")
 
 # Threads API設定（Meta Graph API）
 THREADS_APP_ID = os.getenv("THREADS_APP_ID")
@@ -355,7 +355,6 @@ def filter_discounted_items(items, min_discount_percent=MIN_DISCOUNT_PERCENT):
     
     return discounted_items
 
- Twitter API関連の関数をコメントアウト
  def setup_twitter_api():
      """Twitter APIの設定"""
      try:
