@@ -52,6 +52,11 @@ jobs:
           PA_API_KEY: ${{ secrets.PA_API_KEY }}
           PA_API_SECRET: ${{ secrets.PA_API_SECRET }}
           PARTNER_TAG: ${{ secrets.PARTNER_TAG }}
+          # Twitter API 設定
+          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
+          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
           # Threads API 設定
           THREADS_APP_ID: ${{ secrets.THREADS_APP_ID }}
           THREADS_APP_SECRET: ${{ secrets.THREADS_APP_SECRET }}
