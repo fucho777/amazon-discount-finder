@@ -1,1 +1,208 @@
 
+2025-03-27 14:53:22,679 - INFO - 最小割引率: 15%
+2025-03-27 14:53:22,802 - INFO - Twitter API認証成功
+2025-03-27 14:53:22,802 - INFO - 検索開始: カテゴリ=HealthPersonalCare, キーワード=¥
+2025-03-27 14:53:22,802 - INFO - 商品検索中... キーワード: ¥, カテゴリ: HealthPersonalCare
+2025-03-27 14:53:23,430 - INFO - レスポンスステータス: 200
+2025-03-27 14:53:23,431 - INFO - 商品情報取得中... ASIN: B0DWXVPN73
+2025-03-27 14:53:26,703 - INFO - 商品情報取得中... ASIN: B0DXSGGK4K
+2025-03-27 14:53:30,028 - INFO - 商品情報取得中... ASIN: B0DZC2CBX9
+2025-03-27 14:53:33,354 - INFO - 商品情報取得中... ASIN: B0DXZP7JXZ
+2025-03-27 14:53:36,641 - INFO - 商品情報取得中... ASIN: B0DW31Z2FW
+2025-03-27 14:53:39,944 - INFO - 商品情報取得中... ASIN: B0DZ5T4HQR
+2025-03-27 14:53:43,206 - INFO - 商品情報取得中... ASIN: B0F1FVKFHG
+2025-03-27 14:53:46,492 - INFO - 商品情報取得中... ASIN: B0DV5BWNNS
+2025-03-27 14:53:49,807 - INFO - 商品情報取得中... ASIN: B0F1FYBV2G
+2025-03-27 14:53:53,075 - INFO - 商品情報取得中... ASIN: B0DW2WW6W5
+2025-03-27 14:53:56,342 - INFO - 割引商品発見: 8件 (カテゴリ=HealthPersonalCare)
+2025-03-27 14:53:56,342 - INFO - 検索開始: カテゴリ=Electronics, キーワード=¥
+2025-03-27 14:53:56,343 - INFO - 商品検索中... キーワード: ¥, カテゴリ: Electronics
+2025-03-27 14:53:56,684 - INFO - レスポンスステータス: 200
+2025-03-27 14:53:56,685 - INFO - 商品情報取得中... ASIN: B0DZ2QSR4T
+2025-03-27 14:53:59,945 - INFO - 商品情報取得中... ASIN: B0DYSJHNB6
+2025-03-27 14:54:03,250 - INFO - 商品情報取得中... ASIN: B0DXNKKMB5
+2025-03-27 14:54:06,588 - INFO - 商品情報取得中... ASIN: B0DZ5T4HQR
+2025-03-27 14:54:09,844 - INFO - 商品情報取得中... ASIN: B0DZ7WF87P
+2025-03-27 14:54:13,115 - INFO - 商品情報取得中... ASIN: B0DYDWFG5G
+2025-03-27 14:54:16,420 - INFO - 商品情報取得中... ASIN: B0DYJHD98G
+2025-03-27 14:54:19,755 - INFO - 商品情報取得中... ASIN: B0DY1NT94W
+2025-03-27 14:54:23,026 - INFO - 商品情報取得中... ASIN: B0DYNMJW75
+2025-03-27 14:54:26,313 - INFO - 商品情報取得中... ASIN: B0DXK7H4SR
+2025-03-27 14:54:29,576 - INFO - 割引商品発見: 8件 (カテゴリ=Electronics)
+2025-03-27 14:54:29,576 - INFO - 検索開始: カテゴリ=HomeAndKitchen, キーワード=¥
+2025-03-27 14:54:29,577 - INFO - 商品検索中... キーワード: ¥, カテゴリ: HomeAndKitchen
+2025-03-27 14:54:30,128 - INFO - レスポンスステータス: 200
+2025-03-27 14:54:30,129 - INFO - 商品情報取得中... ASIN: B0DXZP7JXZ
+2025-03-27 14:54:33,380 - INFO - 商品情報取得中... ASIN: B0DZ5T4HQR
+2025-03-27 14:54:36,673 - INFO - 商品情報取得中... ASIN: B0DYDWFG5G
+2025-03-27 14:54:39,936 - INFO - 商品情報取得中... ASIN: B0DWJT45RC
+2025-03-27 14:54:43,236 - INFO - 商品情報取得中... ASIN: B0DY1GWVW4
+2025-03-27 14:54:46,594 - INFO - 商品情報取得中... ASIN: B0DYP1LBDX
+2025-03-27 14:54:49,858 - INFO - 商品情報取得中... ASIN: B0DXDXQXJR
+2025-03-27 14:54:53,155 - INFO - 商品情報取得中... ASIN: B0DWJYQZF8
+2025-03-27 14:54:56,522 - INFO - 商品情報取得中... ASIN: B0DZN87JLW
+2025-03-27 14:54:59,781 - INFO - 商品情報取得中... ASIN: B0F13BTM5F
+2025-03-27 14:55:03,073 - INFO - 割引商品発見: 7件 (カテゴリ=HomeAndKitchen)
+2025-03-27 14:55:03,074 - INFO - 検索開始: カテゴリ=VideoGames, キーワード=セール
+2025-03-27 14:55:03,074 - INFO - 商品検索中... キーワード: セール, カテゴリ: VideoGames
+2025-03-27 14:55:03,656 - INFO - レスポンスステータス: 200
+2025-03-27 14:55:03,657 - INFO - 商品情報取得中... ASIN: B086GRKKR9
+2025-03-27 14:55:06,994 - INFO - 商品情報取得中... ASIN: B09997WD23
+2025-03-27 14:55:10,277 - INFO - 商品情報取得中... ASIN: B09998HHSY
+2025-03-27 14:55:13,526 - INFO - 商品情報取得中... ASIN: B0CN2QDWSC
+2025-03-27 14:55:16,806 - INFO - 商品情報取得中... ASIN: B0BBFKZWZL
+2025-03-27 14:55:20,127 - INFO - 商品情報取得中... ASIN: B0DCMSZB7C
+2025-03-27 14:55:23,404 - INFO - 商品情報取得中... ASIN: B0DYF7MJ15
+2025-03-27 14:55:26,694 - INFO - 商品情報取得中... ASIN: B086F3VRS5
+2025-03-27 14:55:30,072 - INFO - 商品情報取得中... ASIN: B095KBRS2T
+2025-03-27 14:55:33,529 - INFO - 商品情報取得中... ASIN: B09RWPG2PT
+2025-03-27 14:55:36,816 - INFO - 割引商品発見: 1件 (カテゴリ=VideoGames)
+2025-03-27 14:55:36,816 - INFO - 検索開始: カテゴリ=Beauty, キーワード=¥
+2025-03-27 14:55:36,817 - INFO - 商品検索中... キーワード: ¥, カテゴリ: Beauty
+2025-03-27 14:55:37,345 - INFO - レスポンスステータス: 200
+2025-03-27 14:55:37,346 - INFO - 商品情報取得中... ASIN: B0D1VHHF7H
+2025-03-27 14:55:40,676 - INFO - 商品情報取得中... ASIN: B0DW31Z2FW
+2025-03-27 14:55:43,947 - INFO - 商品情報取得中... ASIN: B0DZ5T4HQR
+2025-03-27 14:55:47,214 - INFO - 商品情報取得中... ASIN: B0DYDWFG5G
+2025-03-27 14:55:50,488 - INFO - 商品情報取得中... ASIN: B0DYP1LBDX
+2025-03-27 14:55:53,762 - INFO - 商品情報取得中... ASIN: B0DXV2MFYC
+2025-03-27 14:55:57,076 - INFO - 商品情報取得中... ASIN: B0DVC72QMV
+2025-03-27 14:56:00,341 - INFO - 商品情報取得中... ASIN: B0DW3LM32S
+2025-03-27 14:56:03,603 - INFO - 商品情報取得中... ASIN: B0DX6VS2T5
+2025-03-27 14:56:06,894 - INFO - 商品情報取得中... ASIN: B0DYNVL7B4
+2025-03-27 14:56:10,187 - INFO - 割引商品発見: 8件 (カテゴリ=Beauty)
+2025-03-27 14:56:10,187 - INFO - 検索開始: カテゴリ=Fashion, キーワード=¥
+2025-03-27 14:56:10,187 - INFO - 商品検索中... キーワード: ¥, カテゴリ: Fashion
+2025-03-27 14:56:10,779 - INFO - レスポンスステータス: 200
+2025-03-27 14:56:10,780 - INFO - 商品情報取得中... ASIN: B0DVC6ZFN8
+2025-03-27 14:56:14,038 - INFO - 商品情報取得中... ASIN: B0DS7S7P82
+2025-03-27 14:56:17,384 - INFO - 商品情報取得中... ASIN: B0DQ9N3VXR
+2025-03-27 14:56:20,755 - INFO - 商品情報取得中... ASIN: B0DSHYMMRG
+2025-03-27 14:56:24,035 - INFO - 商品情報取得中... ASIN: B0DT3ZRXKN
+2025-03-27 14:56:27,338 - INFO - 商品情報取得中... ASIN: B0DS7YW98H
+2025-03-27 14:56:30,642 - INFO - 商品情報取得中... ASIN: B0DRP535WF
+2025-03-27 14:56:33,903 - INFO - 商品情報取得中... ASIN: B0DNFBNZG4
+2025-03-27 14:56:37,189 - INFO - 商品情報取得中... ASIN: B0DQQ2JTP3
+2025-03-27 14:56:40,522 - INFO - 商品情報取得中... ASIN: B0DV5CN196
+2025-03-27 14:56:43,879 - INFO - 割引商品発見: 3件 (カテゴリ=Fashion)
+2025-03-27 14:56:43,879 - INFO - 検索開始: カテゴリ=Hobbies, キーワード=¥
+2025-03-27 14:56:43,879 - INFO - 商品検索中... キーワード: ¥, カテゴリ: Hobbies
+2025-03-27 14:56:44,408 - INFO - レスポンスステータス: 200
+2025-03-27 14:56:44,409 - INFO - 商品情報取得中... ASIN: B0F1YFK53N
+2025-03-27 14:56:47,677 - INFO - 商品情報取得中... ASIN: B0F1YJBMC2
+2025-03-27 14:56:50,940 - INFO - 商品情報取得中... ASIN: B0F12FY9Y9
+2025-03-27 14:56:54,198 - INFO - 商品情報取得中... ASIN: B0DYSPNZXF
+2025-03-27 14:56:57,457 - INFO - 商品情報取得中... ASIN: B0F1YG6CQV
+2025-03-27 14:57:00,713 - INFO - 商品情報取得中... ASIN: B0F1YD31DR
+2025-03-27 14:57:04,040 - INFO - 商品情報取得中... ASIN: B0DYSB1SSJ
+2025-03-27 14:57:07,324 - INFO - 商品情報取得中... ASIN: B0DY7BP696
+2025-03-27 14:57:10,612 - INFO - 商品情報取得中... ASIN: B0DXZ5Q32N
+2025-03-27 14:57:13,940 - INFO - 割引商品発見: 1件 (カテゴリ=Hobbies)
+2025-03-27 14:57:13,940 - INFO - 検索開始: カテゴリ=PetSupplies, キーワード=¥
+2025-03-27 14:57:13,940 - INFO - 商品検索中... キーワード: ¥, カテゴリ: PetSupplies
+2025-03-27 14:57:14,647 - INFO - レスポンスステータス: 200
+2025-03-27 14:57:14,648 - INFO - 商品情報取得中... ASIN: B0DXFB5FF5
+2025-03-27 14:57:17,941 - INFO - 商品情報取得中... ASIN: B0DVSCWJD5
+2025-03-27 14:57:21,224 - INFO - 商品情報取得中... ASIN: B0DZ2J16QC
+2025-03-27 14:57:24,488 - INFO - 商品情報取得中... ASIN: B0DZNYCD6H
+2025-03-27 14:57:27,763 - INFO - 商品情報取得中... ASIN: B0DY19JZQT
+2025-03-27 14:57:31,064 - INFO - 商品情報取得中... ASIN: B0DZ58GQ8P
+2025-03-27 14:57:34,327 - INFO - 商品情報取得中... ASIN: B0DYJPXVK3
+2025-03-27 14:57:37,614 - INFO - 商品情報取得中... ASIN: B0DZHCR4R3
+2025-03-27 14:57:40,877 - INFO - 商品情報取得中... ASIN: B0DYF8TJXZ
+2025-03-27 14:57:44,262 - INFO - 商品情報取得中... ASIN: B0DXTVQR6J
+2025-03-27 14:57:47,530 - INFO - 割引商品発見: 2件 (カテゴリ=PetSupplies)
+2025-03-27 14:57:47,530 - INFO - 検索開始: カテゴリ=OfficeProducts, キーワード=¥
+2025-03-27 14:57:47,531 - INFO - 商品検索中... キーワード: ¥, カテゴリ: OfficeProducts
+2025-03-27 14:57:48,058 - INFO - レスポンスステータス: 200
+2025-03-27 14:57:48,059 - INFO - 商品情報取得中... ASIN: B0DZPCSLHT
+2025-03-27 14:57:51,315 - INFO - 商品情報取得中... ASIN: B0DXDY2Q3M
+2025-03-27 14:57:54,571 - INFO - 商品情報取得中... ASIN: B0DV988V49
+2025-03-27 14:57:57,921 - INFO - 商品情報取得中... ASIN: B0F23WV4GM
+2025-03-27 14:58:01,183 - INFO - 商品情報取得中... ASIN: B0DXPP8QFM
+2025-03-27 14:58:04,444 - INFO - 商品情報取得中... ASIN: B0F1C18MMB
+2025-03-27 14:58:07,706 - INFO - 商品情報取得中... ASIN: B0DX7BLDYP
+2025-03-27 14:58:10,996 - INFO - 商品情報取得中... ASIN: B0DV3G95NM
+2025-03-27 14:58:14,265 - INFO - 商品情報取得中... ASIN: B0DW8TXNY6
+2025-03-27 14:58:17,541 - INFO - 商品情報取得中... ASIN: B0DW2TG54C
+2025-03-27 14:58:20,873 - INFO - 割引商品発見: 1件 (カテゴリ=OfficeProducts)
+2025-03-27 14:58:20,873 - INFO - 検索開始: カテゴリ=Toys, キーワード=¥
+2025-03-27 14:58:20,873 - INFO - 商品検索中... キーワード: ¥, カテゴリ: Toys
+2025-03-27 14:58:21,853 - INFO - レスポンスステータス: 200
+2025-03-27 14:58:21,854 - INFO - 商品情報取得中... ASIN: B0DZB8B9MF
+2025-03-27 14:58:25,126 - INFO - 商品情報取得中... ASIN: B0F17VDMDG
+2025-03-27 14:58:28,399 - INFO - 商品情報取得中... ASIN: B0F12XRMMH
+2025-03-27 14:58:31,686 - INFO - 商品情報取得中... ASIN: B0F12MVRN5
+2025-03-27 14:58:34,937 - INFO - 商品情報取得中... ASIN: B0F1CH2G77
+2025-03-27 14:58:38,209 - INFO - 商品情報取得中... ASIN: B0F1YFK53N
+2025-03-27 14:58:41,472 - INFO - 商品情報取得中... ASIN: B0F1YJBMC2
+2025-03-27 14:58:44,727 - INFO - 商品情報取得中... ASIN: B0F12FY9Y9
+2025-03-27 14:58:47,978 - INFO - 商品情報取得中... ASIN: B0F12R5VW3
+2025-03-27 14:58:51,233 - INFO - 商品情報取得中... ASIN: B0DYSPNZXF
+2025-03-27 14:58:54,482 - INFO - 新しい割引商品はありませんでした: カテゴリ=Toys
+2025-03-27 14:58:54,482 - INFO - 検索開始: カテゴリ=Electronics, キーワード=¥
+2025-03-27 14:58:54,482 - INFO - 商品検索中... キーワード: ¥, カテゴリ: Electronics
+2025-03-27 14:58:55,077 - INFO - レスポンスステータス: 200
+2025-03-27 14:58:55,078 - INFO - 商品情報取得中... ASIN: B0DZ2QSR4T
+2025-03-27 14:58:58,349 - INFO - 商品情報取得中... ASIN: B0DYSJHNB6
+2025-03-27 14:59:01,626 - INFO - 商品情報取得中... ASIN: B0DXNKKMB5
+2025-03-27 14:59:04,887 - INFO - 商品情報取得中... ASIN: B0DZ5T4HQR
+2025-03-27 14:59:08,161 - INFO - 商品情報取得中... ASIN: B0DZ7WF87P
+2025-03-27 14:59:11,416 - INFO - 商品情報取得中... ASIN: B0DYDWFG5G
+2025-03-27 14:59:14,681 - INFO - 商品情報取得中... ASIN: B0DYJHD98G
+2025-03-27 14:59:17,947 - INFO - 商品情報取得中... ASIN: B0DY1NT94W
+2025-03-27 14:59:21,217 - INFO - 商品情報取得中... ASIN: B0DYNMJW75
+2025-03-27 14:59:24,478 - INFO - 商品情報取得中... ASIN: B0DXK7H4SR
+2025-03-27 14:59:27,758 - INFO - 割引商品発見: 8件 (カテゴリ=Electronics)
+2025-03-27 14:59:27,759 - INFO - 検索結果を discount_results.json に保存しました
+2025-03-27 14:59:27,759 - INFO - 合計 47件の新しい割引商品が見つかりました
+2025-03-27 14:59:27,759 - INFO - 商品 1/5 を投稿: 【2025年新登場】シェーバー メンズ 電気シェーバー 電動...
+2025-03-27 14:59:27,875 - ERROR - X投稿エラー: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2025-03-27 14:59:27,875 - INFO - Twitter投稿結果: 失敗
+2025-03-27 14:59:27,875 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-03-27 14:59:27,875 - INFO - Threads投稿: ステップ1 - コンテナID作成中...
+2025-03-27 14:59:30,955 - INFO - Threads投稿: コンテナID取得成功: 18101711068508762
+2025-03-27 14:59:30,955 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-03-27 14:59:38,585 - INFO - Threadsに投稿しました: 【2025年新登場】シェーバー メンズ 電気シェーバー 電動...
+2025-03-27 14:59:38,586 - INFO - Threads投稿結果: 成功
+2025-03-27 14:59:43,591 - INFO - 商品 2/5 を投稿: 【2025年新登場】シェーバー メンズ 電気シェーバー 電動...
+2025-03-27 14:59:43,643 - ERROR - X投稿エラー: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2025-03-27 14:59:43,643 - INFO - Twitter投稿結果: 失敗
+2025-03-27 14:59:43,643 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-03-27 14:59:43,643 - INFO - Threads投稿: ステップ1 - コンテナID作成中...
+2025-03-27 14:59:46,128 - INFO - Threads投稿: コンテナID取得成功: 17856097209399505
+2025-03-27 14:59:46,129 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-03-27 14:59:48,482 - INFO - Threadsに投稿しました: 【2025年新登場】シェーバー メンズ 電気シェーバー 電動...
+2025-03-27 14:59:48,483 - INFO - Threads投稿結果: 成功
+2025-03-27 14:59:53,488 - INFO - 商品 3/5 を投稿: 【2025年新登場】シェーバー メンズ 電気シェーバー 電動...
+2025-03-27 14:59:53,567 - ERROR - X投稿エラー: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2025-03-27 14:59:53,567 - INFO - Twitter投稿結果: 失敗
+2025-03-27 14:59:53,567 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-03-27 14:59:53,567 - INFO - Threads投稿: ステップ1 - コンテナID作成中...
+2025-03-27 14:59:56,881 - INFO - Threads投稿: コンテナID取得成功: 18036602258533575
+2025-03-27 14:59:56,881 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-03-27 14:59:59,694 - INFO - Threadsに投稿しました: 【2025年新登場】シェーバー メンズ 電気シェーバー 電動...
+2025-03-27 14:59:59,694 - INFO - Threads投稿結果: 成功
+2025-03-27 15:00:04,698 - INFO - 商品 4/5 を投稿: 【2025年新登場】シェーバー メンズ 電気シェーバー 電動...
+2025-03-27 15:00:04,757 - ERROR - X投稿エラー: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2025-03-27 15:00:04,758 - INFO - Twitter投稿結果: 失敗
+2025-03-27 15:00:04,758 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-03-27 15:00:04,758 - INFO - Threads投稿: ステップ1 - コンテナID作成中...
+2025-03-27 15:00:07,286 - INFO - Threads投稿: コンテナID取得成功: 17963614544895229
+2025-03-27 15:00:07,286 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-03-27 15:00:09,602 - INFO - Threadsに投稿しました: 【2025年新登場】シェーバー メンズ 電気シェーバー 電動...
+2025-03-27 15:00:09,603 - INFO - Threads投稿結果: 成功
+2025-03-27 15:00:14,608 - INFO - 商品 5/5 を投稿: 【2025年新登場】シェーバー メンズ 電気シェーバー 電動...
+2025-03-27 15:00:14,662 - ERROR - X投稿エラー: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2025-03-27 15:00:14,662 - INFO - Twitter投稿結果: 失敗
+2025-03-27 15:00:14,663 - INFO - Threads認証: 長期アクセストークンを使用します
+2025-03-27 15:00:14,663 - INFO - Threads投稿: ステップ1 - コンテナID作成中...
+2025-03-27 15:00:17,045 - INFO - Threads投稿: コンテナID取得成功: 18119200246403984
+2025-03-27 15:00:17,045 - INFO - Threads投稿: ステップ2 - 投稿公開中...
+2025-03-27 15:00:19,539 - INFO - Threadsに投稿しました: 【2025年新登場】シェーバー メンズ 電気シェーバー 電動...
+2025-03-27 15:00:19,539 - INFO - Threads投稿結果: 成功
