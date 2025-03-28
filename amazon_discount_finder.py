@@ -457,10 +457,6 @@ def filter_discounted_items(items, min_discount_percent=MIN_DISCOUNT_PERCENT):
                 "url": product_info.get("DetailPageURL", f"https://www.amazon.co.jp/dp/{asin}?tag={PARTNER_TAG}")
             }
             
-            # 画像URLがあれば追加
-            if "Images" in product_info and "Primary" in product_info["Images"] and "Large" in product_info["Images"]["Primary"]:
-                product_data["image_url"] = product_info["Images"]["Primary"]["Large"]["URL"]
-            
             logger.info(f"割引商品を発見: {asin} - {title[:30]}... ({discount_percent:.1f}%オフ、{current_price:,.0f}円)")
             discounted_items.append(product_data)
     
@@ -520,8 +516,8 @@ def post_to_twitter(client, product):
         post += f"💰 割引額: {discount_amount:,.0f}円\n\n"
         post += f": {product['url']}\n\n"
         
-        # 投稿が280文字を超える場合は調整
-        if len(post) > 270:
+        # 投稿が250文字を超える場合は調整
+        if len(post) > 250:
             title_max = 50  # タイトルを固定で50文字に制限
             short_title = product['title'][:title_max] + "..."
             post = post.replace(f"{product['title'][:80]}...", short_title)
@@ -625,11 +621,6 @@ def post_to_threads(product):
             "media_type": "TEXT",
             "text": text
         }
-        
-        # 画像URLがある場合は追加
-        if "image_url" in product:
-            upload_params["media_type"] = "IMAGE"
-            upload_params["image_url"] = product["image_url"]
         
         # リクエスト送信
         upload_response = requests.post(upload_url, data=upload_params)
