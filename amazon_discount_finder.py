@@ -518,10 +518,10 @@ def post_to_twitter(client, product):
         post += f"✅ 現在価格: {current_price:,.0f}円\n"
         post += f"❌ 元の価格: {original_price:,.0f}円\n"
         post += f"💰 割引額: {discount_amount:,.0f}円\n\n"
-        post += f"🛒 商品ページ: {product['url']}\n\n"
+        post += f": {product['url']}\n\n"
         
         # 投稿が280文字を超える場合は調整
-        if len(post) > 280:
+        if len(post) > 270:
             title_max = 50  # タイトルを固定で50文字に制限
             short_title = product['title'][:title_max] + "..."
             post = post.replace(f"{product['title'][:80]}...", short_title)
