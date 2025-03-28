@@ -25,9 +25,9 @@
     {"category": "Books", "keyword": "　"},
     {"category": "MusicalInstruments", "keyword": "セール"},
     {"category": "MusicalInstruments", "keyword": "　"},
-    {"category": "SportsAndOutdoors", "keyword": "セール"}
-    {"category": "SportsAndOutdoors", "keyword": "　"}
-    {"category": "All", "keyword": "セール"}
+    {"category": "SportsAndOutdoors", "keyword": "セール"},
+    {"category": "SportsAndOutdoors", "keyword": "　"},
+    {"category": "All", "keyword": "セール"},
     {"category": "All", "keyword": "　"}
   ]
 }
