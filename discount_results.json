@@ -1,5 +1,57 @@
 [
   {
+    "asin": "B084DPDJXJ",
+    "title": "ザバス(SAVAS) ホエイプロテイン100 リッチショコラ味 280g 明治",
+    "current_price": 1818.0,
+    "original_price": 2959.0,
+    "discount_amount": 1141.0,
+    "discount_percent": 38.56032443393038,
+    "url": "https://www.amazon.co.jp/dp/B084DPDJXJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "image_url": "https://m.media-amazon.com/images/I/51weTJkVOnL._SL500_.jpg",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-03-28 11:36:01"
+  },
+  {
+    "asin": "B0DJLXVN1N",
+    "title": "[洗剤&柔軟剤セット] アタック抗菌EX 液体洗剤 詰め替え 2900ｇ + ハミング消臭実感 柔軟剤 リフレッシュグリーンの香り 詰め替え 2600ml",
+    "current_price": 2157.0,
+    "original_price": 3195.0,
+    "discount_amount": 1038.0,
+    "discount_percent": 32.48826291079812,
+    "url": "https://www.amazon.co.jp/dp/B0DJLXVN1N?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "image_url": "https://m.media-amazon.com/images/I/4104cpttX8L._SL500_.jpg",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-03-28 11:36:18"
+  },
+  {
+    "asin": "B0DDKK9DRV",
+    "title": "ソニー 完全ワイヤレスイヤホン WF-C510 / 軽量小型4.6g / 高精度通話品質/外音取り込み対応/マルチポイント対応 / IPX4防滴性能 / ブルー/WF-C510 LC",
+    "current_price": 7673.0,
+    "original_price": 9900.0,
+    "discount_amount": 2227.0,
+    "discount_percent": 22.494949494949495,
+    "url": "https://www.amazon.co.jp/dp/B0DDKK9DRV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "image_url": "https://m.media-amazon.com/images/I/214D4MXCI9L._SL500_.jpg",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-03-28 11:41:27"
+  },
+  {
+    "asin": "B0D6MTQFF9",
+    "title": "[ザノースフェイス] ジャケット コンパクトジャケット メンズ 撥水 軽量 クラシックカーキ/アイアンブロンズ L",
+    "current_price": 10618.0,
+    "original_price": 14000.0,
+    "discount_amount": 3382.0,
+    "discount_percent": 24.15714285714286,
+    "url": "https://www.amazon.co.jp/dp/B0D6MTQFF9?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "image_url": "https://m.media-amazon.com/images/I/31QrlGUABjL._SL500_.jpg",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-03-28 11:42:59"
+  },
+  {
     "asin": "B0BSNBQ4QV",
     "title": "アイリスオーヤマ 血圧計 上腕式血圧計 BPU-101 簡単測定 医療機器認証",
     "current_price": 3800.0,
