@@ -721,12 +721,6 @@ def load_search_config():
                     category = item.get("category", "All")
                     keyword = item.get("keyword", "セール")
                     
-                    # 無効なキーワードをチェック（単なる記号は除外）
-                    if keyword in ["¥", "$", "円"]:
-                        logger.warning(f"無効なキーワードを検出: '{keyword}' を 'セール' に変更します")
-                        keyword = "セール"
-                        item["keyword"] = keyword
-                    
                     # カテゴリが有効かチェック
                     if category in VALID_CATEGORIES:
                         # カテゴリが有効ならそのまま追加
