@@ -3,18 +3,30 @@
   "max_discount_percent": 80,
   "search_items": [
     {"category": "Electronics", "keyword": "セール"},
-    {"category": "Electronics", "keyword": "タイムセール"},
-    {"category": "HomeAndKitchen", "keyword": "特価"},
-    {"category": "HomeAndKitchen", "keyword": "割引"},
+    {"category": "Electronics", "keyword": "　"},
+    {"category": "HomeAndKitchen", "keyword": "　"},
+    {"category": "HomeAndKitchen", "keyword": "セール"},
     {"category": "VideoGames", "keyword": "セール"},
-    {"category": "Beauty", "keyword": "お買い得"},
+    {"category": "VideoGames", "keyword": "　"},
+    {"category": "Beauty", "keyword": "セール"},
+    {"category": "Beauty", "keyword": "　"},
     {"category": "Fashion", "keyword": "セール"},
-    {"category": "OfficeProducts", "keyword": "特価"},
-    {"category": "HealthPersonalCare", "keyword": "SALE"},
-    {"category": "PetSupplies", "keyword": "タイムセール"},
-    {"category": "Toys", "keyword": "お買い得"},
-    {"category": "Books", "keyword": "割引"},
-    {"category": "MusicalInstruments", "keyword": "特価"},
+    {"category": "Fashion", "keyword": "　"},
+    {"category": "OfficeProducts", "keyword": "セール"},
+    {"category": "OfficeProducts", "keyword": "　"},
+    {"category": "HealthPersonalCare", "keyword": "セール"},
+    {"category": "HealthPersonalCare", "keyword": "　"},
+    {"category": "PetSupplies", "keyword": "セール"},
+    {"category": "PetSupplies", "keyword": "　"},
+    {"category": "Toys", "keyword": "セール"},
+    {"category": "Toys", "keyword": "　"},
+    {"category": "Books", "keyword": "セール"},
+    {"category": "Books", "keyword": "　"},
+    {"category": "MusicalInstruments", "keyword": "セール"},
+    {"category": "MusicalInstruments", "keyword": "　"},
     {"category": "SportsAndOutdoors", "keyword": "セール"}
+    {"category": "SportsAndOutdoors", "keyword": "　"}
+    {"category": "All", "keyword": "セール"}
+    {"category": "All", "keyword": "　"}
   ]
 }
