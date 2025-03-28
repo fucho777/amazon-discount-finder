@@ -3,7 +3,7 @@ name: Amazon Discount Finder
 on:
   schedule:
     # 3時間に一回実行
-    - cron: '0 0/3 * * *'
+    - cron: '0 0/2 * * *'
   workflow_dispatch:
     # 手動実行用のトリガー
 
