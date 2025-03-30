@@ -514,7 +514,7 @@ def post_to_twitter(client, product):
         post += f"✅ 現在価格: {current_price:,.0f}円\n"
         post += f"❌ 元の価格: {original_price:,.0f}円\n"
         post += f"💰 割引額: {discount_amount:,.0f}円\n\n"
-        post += f": {product['url']}\n\n"
+        post += f" {product['url']}\n\n"
         
         # 投稿が250文字を超える場合は調整
         if len(post) > 250:
