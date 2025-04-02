@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B018VSBIBC",
+    "title": "SALONIA サロニア ストレートアイロン ヘアアイロン 24mm 耐熱ポーチ付 海外対応 SL-004SW ホワイト",
+    "current_price": 3118.0,
+    "original_price": 3828.0,
+    "discount_amount": 710.0,
+    "discount_percent": 18.547544409613376,
+    "url": "https://www.amazon.co.jp/dp/B018VSBIBC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-02 13:37:26"
+  },
+  {
     "asin": "B0BKK35C85",
     "title": "タカラトミー(TAKARA TOMY) トミカ トミカタウン ガソリンスタンド ENEOS ミニカー おもちゃ 3歳以上",
     "current_price": 927.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-03-29 11:28:15"
-  },
-  {
-    "asin": "B0CQSLVBVR",
-    "title": "[チャンピオン] 帽子 ワンポイントロゴ メンズキャップ アクセサリーズゴルフ C3-AG702C オフホワイト",
-    "current_price": 2730.0,
-    "original_price": 4950.0,
-    "discount_amount": 2220.0,
-    "discount_percent": 44.84848484848485,
-    "url": "https://www.amazon.co.jp/dp/B0CQSLVBVR?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-03-29 09:44:51"
   }
 ]
