@@ -1,5 +1,29 @@
 [
   {
+    "asin": "B07R3SNQRV",
+    "title": "ぷよぷよeスポーツ - Switch",
+    "current_price": 1600.0,
+    "original_price": 2189.0,
+    "discount_amount": 589.0,
+    "discount_percent": 26.907263590680675,
+    "url": "https://www.amazon.co.jp/dp/B07R3SNQRV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-02 15:46:23"
+  },
+  {
+    "asin": "B0CJXK6MQS",
+    "title": "不思議のダンジョン 風来のシレン6 とぐろ島探検録 -Switch",
+    "current_price": 5482.0,
+    "original_price": 6985.0,
+    "discount_amount": 1503.0,
+    "discount_percent": 21.517537580529705,
+    "url": "https://www.amazon.co.jp/dp/B0CJXK6MQS?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-02 15:46:51"
+  },
+  {
     "asin": "B09X77XSJ7",
     "title": "尿酸へルプ 高めの尿酸値を下げる ルテオリン 尿酸値が気になる方に 約30日分 60粒【機能性表示食品】サプリメント",
     "current_price": 1527.0,
@@ -2374,29 +2398,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-03-29 16:56:21"
-  },
-  {
-    "asin": "B0D3L1R7HD",
-    "title": "Beats Solo Buds Bluetoothワイヤレスイヤフォン - 最大18時間の再生時間、AppleとAndroidで互換性、内蔵マイク - ストームグレイ",
-    "current_price": 8900.0,
-    "original_price": 12800.0,
-    "discount_amount": 3900.0,
-    "discount_percent": 30.46875,
-    "url": "https://www.amazon.co.jp/dp/B0D3L1R7HD?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-03-29 16:56:37"
-  },
-  {
-    "asin": "B0D4QG4RX3",
-    "title": "HUAWEI FreeBuds SE 2 ワイヤレスイヤホン インナーイヤー型 Bluetooth 40時間ロングバッテリー 本体3.8g 急速充電対応 IP54 防塵防水 ブラック",
-    "current_price": 3580.0,
-    "original_price": 4980.0,
-    "discount_amount": 1400.0,
-    "discount_percent": 28.11244979919679,
-    "url": "https://www.amazon.co.jp/dp/B0D4QG4RX3?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-03-29 16:56:58"
   }
 ]
