@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B07SXG7WK2",
+    "title": "[アンダーアーマー] UA Tech 2.0 SS Tee Mens メンズ 100 日本 3XL (日本サイズ4L相当)",
+    "current_price": 1799.0,
+    "original_price": 2750.0,
+    "discount_amount": 951.0,
+    "discount_percent": 34.58181818181818,
+    "url": "https://www.amazon.co.jp/dp/B07SXG7WK2?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-03 15:59:10"
+  },
+  {
     "asin": "B00F38B3NW",
     "title": "オムロン 上腕式血圧計 HEM-7120シリーズ",
     "current_price": 4480.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-03-30 22:39:33"
-  },
-  {
-    "asin": "B0B8MXLYSZ",
-    "title": "GUM(ガム)プラス【医薬部外品】 デンタルペースト 薬用ハミガキ [リフレッシュミント] 120g×2個+おまけ付き【Amazon.co.jp限定品】",
-    "current_price": 746.0,
-    "original_price": 990.0,
-    "discount_amount": 244.0,
-    "discount_percent": 24.646464646464647,
-    "url": "https://www.amazon.co.jp/dp/B0B8MXLYSZ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-03-30 22:39:54"
   }
 ]
