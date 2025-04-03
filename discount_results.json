@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B0D6GCNHWM",
+    "title": "[メレル] ウォーキングシューズ JUNGLE MOC BREEZE GUNSMOKE 27.0 cm 2E",
+    "current_price": 10095.0,
+    "original_price": 13200.0,
+    "discount_amount": 3105.0,
+    "discount_percent": 23.522727272727273,
+    "url": "https://www.amazon.co.jp/dp/B0D6GCNHWM?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-03 19:12:08"
+  },
+  {
     "asin": "B0BQXHJ67T",
     "title": "[ミズノ] ランニングシューズ マキシマイザー 26 通勤 通学 ジョギング スニーカー スポーツ 運動 ブラック 26.0 cm 3E",
     "current_price": 4995.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-03-31 03:30:08"
-  },
-  {
-    "asin": "B07HZ141YM",
-    "title": "【まとめ買い】クリアクリーン ネクスデント ピュアミント 120g×3本セット",
-    "current_price": 654.0,
-    "original_price": 1148.0,
-    "discount_amount": 494.0,
-    "discount_percent": 43.031358885017426,
-    "url": "https://www.amazon.co.jp/dp/B07HZ141YM?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-03-30 22:39:12"
   }
 ]
