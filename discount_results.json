@@ -1,5 +1,53 @@
 [
   {
+    "asin": "B08CY38QVF",
+    "title": "ザバス(SAVAS) ソイプロテイン100 ココア味 224g 明治",
+    "current_price": 1470.0,
+    "original_price": 2019.0,
+    "discount_amount": 549.0,
+    "discount_percent": 27.191679049034175,
+    "url": "https://www.amazon.co.jp/dp/B08CY38QVF?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-03 11:40:55"
+  },
+  {
+    "asin": "B0BC7GPF31",
+    "title": "VTCOSMETICS(ブイティコスメテックス) シートマスク 箱マスク スキンケア (2.シカ バイタルマスク)",
+    "current_price": 1956.0,
+    "original_price": 2420.0,
+    "discount_amount": 464.0,
+    "discount_percent": 19.173553719008265,
+    "url": "https://www.amazon.co.jp/dp/B0BC7GPF31?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-03 11:41:19"
+  },
+  {
+    "asin": "B0DRCNW4GZ",
+    "title": "アリエール 洗濯洗剤 ジェルボール プロ 部屋干し×鉄壁バリア 部屋干しでもさわやかな香り 詰め替え 100個 [大容量]",
+    "current_price": 2999.0,
+    "original_price": 3672.0,
+    "discount_amount": 673.0,
+    "discount_percent": 18.327886710239653,
+    "url": "https://www.amazon.co.jp/dp/B0DRCNW4GZ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-03 11:46:08"
+  },
+  {
+    "asin": "B00FBWBM3G",
+    "title": "マテルゲーム(Mattel Game) ブロックス(Blokus) ブロックス ボードゲーム 知育ゲーム 2~4人用 7歳から BJV44",
+    "current_price": 2149.0,
+    "original_price": 3200.0,
+    "discount_amount": 1051.0,
+    "discount_percent": 32.84375,
+    "url": "https://www.amazon.co.jp/dp/B00FBWBM3G?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-03 11:49:06"
+  },
+  {
     "asin": "B0B5QQVZNV",
     "title": "[チャムス] Shoulder Bag Compact Camera Pouch Sweat Nylon メンズ Navy x Beige",
     "current_price": 2981.0,
@@ -2350,53 +2398,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-03-30 07:29:42"
-  },
-  {
-    "asin": "B0BLS56CT4",
-    "title": "Echo Show 8 (エコーショー8) 第3世代（2024年発売） - HDスマートディスプレイ with Alexa、13メガピクセルカメラ付き、空間オーディオ｜チャコール",
-    "current_price": 18980.0,
-    "original_price": 22980.0,
-    "discount_amount": 4000.0,
-    "discount_percent": 17.40644038294169,
-    "url": "https://www.amazon.co.jp/dp/B0BLS56CT4?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-03-30 07:30:00"
-  },
-  {
-    "asin": "B0DLG15Q9K",
-    "title": "ゼノブレイドクロス ディフィニティブエディション -Switch",
-    "current_price": 6515.0,
-    "original_price": 7678.0,
-    "discount_amount": 1163.0,
-    "discount_percent": 15.147173743162282,
-    "url": "https://www.amazon.co.jp/dp/B0DLG15Q9K?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-03-30 07:33:54"
-  },
-  {
-    "asin": "B0D6GCNHWM",
-    "title": "[メレル] ウォーキングシューズ JUNGLE MOC BREEZE GUNSMOKE 27.0 cm 2E",
-    "current_price": 10094.0,
-    "original_price": 13200.0,
-    "discount_amount": 3106.0,
-    "discount_percent": 23.530303030303028,
-    "url": "https://www.amazon.co.jp/dp/B0D6GCNHWM?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-03-30 07:44:23"
-  },
-  {
-    "asin": "B079MF4VG2",
-    "title": "【Amazon.co.jp限定】【まとめ買い】サランラップ 22cm×50m 3本パック おまけ付き",
-    "current_price": 1110.0,
-    "original_price": 1480.0,
-    "discount_amount": 370.0,
-    "discount_percent": 25.0,
-    "url": "https://www.amazon.co.jp/dp/B079MF4VG2?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-03-30 06:48:18"
   }
 ]
