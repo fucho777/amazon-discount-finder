@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B07T1ZBS4K",
+    "title": "[UNDER ARMOUR(アンダーアーマー)]UA Tech 2.0 SS Tee Mens メンズ 001 日本 LG (日本サイズL相当)",
+    "current_price": 1798.0,
+    "original_price": 2268.0,
+    "discount_amount": 470.0,
+    "discount_percent": 20.72310405643739,
+    "url": "https://www.amazon.co.jp/dp/B07T1ZBS4K?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-04 17:59:53"
+  },
+  {
     "asin": "B0DJLXQJB4",
     "title": "ワイドハイター 漂白剤 詰め替え 2400ml + エマール おしゃれ着洗剤 リフレッシュグリーンの香り 詰め替え1400ml",
     "current_price": 1890.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 05:51:31"
-  },
-  {
-    "asin": "B0BR89JJLL",
-    "title": "[チャンピオン] スウェット 長袖 裏毛 刺繍 スクリプトロゴ クルーネックスウェットシャツ メンズスポーツ C3-YS050Z オックスフォードグレー XL",
-    "current_price": 3309.0,
-    "original_price": 5390.0,
-    "discount_amount": 2081.0,
-    "discount_percent": 38.608534322820034,
-    "url": "https://www.amazon.co.jp/dp/B0BR89JJLL?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 05:54:34"
   }
 ]
