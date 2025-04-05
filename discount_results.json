@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B000FQULYO",
+    "title": "大正製薬 リポビタンD 100mL×50本 【指定医薬部外品】 栄養ドリンク 疲労回復・栄養補給に タウリン配合",
+    "current_price": 6100.0,
+    "original_price": 7581.0,
+    "discount_amount": 1481.0,
+    "discount_percent": 19.535681308534496,
+    "url": "https://www.amazon.co.jp/dp/B000FQULYO?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-05 21:42:51"
+  },
+  {
     "asin": "B07SWBSNHP",
     "title": "[アンダーアーマー] UA Tech 2.0 SS Tee Mens メンズ 400 日本 3XL (日本サイズ4L相当)",
     "current_price": 1799.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 12:01:35"
-  },
-  {
-    "asin": "B07T11YD2J",
-    "title": "[アンダーアーマー] UA Tech 2.0 SS Tee Mens メンズ 002 日本 LG (日本サイズL相当)",
-    "current_price": 1555.0,
-    "original_price": 2750.0,
-    "discount_amount": 1195.0,
-    "discount_percent": 43.45454545454545,
-    "url": "https://www.amazon.co.jp/dp/B07T11YD2J?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 12:05:13"
   }
 ]
