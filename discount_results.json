@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B0D7M3DTQF",
+    "title": "[チャンピオン] スウェット 長袖 ワンポイント刺繍 ジップカーディガン ウィメンズベーシック CW-B003 ダークネイビー",
+    "current_price": 6545.0,
+    "original_price": 9350.0,
+    "discount_amount": 2805.0,
+    "discount_percent": 30.0,
+    "url": "https://www.amazon.co.jp/dp/B0D7M3DTQF?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-05 09:54:15"
+  },
+  {
     "asin": "B0D5GSR3KZ",
     "title": "[アシックス] ランニングシューズ JOLT 5 1011B964 メンズ 002(ブラック／キャリアグレー) 26.5 cm 4E",
     "current_price": 5031.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 07:00:38"
-  },
-  {
-    "asin": "B01FW15TV6",
-    "title": "ERGOTRON エルゴトロン LX デスク モニターアーム ホワイト/白 34インチ(3.2~11.3kg)まで VESA規格対応 45-490-216",
-    "current_price": 19800.0,
-    "original_price": 28001.0,
-    "discount_amount": 8201.0,
-    "discount_percent": 29.288239705724795,
-    "url": "https://www.amazon.co.jp/dp/B01FW15TV6?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 07:02:11"
   }
 ]
