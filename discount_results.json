@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B07WNM9JNB",
+    "title": "タミヤ(TAMIYA) グレードアップパーツシリーズ No.433 GP.433 マッハダッシュモーター PRO 15433",
+    "current_price": 373.0,
+    "original_price": 462.0,
+    "discount_amount": 89.0,
+    "discount_percent": 19.264069264069263,
+    "url": "https://www.amazon.co.jp/dp/B07WNM9JNB?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-06 08:58:50"
+  },
+  {
     "asin": "B01N74TVIM",
     "title": "パナソニック(Panasonic) コスモシリーズワイド21 埋込ほたるスイッチC 3路 WT50529",
     "current_price": 444.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 11:55:41"
-  },
-  {
-    "asin": "B00061HGVY",
-    "title": "タミヤ(TAMIYA) 1/72 ウォーバードコレクション No.54 アメリカ陸軍 ノースアメリカン F-51D マスタング 朝鮮戦争仕様 プラモデル 60754",
-    "current_price": 749.0,
-    "original_price": 1100.0,
-    "discount_amount": 351.0,
-    "discount_percent": 31.90909090909091,
-    "url": "https://www.amazon.co.jp/dp/B00061HGVY?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 11:57:23"
   }
 ]
