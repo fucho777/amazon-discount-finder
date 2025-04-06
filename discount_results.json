@@ -1,5 +1,41 @@
 [
   {
+    "asin": "B001UNOIUY",
+    "title": "サクラクレパス クレパス 20色 ゴムバンド付き LP20R",
+    "current_price": 803.0,
+    "original_price": 1122.0,
+    "discount_amount": 319.0,
+    "discount_percent": 28.431372549019606,
+    "url": "https://www.amazon.co.jp/dp/B001UNOIUY?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-06 11:38:38"
+  },
+  {
+    "asin": "B09CPBYZ2D",
+    "title": "【第2類医薬品】クラリチンEX 28錠",
+    "current_price": 2225.0,
+    "original_price": 3938.0,
+    "discount_amount": 1713.0,
+    "discount_percent": 43.49923819197562,
+    "url": "https://www.amazon.co.jp/dp/B09CPBYZ2D?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-06 11:39:39"
+  },
+  {
+    "asin": "B0DDKK9DRV",
+    "title": "ソニー 完全ワイヤレスイヤホン WF-C510 / 軽量小型4.6g / 高精度通話品質/外音取り込み対応/マルチポイント対応 / IPX4防滴性能 / ブルー/WF-C510 LC",
+    "current_price": 7591.0,
+    "original_price": 9900.0,
+    "discount_amount": 2309.0,
+    "discount_percent": 23.323232323232325,
+    "url": "https://www.amazon.co.jp/dp/B0DDKK9DRV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-06 11:49:11"
+  },
+  {
     "asin": "B00061HGVY",
     "title": "タミヤ(TAMIYA) 1/72 ウォーバードコレクション No.54 アメリカ陸軍 ノースアメリカン F-51D マスタング 朝鮮戦争仕様 プラモデル 60754",
     "current_price": 881.0,
@@ -2362,41 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 11:51:49"
-  },
-  {
-    "asin": "B0CFZW67L8",
-    "title": "【まとめ買い】サラヤ ヤシノミ 柔軟剤 詰め替え用 液体 1000mL×2個",
-    "current_price": 1270.0,
-    "original_price": 1595.0,
-    "discount_amount": 325.0,
-    "discount_percent": 20.37617554858934,
-    "url": "https://www.amazon.co.jp/dp/B0CFZW67L8?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 11:52:07"
-  },
-  {
-    "asin": "B09S32HVVB",
-    "title": "ドギーマン 無添加良品 香りあふれる贅沢ささみスティック 120ｇ",
-    "current_price": 487.0,
-    "original_price": 745.0,
-    "discount_amount": 258.0,
-    "discount_percent": 34.630872483221474,
-    "url": "https://www.amazon.co.jp/dp/B09S32HVVB?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 11:54:29"
-  },
-  {
-    "asin": "B07DTJ7ND9",
-    "title": "Figaro(フィガロ) ちゅ～る まぐろ本格だしミックス味 14g×45本 【Amazon.co.jp限定】",
-    "current_price": 1575.0,
-    "original_price": 2019.0,
-    "discount_amount": 444.0,
-    "discount_percent": 21.99108469539376,
-    "url": "https://www.amazon.co.jp/dp/B07DTJ7ND9?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 11:55:23"
   }
 ]
