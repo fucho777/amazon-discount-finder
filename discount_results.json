@@ -1,5 +1,41 @@
 [
   {
+    "asin": "B0BJML5QFC",
+    "title": "2022 Apple 10.9インチiPad (Wi-Fi, 64GB) - ブルー (第10世代)",
+    "current_price": 49800.0,
+    "original_price": 58800.0,
+    "discount_amount": 9000.0,
+    "discount_percent": 15.306122448979592,
+    "url": "https://www.amazon.co.jp/dp/B0BJML5QFC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-07 14:42:49"
+  },
+  {
+    "asin": "B0D2PXLJVP",
+    "title": "【特価セット品 マウスパッド】SteelSeries Arctis Nova 7 ワイヤレス + マウスパッド QCK 45cm×40cm×0.2cm QcK",
+    "current_price": 22200.0,
+    "original_price": 32361.0,
+    "discount_amount": 10161.0,
+    "discount_percent": 31.398906090664692,
+    "url": "https://www.amazon.co.jp/dp/B0D2PXLJVP?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-07 14:43:34"
+  },
+  {
+    "asin": "B08XR3JJ87",
+    "title": "AGF(エージーエフ) ちょっと贅沢な珈琲店 ブラックインボックス スティックブラック 焙煎アソート 【中煎りブレンド、深煎りブレンド各15本、浅煎りブレンド、中深煎りブレンド各10本】 50個 (x 1)",
+    "current_price": 1173.0,
+    "original_price": 1662.0,
+    "discount_amount": 489.0,
+    "discount_percent": 29.422382671480147,
+    "url": "https://www.amazon.co.jp/dp/B08XR3JJ87?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-07 15:31:03"
+  },
+  {
     "asin": "B0786XZB4V",
     "title": "SALONIA サロニア ミニ ストレートアイロン ヘアアイロン 耐熱ポーチ付 SL-010SB ブラック",
     "current_price": 2973.0,
@@ -2362,41 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 14:09:41"
-  },
-  {
-    "asin": "B0D6MCGH7D",
-    "title": "[ザノースフェイス] ジャケット コンパクトジャケット メンズ 撥水 軽量 ダックグリーン XL",
-    "current_price": 10891.0,
-    "original_price": 14000.0,
-    "discount_amount": 3109.0,
-    "discount_percent": 22.207142857142856,
-    "url": "https://www.amazon.co.jp/dp/B0D6MCGH7D?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 14:09:56"
-  },
-  {
-    "asin": "B0BKRJ43C5",
-    "title": "[ニューバランス] ウォーキングシューズ MW880 v6 Fresh Foam フレッシュフォーム 幅広 メンズ NR6(NAVY) 26.5 cm 4E",
-    "current_price": 10508.0,
-    "original_price": 13200.0,
-    "discount_amount": 2692.0,
-    "discount_percent": 20.393939393939394,
-    "url": "https://www.amazon.co.jp/dp/B0BKRJ43C5?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 14:10:15"
-  },
-  {
-    "asin": "B08YS8BL81",
-    "title": "コカ・コーラ やかんの麦茶 from 爽健美茶 650mlPET×24本",
-    "current_price": 1805.0,
-    "original_price": 2510.0,
-    "discount_amount": 705.0,
-    "discount_percent": 28.087649402390436,
-    "url": "https://www.amazon.co.jp/dp/B08YS8BL81?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 14:11:08"
   }
 ]
