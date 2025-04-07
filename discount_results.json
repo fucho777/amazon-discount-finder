@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B0CTJZCJH1",
+    "title": "MSI GeForce RTX 3050 LP 6G OC PCIe4.0 ロープロファイルサイズ 補助電源不要 デュアルファン搭載 グラフィックスボード VD8790",
+    "current_price": 27618.0,
+    "original_price": 32801.0,
+    "discount_amount": 5183.0,
+    "discount_percent": 15.801347519892687,
+    "url": "https://www.amazon.co.jp/dp/B0CTJZCJH1?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-07 07:36:06"
+  },
+  {
     "asin": "B0CYSCS3SC",
     "title": "[アディダス] サッカースパイク コパ ピュア 2 アルファスキン エリート HG/AG NKZ71 オーロラブラック/プラチナメタリック/ターボ(IG8712) 27.5 cm",
     "current_price": 9900.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 11:34:42"
-  },
-  {
-    "asin": "B01B14RGRI",
-    "title": "MSI GeForce GT710 GDDR3 2GB グラフィックスボード VD5931",
-    "current_price": 4627.0,
-    "original_price": 5907.0,
-    "discount_amount": 1280.0,
-    "discount_percent": 21.669206026747926,
-    "url": "https://www.amazon.co.jp/dp/B01B14RGRI?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 11:35:32"
   }
 ]
