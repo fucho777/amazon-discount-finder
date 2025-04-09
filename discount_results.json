@@ -1,5 +1,29 @@
 [
   {
+    "asin": "B00516RULK",
+    "title": "NATUREMADE(ネイチャーメイド) 大塚製薬スーパーマルチビタミン&ミネラル 120粒 120日分",
+    "current_price": 1973.0,
+    "original_price": 3078.0,
+    "discount_amount": 1105.0,
+    "discount_percent": 35.89993502274204,
+    "url": "https://www.amazon.co.jp/dp/B00516RULK?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-09 07:01:14"
+  },
+  {
+    "asin": "B09ZPNBGSC",
+    "title": "[ニューバランス] ランニングシューズ M411 現行モデル ランニング ウォーキング スニーカー 白 通学 幅広 軽量 メンズ",
+    "current_price": 2996.0,
+    "original_price": 6930.0,
+    "discount_amount": 3934.0,
+    "discount_percent": 56.76767676767677,
+    "url": "https://www.amazon.co.jp/dp/B09ZPNBGSC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-09 07:13:45"
+  },
+  {
     "asin": "B001MT6ZJ8",
     "title": "サクラクレパス クレパス 16色 ゴムバンド付き LP16R",
     "current_price": 592.0,
@@ -2374,29 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 13:39:46"
-  },
-  {
-    "asin": "B0DPZWMM4V",
-    "title": "KIOXIA(キオクシア) 旧東芝メモリ microSD 256GB EXCERIA PLUS UHS-I U3 V30 Class10 Nintendo Switch動作確認済 microSDXC 最大読出100MB/s 最大書込85MB/s 4K対応 国内サポート正規品 メーカー保証5年 KLMPAE256G",
-    "current_price": 3177.0,
-    "original_price": 3780.0,
-    "discount_amount": 603.0,
-    "discount_percent": 15.95238095238095,
-    "url": "https://www.amazon.co.jp/dp/B0DPZWMM4V?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 13:40:01"
-  },
-  {
-    "asin": "B0D86Z1QXD",
-    "title": "HARIO(ハリオ) 耐熱ガラス製 保存容器 角 600mL 3個セット 電子レンジOK 食洗機OK オーブンOK 透明アクアブルー 日本製 KST-3008-TAQB",
-    "current_price": 990.0,
-    "original_price": 1280.0,
-    "discount_amount": 290.0,
-    "discount_percent": 22.65625,
-    "url": "https://www.amazon.co.jp/dp/B0D86Z1QXD?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 13:44:36"
   }
 ]
