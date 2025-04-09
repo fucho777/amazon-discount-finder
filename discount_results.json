@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B0F37D3LDB",
+    "title": "タカラトミー(TAKARA TOMY) T-SPARK トランスフォーマー マスターピースGシリーズ MPG-17 オプティマスプライム Style Gen.",
+    "current_price": 19556.0,
+    "original_price": 24200.0,
+    "discount_amount": 4644.0,
+    "discount_percent": 19.1900826446281,
+    "url": "https://www.amazon.co.jp/dp/B0F37D3LDB?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-09 19:06:19"
+  },
+  {
     "asin": "B0DPWHLXPV",
     "title": "サクラクレパス クレパス 12色 ゴムバンド付き LP12R (× 2)",
     "current_price": 799.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 14:51:03"
-  },
-  {
-    "asin": "B0DHCTRH16",
-    "title": "【PS5】モンスターハンターワイルズ",
-    "current_price": 7988.0,
-    "original_price": 9990.0,
-    "discount_amount": 2002.0,
-    "discount_percent": 20.04004004004004,
-    "url": "https://www.amazon.co.jp/dp/B0DHCTRH16?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 14:53:44"
   }
 ]
