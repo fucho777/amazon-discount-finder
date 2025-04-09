@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B0DHCTRH16",
+    "title": "【PS5】モンスターハンターワイルズ",
+    "current_price": 7988.0,
+    "original_price": 9990.0,
+    "discount_amount": 2002.0,
+    "discount_percent": 20.04004004004004,
+    "url": "https://www.amazon.co.jp/dp/B0DHCTRH16?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-09 19:32:28"
+  },
+  {
     "asin": "B0F37D3LDB",
     "title": "タカラトミー(TAKARA TOMY) T-SPARK トランスフォーマー マスターピースGシリーズ MPG-17 オプティマスプライム Style Gen.",
     "current_price": 19556.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 14:48:55"
-  },
-  {
-    "asin": "B0CPPC2SZC",
-    "title": "【大容量】ハミング消臭実感 柔軟剤 つめこみ洗いも、部屋干しも、無敵消臭！ハミング内Ｎｏ．１抗菌 リフレッシュグリーンの香り つめかえ用 2,600ml",
-    "current_price": 1126.0,
-    "original_price": 1682.0,
-    "discount_amount": 556.0,
-    "discount_percent": 33.055885850178356,
-    "url": "https://www.amazon.co.jp/dp/B0CPPC2SZC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 14:51:03"
   }
 ]
