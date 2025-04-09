@@ -1,5 +1,41 @@
 [
   {
+    "asin": "B0BJMKCXNC",
+    "title": "2022 Apple 10.9インチiPad (Wi-Fi, 256GB) - ブルー (第10世代)",
+    "current_price": 67800.0,
+    "original_price": 84800.0,
+    "discount_amount": 17000.0,
+    "discount_percent": 20.047169811320757,
+    "url": "https://www.amazon.co.jp/dp/B0BJMKCXNC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-09 13:40:29"
+  },
+  {
+    "asin": "B00Q687954",
+    "title": "シルバニアファミリー 人形 【 ショコラウサギの赤ちゃん 】 ウ-90 STマーク認証 3歳以上 おもちゃ ドールハウス Sylvanian Families エポック社 EPOCH",
+    "current_price": 466.0,
+    "original_price": 699.0,
+    "discount_amount": 233.0,
+    "discount_percent": 33.33333333333333,
+    "url": "https://www.amazon.co.jp/dp/B00Q687954?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-09 13:58:23"
+  },
+  {
+    "asin": "B0BKRLB1V7",
+    "title": "[ニューバランス] ウォーキングシューズ MW880 v6 Fresh Foam フレッシュフォーム 幅広 メンズ BK6(BLACK) 26.5 cm 2E",
+    "current_price": 9329.0,
+    "original_price": 13200.0,
+    "discount_amount": 3871.0,
+    "discount_percent": 29.325757575757578,
+    "url": "https://www.amazon.co.jp/dp/B0BKRLB1V7?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-09 14:04:25"
+  },
+  {
     "asin": "B0DC7223RZ",
     "title": "ティファール 電気ケトル 1.2L 大容量 転倒お湯もれロック 「ジャスティン ロック カフェオーレ」 省スチーム設計 ブラウン KO5902JP",
     "current_price": 3500.0,
@@ -2362,41 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 15:03:01"
-  },
-  {
-    "asin": "B07SXG3VBP",
-    "title": "[UNDER ARMOUR(アンダーアーマー)]UA Tech 2.0 SS Tee Mens メンズ 001 日本 XL (日本サイズXL相当)",
-    "current_price": 1638.0,
-    "original_price": 2750.0,
-    "discount_amount": 1112.0,
-    "discount_percent": 40.43636363636364,
-    "url": "https://www.amazon.co.jp/dp/B07SXG3VBP?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 15:11:46"
-  },
-  {
-    "asin": "B01A8DSS3E",
-    "title": "トリガーポイント(TRIGGERPOINT) グリッド フォームローラー ブラック 筋膜ローラー ストレッチ [日本正規品]",
-    "current_price": 3674.0,
-    "original_price": 5450.0,
-    "discount_amount": 1776.0,
-    "discount_percent": 32.58715596330275,
-    "url": "https://www.amazon.co.jp/dp/B01A8DSS3E?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 15:12:02"
-  },
-  {
-    "asin": "B0030CZFN2",
-    "title": "シチズン 手首式血圧計 CH-650F ホワイト",
-    "current_price": 2680.0,
-    "original_price": 3834.0,
-    "discount_amount": 1154.0,
-    "discount_percent": 30.099113197704746,
-    "url": "https://www.amazon.co.jp/dp/B0030CZFN2?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 13:37:26"
   }
 ]
