@@ -1,5 +1,29 @@
 [
   {
+    "asin": "B0DC727MLS",
+    "title": "ティファール 電気ケトル 1.2L 大容量 転倒お湯もれロック 「ジャスティン ロック セージグリーン」 省スチーム設計 グリーン KO5903JP",
+    "current_price": 3500.0,
+    "original_price": 5051.0,
+    "discount_amount": 1551.0,
+    "discount_percent": 30.706790734508015,
+    "url": "https://www.amazon.co.jp/dp/B0DC727MLS?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": true,
+    "posted_at": "2025-04-09 14:47:14"
+  },
+  {
+    "asin": "B003FGLTVU",
+    "title": "サクラクレパス クレパス 24色 ゴムバンド付き LP24R",
+    "current_price": 909.0,
+    "original_price": 1210.0,
+    "discount_amount": 301.0,
+    "discount_percent": 24.87603305785124,
+    "url": "https://www.amazon.co.jp/dp/B003FGLTVU?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-09 14:59:05"
+  },
+  {
     "asin": "B0BJMKCXNC",
     "title": "2022 Apple 10.9インチiPad (Wi-Fi, 256GB) - ブルー (第10世代)",
     "current_price": 67800.0,
@@ -2374,29 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 14:55:55"
-  },
-  {
-    "asin": "B09CL2CJR1",
-    "title": "シーバ (Sheba) メルティ 猫用おやつ とろ~り とりささみ味&海の幸グルメセレクション 成猫用 12g×60本入",
-    "current_price": 1891.0,
-    "original_price": 2399.0,
-    "discount_amount": 508.0,
-    "discount_percent": 21.175489787411422,
-    "url": "https://www.amazon.co.jp/dp/B09CL2CJR1?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 15:01:54"
-  },
-  {
-    "asin": "B09R1LRB6T",
-    "title": "シーバ (Sheba) デュオ キャットフード 香りのまぐろ味セレクション 成猫用 200g×4個(まとめ買い)",
-    "current_price": 1371.0,
-    "original_price": 1792.0,
-    "discount_amount": 421.0,
-    "discount_percent": 23.493303571428573,
-    "url": "https://www.amazon.co.jp/dp/B09R1LRB6T?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 15:03:01"
   }
 ]
