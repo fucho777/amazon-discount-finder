@@ -1,5 +1,29 @@
 [
   {
+    "asin": "B01D4GJ41C",
+    "title": "コカ・コーラ 爽健美茶 600mlPET×24本",
+    "current_price": 2009.0,
+    "original_price": 2535.0,
+    "discount_amount": 526.0,
+    "discount_percent": 20.74950690335306,
+    "url": "https://www.amazon.co.jp/dp/B01D4GJ41C?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-10 09:13:02"
+  },
+  {
+    "asin": "B09TVVN5VN",
+    "title": "コカ・コーラ やかんの麦茶 from 爽健美茶 ラベルレス 650mlPET×24本",
+    "current_price": 2009.0,
+    "original_price": 2510.0,
+    "discount_amount": 501.0,
+    "discount_percent": 19.960159362549803,
+    "url": "https://www.amazon.co.jp/dp/B09TVVN5VN?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-10 09:13:11"
+  },
+  {
     "asin": "B09BTG3Z2X",
     "title": "ブレスラボ マルチケア マウスウォッシュ [ 2大口臭を原因から除去 ] ダブルミント 450ml 洗口液 口臭ケア 歯肉炎 歯垢付着予防【医薬部外品】",
     "current_price": 664.0,
@@ -2374,29 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-01 22:48:10"
-  },
-  {
-    "asin": "B007NU31RO",
-    "title": "ザムスト(ZAMST) アイシング 氷嚢(氷のう) アイスバッグ 野球 バスケ Mサイズ ピンク 378112",
-    "current_price": 1209.0,
-    "original_price": 1430.0,
-    "discount_amount": 221.0,
-    "discount_percent": 15.454545454545453,
-    "url": "https://www.amazon.co.jp/dp/B007NU31RO?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 22:55:07"
-  },
-  {
-    "asin": "B0DK4MW47N",
-    "title": "ソフケン アルミ額縁 スリムエイト ジグソーパズル1000ピース500Ｘ750 ブラック 【ジグソーパズル額 軽量で作品セットが簡単なジグソーパズルフレーム】",
-    "current_price": 3603.0,
-    "original_price": 4290.0,
-    "discount_amount": 687.0,
-    "discount_percent": 16.013986013986013,
-    "url": "https://www.amazon.co.jp/dp/B0DK4MW47N?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-01 21:51:09"
   }
 ]
