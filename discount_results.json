@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B0C8WBZ55T",
+    "title": "[チャンピオン] スウェット 半袖 裏毛 ワンポイントロゴ ショートスリーブクルーネックスウェットシャツ ベーシック C3-Z020 メンズ オックスフォードグレー XL",
+    "current_price": 3502.0,
+    "original_price": 5390.0,
+    "discount_amount": 1888.0,
+    "discount_percent": 35.0278293135436,
+    "url": "https://www.amazon.co.jp/dp/B0C8WBZ55T?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-11 07:53:52"
+  },
+  {
     "asin": "B0C2CC6Z5G",
     "title": "チャオ (CIAO) ちゅ~る 贅沢サーモンバラエティ 40本",
     "current_price": 1523.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-04-02 11:49:55"
-  },
-  {
-    "asin": "B0CM5JTYXW",
-    "title": "[ニューバランス] ウォーキングシューズ MW880 v6 Fresh Foam フレッシュフォーム 幅広 メンズ CA6(GRAY) 27.0 cm 4E",
-    "current_price": 9168.0,
-    "original_price": 13200.0,
-    "discount_amount": 4032.0,
-    "discount_percent": 30.545454545454547,
-    "url": "https://www.amazon.co.jp/dp/B0CM5JTYXW?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-02 11:08:40"
   }
 ]
