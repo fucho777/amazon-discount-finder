@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B018VO4EQW",
+    "title": "【第2類医薬品】アレジオン20 12錠",
+    "current_price": 999.0,
+    "original_price": 2178.0,
+    "discount_amount": 1179.0,
+    "discount_percent": 54.132231404958674,
+    "url": "https://www.amazon.co.jp/dp/B018VO4EQW?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-11 13:34:23"
+  },
+  {
     "asin": "B09BFHRCG1",
     "title": "VTCOSMETICS(ブイティコスメテックス) シカ CICA ノーセバム パウダー 5g 3種 フェイスパウダー 皮脂 オイリー肌 1個 (マイルドパウダー)",
     "current_price": 606.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-02 15:05:20"
-  },
-  {
-    "asin": "B018VSBIBC",
-    "title": "SALONIA サロニア ストレートアイロン ヘアアイロン 24mm 耐熱ポーチ付 海外対応 SL-004SW ホワイト",
-    "current_price": 3118.0,
-    "original_price": 3828.0,
-    "discount_amount": 710.0,
-    "discount_percent": 18.547544409613376,
-    "url": "https://www.amazon.co.jp/dp/B018VSBIBC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-02 13:37:26"
   }
 ]
