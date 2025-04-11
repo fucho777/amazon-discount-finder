@@ -1,5 +1,41 @@
 [
   {
+    "asin": "B0C2CC6Z5G",
+    "title": "チャオ (CIAO) ちゅ~る 贅沢サーモンバラエティ 40本",
+    "current_price": 1523.0,
+    "original_price": 2178.0,
+    "discount_amount": 655.0,
+    "discount_percent": 30.07346189164371,
+    "url": "https://www.amazon.co.jp/dp/B0C2CC6Z5G?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-11 05:47:26"
+  },
+  {
+    "asin": "B0CS5VFR68",
+    "title": "レゴ(LEGO) どうぶつの森 しずえさん、おうちにようこそ おもちゃ 玩具 誕生日 プレゼント ブロック 知育 女の子 男の子 子供 6歳 7歳 8歳 9歳 ゲーム ごっこ遊び おままごと 77049",
+    "current_price": 4373.0,
+    "original_price": 5436.0,
+    "discount_amount": 1063.0,
+    "discount_percent": 19.554819720382635,
+    "url": "https://www.amazon.co.jp/dp/B0CS5VFR68?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-11 05:48:06"
+  },
+  {
+    "asin": "B0BQXHHW4P",
+    "title": "[ミズノ] ランニングシューズ マキシマイザー 26 通勤 通学 ジョギング スニーカー スポーツ 運動 ブラック/ホワイト 26.0 cm 3E",
+    "current_price": 4405.0,
+    "original_price": 6490.0,
+    "discount_amount": 2085.0,
+    "discount_percent": 32.12634822804314,
+    "url": "https://www.amazon.co.jp/dp/B0BQXHHW4P?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-11 06:07:21"
+  },
+  {
     "asin": "B0DKHHYTGJ",
     "title": "ポケモンカードゲーム スカーレット＆バイオレット 拡張パック ロケット団の栄光 BOX",
     "current_price": 5412.0,
@@ -2362,41 +2398,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-04-02 11:08:40"
-  },
-  {
-    "asin": "B0BQXJ58NT",
-    "title": "[ミズノ] ランニングシューズ マキシマイザー 26 通勤 通学 ジョギング スニーカー スポーツ 運動 ブラック 24.5 cm 3E",
-    "current_price": 5169.0,
-    "original_price": 6490.0,
-    "discount_amount": 1321.0,
-    "discount_percent": 20.354391371340526,
-    "url": "https://www.amazon.co.jp/dp/B0BQXJ58NT?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-02 11:08:56"
-  },
-  {
-    "asin": "B0D5LXFB37",
-    "title": "[アディダスゴルフ] ゴルフシューズ コードカオス 25 ボア メンズ フットウェアホワイト／コアブラック／カレッジグリーン 26.0 cm 2E",
-    "current_price": 15756.0,
-    "original_price": 22000.0,
-    "discount_amount": 6244.0,
-    "discount_percent": 28.38181818181818,
-    "url": "https://www.amazon.co.jp/dp/B0D5LXFB37?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-02 10:03:10"
-  },
-  {
-    "asin": "B0DF71C69H",
-    "title": "【特価セット品 マウスパッド】SteelSeries Apex Pro TKL (2023) 日本語配列 ラピッドトリガー + マウスパッド QCK 25cm×21cm×0.2cm",
-    "current_price": 23171.0,
-    "original_price": 36360.0,
-    "discount_amount": 13189.0,
-    "discount_percent": 36.27337733773378,
-    "url": "https://www.amazon.co.jp/dp/B0DF71C69H?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-02 09:01:42"
   }
 ]
