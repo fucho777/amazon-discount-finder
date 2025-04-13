@@ -1,5 +1,41 @@
 [
   {
+    "asin": "B00F38B3NW",
+    "title": "オムロン 上腕式血圧計 HEM-7120シリーズ",
+    "current_price": 4480.0,
+    "original_price": 5436.0,
+    "discount_amount": 956.0,
+    "discount_percent": 17.58646063281825,
+    "url": "https://www.amazon.co.jp/dp/B00F38B3NW?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-13 14:33:31"
+  },
+  {
+    "asin": "B0D3PFJDV3",
+    "title": "アリエール 洗濯洗剤 ジェルボールプロ 部屋干し用 詰め替え 158個 [大容量]",
+    "current_price": 4299.0,
+    "original_price": 5272.0,
+    "discount_amount": 973.0,
+    "discount_percent": 18.455993930197266,
+    "url": "https://www.amazon.co.jp/dp/B0D3PFJDV3?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-13 14:48:19"
+  },
+  {
+    "asin": "B0DK4MN4R2",
+    "title": "ソフケン アルミ額縁 スリムエイト ジグソーパズル300ピース260Ｘ380 ブラウン 【ジグソーパズル額 軽量で作品セットが簡単なジグソーパズルフレーム】",
+    "current_price": 1962.0,
+    "original_price": 2310.0,
+    "discount_amount": 348.0,
+    "discount_percent": 15.064935064935064,
+    "url": "https://www.amazon.co.jp/dp/B0DK4MN4R2?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-13 14:52:28"
+  },
+  {
     "asin": "B0BJMHYGF6",
     "title": "2022 Apple 10.9インチiPad (Wi-Fi, 256GB) - ピンク (第10世代)",
     "current_price": 67800.0,
@@ -2362,41 +2398,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-04-04 15:04:20"
-  },
-  {
-    "asin": "B0BJMT4HMH",
-    "title": "2022 Apple 10.9インチiPad (Wi-Fi, 256GB) - イエロー (第10世代)",
-    "current_price": 67800.0,
-    "original_price": 84800.0,
-    "discount_amount": 17000.0,
-    "discount_percent": 20.047169811320757,
-    "url": "https://www.amazon.co.jp/dp/B0BJMT4HMH?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-04 13:20:51"
-  },
-  {
-    "asin": "B084DPDJXJ",
-    "title": "ザバス(SAVAS) ホエイプロテイン100 リッチショコラ味 280g 明治",
-    "current_price": 1818.0,
-    "original_price": 2959.0,
-    "discount_amount": 1141.0,
-    "discount_percent": 38.56032443393038,
-    "url": "https://www.amazon.co.jp/dp/B084DPDJXJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-04 13:29:50"
-  },
-  {
-    "asin": "B07LF84D5H",
-    "title": "【第2類医薬品】アレジオン20 24錠",
-    "current_price": 1877.0,
-    "original_price": 3938.0,
-    "discount_amount": 2061.0,
-    "discount_percent": 52.33621127475876,
-    "url": "https://www.amazon.co.jp/dp/B07LF84D5H?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-04 13:34:29"
   }
 ]
