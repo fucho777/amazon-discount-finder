@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B07T1ZBS4K",
+    "title": "[UNDER ARMOUR(アンダーアーマー)]UA Tech 2.0 SS Tee Mens メンズ 001 日本 LG (日本サイズL相当)",
+    "current_price": 1638.0,
+    "original_price": 2268.0,
+    "discount_amount": 630.0,
+    "discount_percent": 27.77777777777778,
+    "url": "https://www.amazon.co.jp/dp/B07T1ZBS4K?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-14 07:58:42"
+  },
+  {
     "asin": "B0CR1L9CLH",
     "title": "[チャンピオン] フルジップベスト ジャケット ボアフリース スクリプトロゴ刺繍 アウター ハイネック ベーシック C3-L617/C3-L617Z メンズ ネイビー",
     "current_price": 3713.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-04-04 20:36:22"
-  },
-  {
-    "asin": "B0BR89JJLL",
-    "title": "[チャンピオン] スウェット 長袖 裏毛 刺繍 スクリプトロゴ クルーネックスウェットシャツ メンズスポーツ C3-YS050Z オックスフォードグレー XL",
-    "current_price": 3558.0,
-    "original_price": 5390.0,
-    "discount_amount": 1832.0,
-    "discount_percent": 33.988868274582565,
-    "url": "https://www.amazon.co.jp/dp/B0BR89JJLL?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-04 19:10:08"
   }
 ]
