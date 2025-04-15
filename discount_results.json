@@ -1,5 +1,41 @@
 [
   {
+    "asin": "B0DC72VLVJ",
+    "title": "ティファール 電気ケトル 1.2L 大容量 転倒お湯もれロック 「ジャスティン ロック アイボリー」 省スチーム設計 KO590AJP",
+    "current_price": 3545.0,
+    "original_price": 5051.0,
+    "discount_amount": 1506.0,
+    "discount_percent": 29.81587804395169,
+    "url": "https://www.amazon.co.jp/dp/B0DC72VLVJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-15 11:18:42"
+  },
+  {
+    "asin": "B081NR6MG6",
+    "title": "[プーマ] ランニングシューズ スペースランナー/ALT 【Amazon.co.jp限定】 24年春夏カラー プーマ ブラック/プーマ ホワイト (01) 23.5 cm",
+    "current_price": 3781.0,
+    "original_price": 6050.0,
+    "discount_amount": 2269.0,
+    "discount_percent": 37.50413223140496,
+    "url": "https://www.amazon.co.jp/dp/B081NR6MG6?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-15 11:42:28"
+  },
+  {
+    "asin": "B0CM5LH9FT",
+    "title": "[ニューバランス] ウォーキングシューズ MW880 v6 Fresh Foam フレッシュフォーム 幅広 メンズ CA6(GRAY) 26.5 cm 4E",
+    "current_price": 9131.0,
+    "original_price": 13200.0,
+    "discount_amount": 4069.0,
+    "discount_percent": 30.825757575757574,
+    "url": "https://www.amazon.co.jp/dp/B0CM5LH9FT?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-15 11:42:35"
+  },
+  {
     "asin": "B08Q4KW82V",
     "title": "アイリスオーヤマ マスク 不織布プリーツ 120枚入 大容量 ふつうサイズ 幅16.5センチ 耳が痛くならない ホワイト Smart Basic【Amazon.co.jp限定】",
     "current_price": 990.0,
@@ -2362,41 +2398,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-04-06 08:58:50"
-  },
-  {
-    "asin": "B01N74TVIM",
-    "title": "パナソニック(Panasonic) コスモシリーズワイド21 埋込ほたるスイッチC 3路 WT50529",
-    "current_price": 444.0,
-    "original_price": 770.0,
-    "discount_amount": 326.0,
-    "discount_percent": 42.33766233766234,
-    "url": "https://www.amazon.co.jp/dp/B01N74TVIM?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-06 07:28:47"
-  },
-  {
-    "asin": "B07V1XKQW6",
-    "title": "エレコム 電源タップ 雷ガード 6個口 木目調 3m ウォルナット材 ECT-0203W",
-    "current_price": 2390.0,
-    "original_price": 3080.0,
-    "discount_amount": 690.0,
-    "discount_percent": 22.4025974025974,
-    "url": "https://www.amazon.co.jp/dp/B07V1XKQW6?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-06 07:29:03"
-  },
-  {
-    "asin": "B0DNSY6Y2X",
-    "title": "Dyson(ダイソン) コードレス掃除機 Dyson V8 Origin スティック ハンディクリーナー サイクロン (SV25 RD2 AM) 【Amazon.co.jp限定】【変わらないパワフルな吸引力。クリーニングクロス付き。】",
-    "current_price": 29900.0,
-    "original_price": 37000.0,
-    "discount_amount": 7100.0,
-    "discount_percent": 19.18918918918919,
-    "url": "https://www.amazon.co.jp/dp/B0DNSY6Y2X?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-06 07:29:21"
   }
 ]
