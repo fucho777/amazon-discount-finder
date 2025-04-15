@@ -1,5 +1,41 @@
 [
   {
+    "asin": "B018VO4BPG",
+    "title": "【第2類医薬品】アレジオン20 6錠",
+    "current_price": 741.0,
+    "original_price": 1518.0,
+    "discount_amount": 777.0,
+    "discount_percent": 51.18577075098815,
+    "url": "https://www.amazon.co.jp/dp/B018VO4BPG?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-15 13:44:37"
+  },
+  {
+    "asin": "B081NQQ1QN",
+    "title": "[プーマ] ランニングシューズ スペースランナー/ALT 【Amazon.co.jp限定】 24年春夏カラー プーマ ブラック/プーマ ホワイト (01) 26.5 cm",
+    "current_price": 3781.0,
+    "original_price": 6050.0,
+    "discount_amount": 2269.0,
+    "discount_percent": 37.50413223140496,
+    "url": "https://www.amazon.co.jp/dp/B081NQQ1QN?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-15 13:54:23"
+  },
+  {
+    "asin": "B0CQ4LWFR7",
+    "title": "[ミズノ] ランニングシューズ マキシマイザー 26 通勤 通学 ジョギング スニーカー スポーツ 運動 ブラック/ホワイト 24.0 cm 3E",
+    "current_price": 4385.0,
+    "original_price": 6490.0,
+    "discount_amount": 2105.0,
+    "discount_percent": 32.43451463790446,
+    "url": "https://www.amazon.co.jp/dp/B0CQ4LWFR7?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": false,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-15 13:54:30"
+  },
+  {
     "asin": "B0BKRK69FD",
     "title": "[ニューバランス] ウォーキングシューズ MW880 v6 Fresh Foam フレッシュフォーム 幅広 メンズ BK6(BLACK) 26.0 cm 2E",
     "current_price": 9329.0,
@@ -2362,41 +2398,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-04-06 11:38:38"
-  },
-  {
-    "asin": "B09CPBYZ2D",
-    "title": "【第2類医薬品】クラリチンEX 28錠",
-    "current_price": 2225.0,
-    "original_price": 3938.0,
-    "discount_amount": 1713.0,
-    "discount_percent": 43.49923819197562,
-    "url": "https://www.amazon.co.jp/dp/B09CPBYZ2D?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-06 11:39:39"
-  },
-  {
-    "asin": "B0DDKK9DRV",
-    "title": "ソニー 完全ワイヤレスイヤホン WF-C510 / 軽量小型4.6g / 高精度通話品質/外音取り込み対応/マルチポイント対応 / IPX4防滴性能 / ブルー/WF-C510 LC",
-    "current_price": 7591.0,
-    "original_price": 9900.0,
-    "discount_amount": 2309.0,
-    "discount_percent": 23.323232323232325,
-    "url": "https://www.amazon.co.jp/dp/B0DDKK9DRV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-06 11:49:11"
-  },
-  {
-    "asin": "B00061HGVY",
-    "title": "タミヤ(TAMIYA) 1/72 ウォーバードコレクション No.54 アメリカ陸軍 ノースアメリカン F-51D マスタング 朝鮮戦争仕様 プラモデル 60754",
-    "current_price": 881.0,
-    "original_price": 1100.0,
-    "discount_amount": 219.0,
-    "discount_percent": 19.90909090909091,
-    "url": "https://www.amazon.co.jp/dp/B00061HGVY?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-06 09:49:22"
   }
 ]
