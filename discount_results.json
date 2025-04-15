@@ -1,5 +1,17 @@
 [
   {
+    "asin": "B0CB879X1H",
+    "title": "【医薬部外品】なめらか本舗 薬用リンクルナイトクリーム ホワイト 豆乳イソフラボン",
+    "current_price": 973.0,
+    "original_price": 1210.0,
+    "discount_amount": 237.0,
+    "discount_percent": 19.58677685950413,
+    "url": "https://www.amazon.co.jp/dp/B0CB879X1H?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "posted_to_twitter": true,
+    "posted_to_threads": false,
+    "posted_at": "2025-04-15 20:31:53"
+  },
+  {
     "asin": "B0DPWJZW44",
     "title": "タカ印 ポップシール 22-2203 3割引 500片 (× 3)",
     "current_price": 575.0,
@@ -2386,17 +2398,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-06 18:58:48"
-  },
-  {
-    "asin": "B004S6FJDA",
-    "title": "イースター バニーセレクション ロップイヤー専用 1.3キログラム (x 1)",
-    "current_price": 1409.0,
-    "original_price": 1733.0,
-    "discount_amount": 324.0,
-    "discount_percent": 18.69590305828044,
-    "url": "https://www.amazon.co.jp/dp/B004S6FJDA?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-06 18:59:13"
   }
 ]
