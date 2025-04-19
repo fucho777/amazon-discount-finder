@@ -66,20 +66,23 @@ twitter_ready = all([TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET,
 logger.info("Twitter API認証情報チェック:")
 logger.info(f"  Twitter API利用準備: {'OK' if twitter_ready else 'NG - 投稿機能は無効'}")
 
-# Threads API設定（Meta Graph API）
-THREADS_APP_ID = os.getenv("THREADS_APP_ID")
-THREADS_APP_SECRET = os.getenv("THREADS_APP_SECRET")
-THREADS_LONG_LIVED_TOKEN = os.getenv("THREADS_LONG_LIVED_TOKEN")
-THREADS_INSTAGRAM_ACCOUNT_ID = os.getenv("THREADS_INSTAGRAM_ACCOUNT_ID")
+# Threads API設定（Meta Graph API）- コメントアウト
+# THREADS_APP_ID = os.getenv("THREADS_APP_ID")
+# THREADS_APP_SECRET = os.getenv("THREADS_APP_SECRET")
+# THREADS_LONG_LIVED_TOKEN = os.getenv("THREADS_LONG_LIVED_TOKEN")
+# THREADS_INSTAGRAM_ACCOUNT_ID = os.getenv("THREADS_INSTAGRAM_ACCOUNT_ID")
 
-# Threads認証情報のチェック
-threads_token_ready = bool(THREADS_LONG_LIVED_TOKEN)
-threads_app_ready = all([THREADS_APP_ID, THREADS_APP_SECRET])
-threads_account_ready = bool(THREADS_INSTAGRAM_ACCOUNT_ID)
-threads_ready = (threads_token_ready or threads_app_ready) and threads_account_ready
+# Threads認証情報のチェック - コメントアウト
+# threads_token_ready = bool(THREADS_LONG_LIVED_TOKEN)
+# threads_app_ready = all([THREADS_APP_ID, THREADS_APP_SECRET])
+# threads_account_ready = bool(THREADS_INSTAGRAM_ACCOUNT_ID)
+# threads_ready = (threads_token_ready or threads_app_ready) and threads_account_ready
 
-logger.info("Threads API認証情報チェック:")
-logger.info(f"  Threads API利用準備: {'OK' if threads_ready else 'NG - 投稿機能は無効'}")
+# logger.info("Threads API認証情報チェック:")
+# logger.info(f"  Threads API利用準備: {'OK' if threads_ready else 'NG - 投稿機能は無効'}")
+
+# Threads関連の変数をFalseに設定して無効化
+threads_ready = False
 
 # 設定ファイル
 CONFIG_FILE = "search_config.json"
@@ -540,8 +543,10 @@ def post_to_twitter(client, product):
         logger.error(f"X投稿エラー: {e}")
         return False
 
+# Threadsの関数をコメントアウト
+"""
 def get_threads_access_token():
-    """Threads APIのアクセストークンを取得"""
+    # Threads APIのアクセストークンを取得
     try:
         # 長期アクセストークンが既に存在する場合はそれを使用
         if THREADS_LONG_LIVED_TOKEN:
@@ -582,7 +587,7 @@ def get_threads_access_token():
         return None
 
 def post_to_threads(product):
-    """Threadsに投稿（Meta Graph API経由）"""
+    # Threadsに投稿（Meta Graph API経由）
     if not threads_ready:
         logger.warning("Threads認証情報が不足しています。Threads投稿はスキップされます。")
         return False
