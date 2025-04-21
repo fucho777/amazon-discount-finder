@@ -650,3 +650,110 @@ def save_results(all_results, new_results):
     except Exception as e:
         logger.error(f"結果保存エラー: {e}")
         return False
+
+def main():
+    """メイン処理"""
+    logger.info("==== 処理開始 ====")
+    
+    # コマンドライン引数を解析
+    parser = argparse.ArgumentParser(description='Amazon割引商品検索ツール')
+    parser.add_argument('--dry-run', action='store_true', help='SNS投稿をシミュレートのみ')
+    parser.add_argument('--debug', action='store_true', help='デバッグモードで実行')
+    args = parser.parse_args()
+    
+    global DRY_RUN, DEBUG_MODE
+    DRY_RUN = args.dry_run
+    DEBUG_MODE = args.debug
+    
+    if DRY_RUN:
+        logger.info("ドライランモードで実行します（SNS投稿は行いません）")
+    if DEBUG_MODE:
+        logger.setLevel(logging.DEBUG)
+        logger.info("デバッグモードで実行します")
+    
+    # 検索設定を読み込む
+    config = load_search_config()
+    
+    # 過去の投稿済みASINを読み込む
+    posted_asins = load_previous_results()
+    
+    # Twitter APIを設定
+    twitter_client = setup_twitter_api()
+    
+    # 割引商品を検索
+    all_results = []
+    new_results = []
+    posted_count = 0
+    
+    # カテゴリーごとに検索
+    for search_item in config["search_items"]:
+        category = search_item["category"]
+        keyword = search_item["keyword"]
+        
+        logger.info(f"カテゴリ: {category} キーワード: {keyword} を検索中...")
+        
+        # 商品を検索
+        items = search_items(keyword, category)
+        if not items:
+            logger.warning(f"商品が見つかりませんでした: {category} - {keyword}")
+            continue
+        
+        # 割引商品をフィルタリング
+        min_discount = config.get("min_discount_percent", MIN_DISCOUNT_PERCENT)
+        discounted_items = filter_discounted_items(items, min_discount)
+        
+        # 結果をall_resultsに追加
+        all_results.extend(discounted_items)
+        
+        # 新しい割引商品のみをSNSに投稿
+        for item in discounted_items:
+            if item["asin"] not in posted_asins:
+                # 現在の情報でアイテムを作成
+                current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                item_with_time = item.copy()
+                item_with_time['found_at'] = current_time
+                
+                new_results.append(item_with_time)
+                posted_asins.add(item["asin"])
+                
+                # Twitterに投稿
+                if twitter_client and posted_count < 5:  # 1回の実行での最大投稿数
+                    if post_to_twitter(twitter_client, item):
+                        posted_count += 1
+                    
+                    # API制限回避のための待機
+                    time.sleep(API_WAIT_TIME)
+    
+    # 結果を保存
+    if all_results:
+        logger.info(f"合計 {len(all_results)} 件の割引商品を検索しました")
+        logger.info(f"新規 {len(new_results)} 件の割引商品を見つけました")
+        
+        # 結果をJSON形式で保存
+        save_results(all_results, new_results)
+        
+        # 新しく見つかった割引商品を出力
+        if new_results:
+            logger.info("\n==== 新しく見つかった割引商品 ====")
+            for item in new_results:
+                logger.info(f"{item['title'][:50]}... - {item['discount_percent']:.1f}%オフ ({item['current_price']:,.0f}円)")
+                logger.info(f"URL: {item['url']}")
+                logger.info("---")
+    else:
+        logger.warning("割引商品が見つかりませんでした")
+    
+    logger.info(f"{posted_count}件をSNSに投稿しました")
+    logger.info("==== 処理完了 ====")
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        logger.warning("ユーザーによる中断")
+        sys.exit(1)
+    except Exception as e:
+        logger.error(f"予期せぬエラーが発生しました: {e}")
+        if DEBUG_MODE:
+            import traceback
+            logger.error(traceback.format_exc())
+        sys.exit(1)
