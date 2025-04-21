@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0BR8674YZ",
+    "title": "[チャンピオン] パーカー 長袖 裏毛 刺繍 スクリプトロゴ フーデッドスウェットシャツ メンズスポーツ C3-YS151Z ブラック XL",
+    "current_price": 3242.0,
+    "original_price": 6490.0,
+    "discount_amount": 3248.0,
+    "discount_percent": 50.046224961479204,
+    "url": "https://www.amazon.co.jp/dp/B0BR8674YZ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-21 04:32:03"
+  },
+  {
     "asin": "B0C2XN8HKD",
     "title": "Amazon Fire HD 10 タブレット - 10インチHD ディスプレイ 32GB ブラック",
     "current_price": 12980.0,
@@ -2358,17 +2368,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": true,
     "posted_at": "2025-04-09 07:01:14"
-  },
-  {
-    "asin": "B09ZPNBGSC",
-    "title": "[ニューバランス] ランニングシューズ M411 現行モデル ランニング ウォーキング スニーカー 白 通学 幅広 軽量 メンズ",
-    "current_price": 2996.0,
-    "original_price": 6930.0,
-    "discount_amount": 3934.0,
-    "discount_percent": 56.76767676767677,
-    "url": "https://www.amazon.co.jp/dp/B09ZPNBGSC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-09 07:13:45"
   }
 ]
