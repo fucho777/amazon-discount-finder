@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0B62ZWK92",
+    "title": "レグザ 55インチ 4K液晶テレビ 55Z570L 4Kチューナー内蔵 外付けHDD 裏番組録画 スマートテレビ (2022年モデル)",
+    "current_price": 100800.0,
+    "original_price": 170000.0,
+    "discount_amount": 69200.0,
+    "discount_percent": 40.705882352941174,
+    "url": "https://www.amazon.co.jp/dp/B0B62ZWK92?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-21 08:33:50"
+  },
+  {
     "asin": "B085WV8664",
     "title": "Echo Buds (エコーバッズ) 第2世代 - アクティブ ノイズキャンセリング 付き完全 ワイヤレスイヤホン with Alexa｜グレーシャーホワイト",
     "current_price": 5970.0,
@@ -2352,17 +2362,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": true,
     "posted_at": "2025-04-09 14:04:25"
-  },
-  {
-    "asin": "B0DC7223RZ",
-    "title": "ティファール 電気ケトル 1.2L 大容量 転倒お湯もれロック 「ジャスティン ロック カフェオーレ」 省スチーム設計 ブラウン KO5902JP",
-    "current_price": 3500.0,
-    "original_price": 5051.0,
-    "discount_amount": 1551.0,
-    "discount_percent": 30.706790734508015,
-    "url": "https://www.amazon.co.jp/dp/B0DC7223RZ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-09 11:29:32"
   }
 ]
