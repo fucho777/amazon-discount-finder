@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0DP3RHX6S",
+    "title": "[コンバース] ランニングシューズ CAVESTAR SS スリッポン 履きやすい ホワイト/ブラック 25.5 cm",
+    "current_price": 6377.0,
+    "original_price": 9790.0,
+    "discount_amount": 3413.0,
+    "discount_percent": 34.86210418794688,
+    "url": "https://www.amazon.co.jp/dp/B0DP3RHX6S?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-22 15:28:55"
+  },
+  {
     "asin": "B0CGR7XRYW",
     "title": "ゼンハイザー(Sennheiser) ワイヤレスヘッドホン ACCENTUM Wireless ホワイト 高性能ドライバー 50時間再生 ノイズキャンセリング クリアな通話",
     "current_price": 18400.0,
@@ -2338,17 +2348,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-09 19:32:28"
-  },
-  {
-    "asin": "B0F37D3LDB",
-    "title": "タカラトミー(TAKARA TOMY) T-SPARK トランスフォーマー マスターピースGシリーズ MPG-17 オプティマスプライム Style Gen.",
-    "current_price": 19556.0,
-    "original_price": 24200.0,
-    "discount_amount": 4644.0,
-    "discount_percent": 19.1900826446281,
-    "url": "https://www.amazon.co.jp/dp/B0F37D3LDB?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-09 19:06:19"
   }
 ]
