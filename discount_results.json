@@ -1,5 +1,35 @@
 [
   {
+    "asin": "B0DC71NK8T",
+    "title": "ティファール 電気ケトル 1.2L 大容量 転倒お湯もれロック 「ジャスティン ロック ブラック」 省スチーム設計 KO5908JP",
+    "current_price": 3362.0,
+    "original_price": 5051.0,
+    "discount_amount": 1689.0,
+    "discount_percent": 33.438922985547414,
+    "url": "https://www.amazon.co.jp/dp/B0DC71NK8T?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-22 19:20:31"
+  },
+  {
+    "asin": "B0C6LD957K",
+    "title": "ブラウン 電気シェーバー シリーズ5 電動 髭剃り メンズ 【Amazon.co.jp限定】 51-M1200s-V ミント キワゾリトリマー 防水設計 充電式 コードレス ディープキャッチ網刃",
+    "current_price": 8980.0,
+    "original_price": 12800.0,
+    "discount_amount": 3820.0,
+    "discount_percent": 29.843750000000004,
+    "url": "https://www.amazon.co.jp/dp/B0C6LD957K?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-22 19:20:34"
+  },
+  {
+    "asin": "B00E37SO0Y",
+    "title": "タニタ 体重計 体組成計 ヘルスメーター BC-705N【体脂肪率/内臓脂肪レベル/筋肉量/基礎代謝量/体内年齢/BMI/日本製/乗るピタ】",
+    "current_price": 2980.0,
+    "original_price": 3780.0,
+    "discount_amount": 800.0,
+    "discount_percent": 21.164021164021165,
+    "url": "https://www.amazon.co.jp/dp/B00E37SO0Y?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-22 19:20:37"
+  },
+  {
     "asin": "B0DP3RHX6S",
     "title": "[コンバース] ランニングシューズ CAVESTAR SS スリッポン 履きやすい ホワイト/ブラック 25.5 cm",
     "current_price": 6377.0,
@@ -2312,41 +2342,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-09 23:05:49"
-  },
-  {
-    "asin": "B0CPPC2SZC",
-    "title": "【大容量】ハミング消臭実感 柔軟剤 つめこみ洗いも、部屋干しも、無敵消臭！ハミング内Ｎｏ．１抗菌 リフレッシュグリーンの香り つめかえ用 2,600ml",
-    "current_price": 1187.0,
-    "original_price": 1529.0,
-    "discount_amount": 342.0,
-    "discount_percent": 22.3675604970569,
-    "url": "https://www.amazon.co.jp/dp/B0CPPC2SZC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-09 20:44:13"
-  },
-  {
-    "asin": "B0CQSPFJTY",
-    "title": "[チャンピオン] 帽子 綿100% グラフィックプリント メンズキャップ アクセサリーズゴルフ C3-AG703C オックスフォードグレー",
-    "current_price": 2908.0,
-    "original_price": 5280.0,
-    "discount_amount": 2372.0,
-    "discount_percent": 44.92424242424242,
-    "url": "https://www.amazon.co.jp/dp/B0CQSPFJTY?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-09 21:01:11"
-  },
-  {
-    "asin": "B0DHCTRH16",
-    "title": "【PS5】モンスターハンターワイルズ",
-    "current_price": 7988.0,
-    "original_price": 9990.0,
-    "discount_amount": 2002.0,
-    "discount_percent": 20.04004004004004,
-    "url": "https://www.amazon.co.jp/dp/B0DHCTRH16?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-09 19:32:28"
   }
 ]
