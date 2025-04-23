@@ -1,5 +1,35 @@
 [
   {
+    "asin": "B0BSNBQ4QV",
+    "title": "アイリスオーヤマ 血圧計 上腕式血圧計 BPU-101 簡単測定 医療機器認証",
+    "current_price": 3980.0,
+    "original_price": 4980.0,
+    "discount_amount": 1000.0,
+    "discount_percent": 20.080321285140563,
+    "url": "https://www.amazon.co.jp/dp/B0BSNBQ4QV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-23 07:28:17"
+  },
+  {
+    "asin": "B07SYXVRQN",
+    "title": "[アンダーアーマー] UA TECH GRAPHIC SHORT Mens メンズ 001 日本 XXL (日本サイズ3L相当)",
+    "current_price": 1508.0,
+    "original_price": 3850.0,
+    "discount_amount": 2342.0,
+    "discount_percent": 60.83116883116884,
+    "url": "https://www.amazon.co.jp/dp/B07SYXVRQN?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-23 07:30:53"
+  },
+  {
+    "asin": "B0C5R9BGFY",
+    "title": "[アンダーアーマー] トレーニングベースレイヤー UAヒートギアアーマー シャツスリーブ モック メンズ White/Graphite L",
+    "current_price": 1974.0,
+    "original_price": 3850.0,
+    "discount_amount": 1876.0,
+    "discount_percent": 48.72727272727273,
+    "url": "https://www.amazon.co.jp/dp/B0C5R9BGFY?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-23 07:30:56"
+  },
+  {
     "asin": "B07F26TCYH",
     "title": "[Amazon Essentials] カーディガン ニット ライトウエイト 前開き レディース ヘザーライトグレー 2XL",
     "current_price": 1960.0,
@@ -2300,41 +2330,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-10 03:14:41"
-  },
-  {
-    "asin": "B0CZD87HWR",
-    "title": "JBL GO4 Bluetoothスピーカー USB C充電/IP67防塵防水/アプリ対応/パッシブラジエーター搭載/ポータブル/ブラック JBLGO4BLK",
-    "current_price": 5690.0,
-    "original_price": 7700.0,
-    "discount_amount": 2010.0,
-    "discount_percent": 26.1038961038961,
-    "url": "https://www.amazon.co.jp/dp/B0CZD87HWR?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-10 03:34:07"
-  },
-  {
-    "asin": "B0D4TZNB3G",
-    "title": "OPPO Reno11 A ダークグリーン CPH2603 【日本正規代理店品】5G SIMフリー",
-    "current_price": 41113.0,
-    "original_price": 48800.0,
-    "discount_amount": 7687.0,
-    "discount_percent": 15.752049180327868,
-    "url": "https://www.amazon.co.jp/dp/B0D4TZNB3G?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-09 23:33:49"
-  },
-  {
-    "asin": "B0D4Z7SPGQ",
-    "title": "【大容量】アタック抗菌EX 洗濯洗剤 液体 ぎゅうぎゅうつめこみ洗いでも強力洗浄 つめかえ用 2900ｇ",
-    "current_price": 1087.0,
-    "original_price": 1436.0,
-    "discount_amount": 349.0,
-    "discount_percent": 24.303621169916433,
-    "url": "https://www.amazon.co.jp/dp/B0D4Z7SPGQ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-09 23:34:35"
   }
 ]
