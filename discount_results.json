@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B08LZFH2BX",
+    "title": "[ニューバランス] ランニングシューズ WE432 【Amazon.co.jp限定】 スニーカー 白 通学 軽量 レディース ブラック/ホワイト(LB2) 23.0 cm D",
+    "current_price": 4543.0,
+    "original_price": 6490.0,
+    "discount_amount": 1947.0,
+    "discount_percent": 30.0,
+    "url": "https://www.amazon.co.jp/dp/B08LZFH2BX?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-23 11:23:38"
+  },
+  {
     "asin": "B0BSNBQ4QV",
     "title": "アイリスオーヤマ 血圧計 上腕式血圧計 BPU-101 簡単測定 医療機器認証",
     "current_price": 3980.0,
@@ -2318,17 +2328,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-10 06:04:57"
-  },
-  {
-    "asin": "B0CX48SRML",
-    "title": "Motorola(モトローラ) motorola moto g24 8GB/128GB アイスグリーン【正規代理店品】PB1A0001JP",
-    "current_price": 17091.0,
-    "original_price": 20800.0,
-    "discount_amount": 3709.0,
-    "discount_percent": 17.83173076923077,
-    "url": "https://www.amazon.co.jp/dp/B0CX48SRML?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-10 03:14:41"
   }
 ]
