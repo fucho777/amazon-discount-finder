@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B07LGSTXTQ",
+    "title": "山本漢方製薬 徳用はとむぎ 15g×32包",
+    "current_price": 549.0,
+    "original_price": 867.0,
+    "discount_amount": 318.0,
+    "discount_percent": 36.67820069204152,
+    "url": "https://www.amazon.co.jp/dp/B07LGSTXTQ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-23 05:26:41"
+  },
+  {
     "asin": "B0CLY8LTQZ",
     "title": "[ニューバランス] ランニングシューズ W411 現行モデル ランニング ウォーキング スニーカー 白 通学 幅広 軽量 レディース CL3(BLUE) 23.5 cm D",
     "current_price": 4997.0,
@@ -2328,17 +2338,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-09 22:44:12"
-  },
-  {
-    "asin": "B0DQ3JP64L",
-    "title": "フレアフレグランス IROKA 柔軟剤 ネイキッドリリーの香り 詰め替え 1200ml + アタック抗菌EX 液体洗剤 詰め替え 2900ｇ",
-    "current_price": 2292.0,
-    "original_price": 3041.0,
-    "discount_amount": 749.0,
-    "discount_percent": 24.630055902663596,
-    "url": "https://www.amazon.co.jp/dp/B0DQ3JP64L?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-09 22:50:28"
   }
 ]
