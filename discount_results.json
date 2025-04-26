@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B000FQULYO",
+    "title": "大正製薬 リポビタンD 100mL×50本 【指定医薬部外品】 栄養ドリンク 疲労回復・栄養補給に タウリン配合",
+    "current_price": 6100.0,
+    "original_price": 7581.0,
+    "discount_amount": 1481.0,
+    "discount_percent": 19.535681308534496,
+    "url": "https://www.amazon.co.jp/dp/B000FQULYO?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-04-26 18:33:48"
+  },
+  {
     "asin": "B01D4GJ41C",
     "title": "コカ・コーラ 爽健美茶 600mlPET×24本",
     "current_price": 2009.0,
@@ -2296,17 +2306,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-10 15:24:32"
-  },
-  {
-    "asin": "B09S3HVWZC",
-    "title": "ピュリナ ワン キャット ドライ 避妊・去勢した猫の体重ケア 避妊・去勢後から全ての年齢に チキン 3.4ｋｇ",
-    "current_price": 2673.0,
-    "original_price": 3278.0,
-    "discount_amount": 605.0,
-    "discount_percent": 18.456375838926174,
-    "url": "https://www.amazon.co.jp/dp/B09S3HVWZC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-10 13:53:41"
   }
 ]
