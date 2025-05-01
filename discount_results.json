@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B09G97ZFRR",
+    "title": "【Amazon.co.jp限定】【大容量】シャンプー [ツヤ髪] フローラル&ベリーの香り ダイアンDX エクストラシャイン 詰め替え 1000ml",
+    "current_price": 1031.0,
+    "original_price": 1430.0,
+    "discount_amount": 399.0,
+    "discount_percent": 27.9020979020979,
+    "url": "https://www.amazon.co.jp/dp/B09G97ZFRR?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-01 22:26:08"
+  },
+  {
     "asin": "B0DTP84SZV",
     "title": "パナソニック ドライヤー イオニティ 速乾 大風量 ダークグレー EH-NE4K-H",
     "current_price": 3509.0,
@@ -2288,17 +2298,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-10 16:25:02"
-  },
-  {
-    "asin": "B0BQXHV6J8",
-    "title": "[ミズノ] ランニングシューズ マキシマイザー 26 通勤 通学 ジョギング スニーカー スポーツ 運動 ブラック/ホワイト 25.5 cm 3E",
-    "current_price": 4405.0,
-    "original_price": 6490.0,
-    "discount_amount": 2085.0,
-    "discount_percent": 32.12634822804314,
-    "url": "https://www.amazon.co.jp/dp/B0BQXHV6J8?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-10 16:39:57"
   }
 ]
