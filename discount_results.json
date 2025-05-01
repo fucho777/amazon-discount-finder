@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0DTP84SZV",
+    "title": "パナソニック ドライヤー イオニティ 速乾 大風量 ダークグレー EH-NE4K-H",
+    "current_price": 3509.0,
+    "original_price": 4400.0,
+    "discount_amount": 891.0,
+    "discount_percent": 20.25,
+    "url": "https://www.amazon.co.jp/dp/B0DTP84SZV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-01 15:25:45"
+  },
+  {
     "asin": "B0CBMDMYMK",
     "title": "Bluetooth スピーカー 12W 防水スピーカー ブルートゥース ワイヤレススピーカー 小型 IPX7防水 Bluetooth 5.3 Type-C充電 風呂 TWS 二台接続 約20時間再生可能 モバイルスピーカー コンパクト (ブラック)",
     "current_price": 2999.0,
@@ -2290,17 +2300,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-10 16:39:57"
-  },
-  {
-    "asin": "B0D6YJW5VC",
-    "title": "Motorola(モトローラ) motorola g64 5G 8GB/128GB スペースブラック 【正規代理店品】 PB2G0000JP",
-    "current_price": 28909.0,
-    "original_price": 34800.0,
-    "discount_amount": 5891.0,
-    "discount_percent": 16.92816091954023,
-    "url": "https://www.amazon.co.jp/dp/B0D6YJW5VC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-10 14:44:29"
   }
 ]
