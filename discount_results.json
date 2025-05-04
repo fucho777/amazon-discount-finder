@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0DLFVRG9L",
+    "title": "[チャムス] レトロ Chumley's Market Pocket T-Shirt メンズ Black",
+    "current_price": 3861.0,
+    "original_price": 5940.0,
+    "discount_amount": 2079.0,
+    "discount_percent": 35.0,
+    "url": "https://www.amazon.co.jp/dp/B0DLFVRG9L?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-04 21:24:06"
+  },
+  {
     "asin": "B0C8VQG181",
     "title": "[チャンピオン] ポロシャツ 半袖 綿100% 刺繍 ワンポイントロゴ ショートスリーブポロシャツ ベーシック C3-Z358Z メンズ ブラック L",
     "current_price": 2864.0,
@@ -2280,17 +2290,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-11 03:25:19"
-  },
-  {
-    "asin": "B00PY3EYQO",
-    "title": "レゴ(LEGO) クラシック 黄色のアイデアボックス <スペシャル> おもちゃ 玩具 誕生日 プレゼント ブロック 知育 男の子 女の子 子供 4歳 5歳 6歳 7歳 ごっこ遊び おままごと 街づくり 10698",
-    "current_price": 5404.0,
-    "original_price": 6618.0,
-    "discount_amount": 1214.0,
-    "discount_percent": 18.34391054699305,
-    "url": "https://www.amazon.co.jp/dp/B00PY3EYQO?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-11 03:31:11"
   }
 ]
