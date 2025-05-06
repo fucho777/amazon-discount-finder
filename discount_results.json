@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B07HZ141YM",
+    "title": "クリアクリーン 【まとめ買い】 ネクスデント ピュアミント 120g×3本セット",
+    "current_price": 821.0,
+    "original_price": 1148.0,
+    "discount_amount": 327.0,
+    "discount_percent": 28.484320557491287,
+    "url": "https://www.amazon.co.jp/dp/B07HZ141YM?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-06 06:36:39"
+  },
+  {
     "asin": "B0DLFVRG9L",
     "title": "[チャムス] レトロ Chumley's Market Pocket T-Shirt メンズ Black",
     "current_price": 3861.0,
@@ -2278,17 +2288,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-11 03:17:14"
-  },
-  {
-    "asin": "B0D9ZJ5855",
-    "title": "ハミングフレア フラワーハーモニー 詰め替え大容量 2500ml",
-    "current_price": 1192.0,
-    "original_price": 1600.0,
-    "discount_amount": 408.0,
-    "discount_percent": 25.5,
-    "url": "https://www.amazon.co.jp/dp/B0D9ZJ5855?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-11 03:25:19"
   }
 ]
