@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0BTYLWH42",
+    "title": "[モズ] ドライビングシューズ MZ55194517 レディース カーキ 24.5 cm 3E",
+    "current_price": 2151.0,
+    "original_price": 3100.0,
+    "discount_amount": 949.0,
+    "discount_percent": 30.612903225806456,
+    "url": "https://www.amazon.co.jp/dp/B0BTYLWH42?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-07 13:39:51"
+  },
+  {
     "asin": "B0BZJ74655",
     "title": "[チャンピオン] Tシャツ 半袖 綿100% 定番 COTTON USA ワンポイントロゴ刺繍 ショートスリーブTシャツ ベーシック C3-P300Z/C3-X352L メンズ オートミール L",
     "current_price": 1929.0,
@@ -2274,17 +2284,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-11 05:03:05"
-  },
-  {
-    "asin": "B0CQX1ZBY5",
-    "title": "[チャンピオン] トレーナー 長袖 丸首 裏毛 スクリプトロゴ ハーフジップスウェットシャツ CW-A009 レディース ベージュ",
-    "current_price": 4104.0,
-    "original_price": 7590.0,
-    "discount_amount": 3486.0,
-    "discount_percent": 45.92885375494071,
-    "url": "https://www.amazon.co.jp/dp/B0CQX1ZBY5?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-11 05:07:18"
   }
 ]
