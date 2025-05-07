@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0BZJ74655",
+    "title": "[チャンピオン] Tシャツ 半袖 綿100% 定番 COTTON USA ワンポイントロゴ刺繍 ショートスリーブTシャツ ベーシック C3-P300Z/C3-X352L メンズ オートミール L",
+    "current_price": 1929.0,
+    "original_price": 2970.0,
+    "discount_amount": 1041.0,
+    "discount_percent": 35.05050505050505,
+    "url": "https://www.amazon.co.jp/dp/B0BZJ74655?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-07 09:30:33"
+  },
+  {
     "asin": "B07HZ141YM",
     "title": "クリアクリーン 【まとめ買い】 ネクスデント ピュアミント 120g×3本セット",
     "current_price": 821.0,
@@ -2276,17 +2286,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-11 05:07:18"
-  },
-  {
-    "asin": "B0D9ZR1WLX",
-    "title": "ハミングフレア サボンデサボン 詰め替え大容量 2500ml",
-    "current_price": 1258.0,
-    "original_price": 1600.0,
-    "discount_amount": 342.0,
-    "discount_percent": 21.375,
-    "url": "https://www.amazon.co.jp/dp/B0D9ZR1WLX?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-11 03:17:14"
   }
 ]
