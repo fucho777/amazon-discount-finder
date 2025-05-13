@@ -1,5 +1,35 @@
 [
   {
+    "asin": "B000FQTQV8",
+    "title": "NATUREMADE(ネイチャーメイド) 大塚製薬B-コンプレックス 60粒 60日分",
+    "current_price": 727.0,
+    "original_price": 1026.0,
+    "discount_amount": 299.0,
+    "discount_percent": 29.142300194931774,
+    "url": "https://www.amazon.co.jp/dp/B000FQTQV8?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-13 09:37:18"
+  },
+  {
+    "asin": "B0D4Z7RRLP",
+    "title": "アタック 【大容量】抗菌EX 部屋干し用 洗濯洗剤 液体 じめじめ密集干しでも強力消臭 つめかえ用 2770ｇ",
+    "current_price": 1087.0,
+    "original_price": 1436.0,
+    "discount_amount": 349.0,
+    "discount_percent": 24.303621169916433,
+    "url": "https://www.amazon.co.jp/dp/B0D4Z7RRLP?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-13 09:39:59"
+  },
+  {
+    "asin": "B0CQ84RC1G",
+    "title": "ライオン デントヘルス薬用ハミガキDX 85g",
+    "current_price": 927.0,
+    "original_price": 1551.0,
+    "discount_amount": 624.0,
+    "discount_percent": 40.232108317214696,
+    "url": "https://www.amazon.co.jp/dp/B0CQ84RC1G?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-13 09:40:54"
+  },
+  {
     "asin": "B09S32HVVB",
     "title": "ドギーマン 無添加良品 香りあふれる贅沢ささみスティック 120ｇ",
     "current_price": 487.0,
@@ -2178,41 +2208,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-13 04:35:07"
-  },
-  {
-    "asin": "B0006334AO",
-    "title": "マテルゲーム(Mattel Game) ウノ(UNO) ウノ カードゲーム パーティーゲーム 2~10人用 7歳から B7696",
-    "current_price": 791.0,
-    "original_price": 1100.0,
-    "discount_amount": 309.0,
-    "discount_percent": 28.09090909090909,
-    "url": "https://www.amazon.co.jp/dp/B0006334AO?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-12 17:51:38"
-  },
-  {
-    "asin": "B0CHVR65ZK",
-    "title": "ブラザー PRIVIO カラー プリンター A4インクジェット複合機 DCP-J528N (Wi-Fi/自動両面印刷/スマホ対応/2023年モデル)",
-    "current_price": 15344.0,
-    "original_price": 19250.0,
-    "discount_amount": 3906.0,
-    "discount_percent": 20.29090909090909,
-    "url": "https://www.amazon.co.jp/dp/B0CHVR65ZK?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": true,
-    "posted_at": "2025-04-12 14:46:40"
-  },
-  {
-    "asin": "B0BQXH1DGD",
-    "title": "[ミズノ] ランニングシューズ マキシマイザー 26 通勤 通学 ジョギング スニーカー スポーツ 運動 ブラック/ホワイト 24.5 cm 3E",
-    "current_price": 4405.0,
-    "original_price": 6490.0,
-    "discount_amount": 2085.0,
-    "discount_percent": 32.12634822804314,
-    "url": "https://www.amazon.co.jp/dp/B0BQXH1DGD?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-12 14:59:15"
   }
 ]
