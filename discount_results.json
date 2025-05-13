@@ -1,5 +1,35 @@
 [
   {
+    "asin": "B09S32HVVB",
+    "title": "ドギーマン 無添加良品 香りあふれる贅沢ささみスティック 120ｇ",
+    "current_price": 487.0,
+    "original_price": 745.0,
+    "discount_amount": 258.0,
+    "discount_percent": 34.630872483221474,
+    "url": "https://www.amazon.co.jp/dp/B09S32HVVB?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-13 06:48:41"
+  },
+  {
+    "asin": "B09G2TPXQR",
+    "title": "[アディダス] ジャージ上下セット エアロレディ セレーノカット 3ストライプス トラックスーツ IZA33 メンズ ブラック/ホワイト (H28922) XO",
+    "current_price": 4229.0,
+    "original_price": 7689.0,
+    "discount_amount": 3460.0,
+    "discount_percent": 44.99934972037976,
+    "url": "https://www.amazon.co.jp/dp/B09G2TPXQR?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-13 06:53:07"
+  },
+  {
+    "asin": "B0D7VDRYTN",
+    "title": "[チャンピオン] スウェット 半袖 裏毛 ワンポイントロゴ刺繍 ショートスリーブクルーネックスウェットシャツ ベーシック C3-Z020 メンズ ｳｨﾝｻﾞｰﾌﾞﾙｰ",
+    "current_price": 4110.0,
+    "original_price": 5390.0,
+    "discount_amount": 1280.0,
+    "discount_percent": 23.747680890538035,
+    "url": "https://www.amazon.co.jp/dp/B0D7VDRYTN?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-13 06:53:10"
+  },
+  {
     "asin": "B0DF725SYZ",
     "title": "【特価セット品 マウスパッド】SteelSeries Apex Pro TKL (2023) US配列 + マウスパッド QCK 25cm×21cm×0.2cm",
     "current_price": 30707.0,
@@ -2184,41 +2214,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-12 14:59:15"
-  },
-  {
-    "asin": "B08GLT74Y5",
-    "title": "SALONIA サロニア スピーディーイオン ドライヤー 大風量 速乾 軽量 マイナスイオン ヘアドライヤー SL-013NV ネイビー",
-    "current_price": 4709.0,
-    "original_price": 5918.0,
-    "discount_amount": 1209.0,
-    "discount_percent": 20.429199053734372,
-    "url": "https://www.amazon.co.jp/dp/B08GLT74Y5?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-12 13:05:15"
-  },
-  {
-    "asin": "B0DJLXVN1N",
-    "title": "[洗剤&柔軟剤セット] アタック抗菌EX 液体洗剤 詰め替え 2900ｇ + ハミング消臭実感 柔軟剤 リフレッシュグリーンの香り 詰め替え 2600ml",
-    "current_price": 2274.0,
-    "original_price": 2965.0,
-    "discount_amount": 691.0,
-    "discount_percent": 23.30522765598651,
-    "url": "https://www.amazon.co.jp/dp/B0DJLXVN1N?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-12 13:18:26"
-  },
-  {
-    "asin": "B0D6MG29CC",
-    "title": "[ザノースフェイス] ジャケット コンパクトジャケット メンズ 撥水 軽量 マウンテンブルー/ヒーローブルー S",
-    "current_price": 11214.0,
-    "original_price": 14000.0,
-    "discount_amount": 2786.0,
-    "discount_percent": 19.900000000000002,
-    "url": "https://www.amazon.co.jp/dp/B0D6MG29CC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-12 13:28:23"
   }
 ]
