@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B09N6R7RWF",
+    "title": "フィリックス パウチ 我慢できない隠し味ゼリー お肉バラエティ 50gX12袋",
+    "current_price": 585.0,
+    "original_price": 699.0,
+    "discount_amount": 114.0,
+    "discount_percent": 16.30901287553648,
+    "url": "https://www.amazon.co.jp/dp/B09N6R7RWF?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-13 13:06:00"
+  },
+  {
     "asin": "B0DJLQBLJZ",
     "title": "KATO Nゲージ ツム1000 積荷付 (2両入) 鉄道模型 貨車 8057",
     "current_price": 1681.0,
@@ -2192,17 +2202,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-13 11:05:10"
-  },
-  {
-    "asin": "B09Q8RK75B",
-    "title": "サントリー 機能性表示食品 伊右衛門 濃い味 600ml×24本",
-    "current_price": 2275.0,
-    "original_price": 4147.0,
-    "discount_amount": 1872.0,
-    "discount_percent": 45.141065830721004,
-    "url": "https://www.amazon.co.jp/dp/B09Q8RK75B?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-13 09:05:53"
   }
 ]
