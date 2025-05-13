@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0D9ZG8RN4",
+    "title": "フレアフレグランス ハミングフレア リッチフローラル 詰め替え大容量 2500ml",
+    "current_price": 1187.0,
+    "original_price": 1600.0,
+    "discount_amount": 413.0,
+    "discount_percent": 25.8125,
+    "url": "https://www.amazon.co.jp/dp/B0D9ZG8RN4?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-13 18:48:38"
+  },
+  {
     "asin": "B07R3SNQRV",
     "title": "ぷよぷよeスポーツ - Switch",
     "current_price": 1600.0,
@@ -2186,17 +2196,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-13 11:49:26"
-  },
-  {
-    "asin": "B0002QYRWY",
-    "title": "オムロン デジタル自動血圧計 HEM-1000",
-    "current_price": 11298.0,
-    "original_price": 14800.0,
-    "discount_amount": 3502.0,
-    "discount_percent": 23.66216216216216,
-    "url": "https://www.amazon.co.jp/dp/B0002QYRWY?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-13 10:40:20"
   }
 ]
