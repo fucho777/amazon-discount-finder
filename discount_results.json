@@ -1,5 +1,25 @@
 [
   {
+    "asin": "B0BD7K51YW",
+    "title": "ヤマハ YAMAHA 軽量 譜面台 MS-260AL アルミ製 折りたたみ式 持ち運びに便利 ソフトケース付",
+    "current_price": 4236.0,
+    "original_price": 5940.0,
+    "discount_amount": 1704.0,
+    "discount_percent": 28.68686868686869,
+    "url": "https://www.amazon.co.jp/dp/B0BD7K51YW?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-14 15:23:43"
+  },
+  {
+    "asin": "B0BGXGGKPM",
+    "title": "[アディダス] ソックス 薄手・軽量アンクルソックス3足組 EBL54 メンズ ブラック/ホワイト (IC1282) S",
+    "current_price": 1091.0,
+    "original_price": 1650.0,
+    "discount_amount": 559.0,
+    "discount_percent": 33.87878787878788,
+    "url": "https://www.amazon.co.jp/dp/B0BGXGGKPM?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-14 15:27:33"
+  },
+  {
     "asin": "B07V1XKQW6",
     "title": "エレコム 電源タップ 雷ガード 6個口 木目調 3m ウォルナット材 ECT-0203W",
     "current_price": 2149.0,
@@ -2156,29 +2176,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-13 15:52:52"
-  },
-  {
-    "asin": "B00F38B3NW",
-    "title": "オムロン 上腕式血圧計 HEM-7120シリーズ",
-    "current_price": 4480.0,
-    "original_price": 5436.0,
-    "discount_amount": 956.0,
-    "discount_percent": 17.58646063281825,
-    "url": "https://www.amazon.co.jp/dp/B00F38B3NW?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-13 14:33:31"
-  },
-  {
-    "asin": "B0D3PFJDV3",
-    "title": "アリエール 洗濯洗剤 ジェルボールプロ 部屋干し用 詰め替え 158個 [大容量]",
-    "current_price": 4299.0,
-    "original_price": 5272.0,
-    "discount_amount": 973.0,
-    "discount_percent": 18.455993930197266,
-    "url": "https://www.amazon.co.jp/dp/B0D3PFJDV3?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-13 14:48:19"
   }
 ]
