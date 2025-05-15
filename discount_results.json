@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0CG5JNV2N",
+    "title": "キュキュット 【大容量】 食器用洗剤 長もち泡がパッ! キュッと実感! オレンジの香り 詰替え用 1380ｍｌ",
+    "current_price": 709.0,
+    "original_price": 941.0,
+    "discount_amount": 232.0,
+    "discount_percent": 24.654622741764083,
+    "url": "https://www.amazon.co.jp/dp/B0CG5JNV2N?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-15 20:38:00"
+  },
+  {
     "asin": "B0CSFN6MNM",
     "title": "アリエール 洗濯洗剤 液体 部屋干しプラス 詰め替え 815g×6袋 部屋干しも生乾き臭ゼロへ [タテ・ドラム式OK] 【Amazon.co.jp限定】",
     "current_price": 1942.0,
@@ -2146,17 +2156,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-14 11:11:30"
-  },
-  {
-    "asin": "B00DAHVVOE",
-    "title": "[ユナイテッドアスレ] 5.6オンス ハイクオリティーTシャツ 500101 L グレー M",
-    "current_price": 1000.0,
-    "original_price": 1496.0,
-    "discount_amount": 496.0,
-    "discount_percent": 33.155080213903744,
-    "url": "https://www.amazon.co.jp/dp/B00DAHVVOE?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-14 11:11:37"
   }
 ]
