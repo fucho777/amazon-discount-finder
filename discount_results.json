@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0DYJHD1DM",
+    "title": "moto g05 フレッシュラベンダー",
+    "current_price": 17091.0,
+    "original_price": 20800.0,
+    "discount_amount": 3709.0,
+    "discount_percent": 17.83173076923077,
+    "url": "https://www.amazon.co.jp/dp/B0DYJHD1DM?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-15 22:19:27"
+  },
+  {
     "asin": "B0CG5JNV2N",
     "title": "キュキュット 【大容量】 食器用洗剤 長もち泡がパッ! キュッと実感! オレンジの香り 詰替え用 1380ｍｌ",
     "current_price": 709.0,
@@ -2144,17 +2154,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-14 11:11:22"
-  },
-  {
-    "asin": "B081NRQ2GH",
-    "title": "[プーマ] ランニングシューズ スペースランナー/ALT 【Amazon.co.jp限定】 24年春夏カラー プーマ ブラック/ウルトラ グレー (05) 26.5 cm",
-    "current_price": 3781.0,
-    "original_price": 6050.0,
-    "discount_amount": 2269.0,
-    "discount_percent": 37.50413223140496,
-    "url": "https://www.amazon.co.jp/dp/B081NRQ2GH?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-14 11:11:30"
   }
 ]
