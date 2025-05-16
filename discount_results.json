@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0BW9D1GCL",
+    "title": "チャオ (CIAO) ちゅ~るごはん まぐろバラエティ 20本 猫用おやつ",
+    "current_price": 755.0,
+    "original_price": 1078.0,
+    "discount_amount": 323.0,
+    "discount_percent": 29.962894248608535,
+    "url": "https://www.amazon.co.jp/dp/B0BW9D1GCL?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-16 16:29:26"
+  },
+  {
     "asin": "B0DYJSQ5K5",
     "title": "Motorola(モトローラ) moto g05 8/128 ミスティブルー 【正規代理店品】 PB6N0003JP",
     "current_price": 17091.0,
@@ -2120,17 +2130,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-14 21:47:13"
-  },
-  {
-    "asin": "B0BQXGPHSW",
-    "title": "[ミズノ] ランニングシューズ マキシマイザー 26 通勤 通学 ジョギング スニーカー スポーツ 運動 ブラック/ホワイト 26.5 cm 3E",
-    "current_price": 4385.0,
-    "original_price": 6490.0,
-    "discount_amount": 2105.0,
-    "discount_percent": 32.43451463790446,
-    "url": "https://www.amazon.co.jp/dp/B0BQXGPHSW?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-14 21:04:35"
   }
 ]
