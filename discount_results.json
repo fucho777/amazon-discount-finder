@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B00OIO5GQM",
+    "title": "コジット 多目的廃棄物ノコギリ",
+    "current_price": 1400.0,
+    "original_price": 2178.0,
+    "discount_amount": 778.0,
+    "discount_percent": 35.720844811753906,
+    "url": "https://www.amazon.co.jp/dp/B00OIO5GQM?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-19 03:19:00"
+  },
+  {
     "asin": "B0CWL9YQ9R",
     "title": "アタックZERO アタック液体史上 最高の清潔力。無菌レベルの消臭力 部屋干し ワンハンドタイプ",
     "current_price": 424.0,
@@ -2084,17 +2094,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-15 11:04:07"
-  },
-  {
-    "asin": "B0BR87NFLX",
-    "title": "[チャンピオン] パーカー 長袖 裏毛 刺繍 速乾 スクリプトロゴ ジップフーデッドスウェットシャツ メンズスポーツ C3-YS150Z オックスフォードグレー M",
-    "current_price": 3331.0,
-    "original_price": 7150.0,
-    "discount_amount": 3819.0,
-    "discount_percent": 53.412587412587406,
-    "url": "https://www.amazon.co.jp/dp/B0BR87NFLX?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-15 11:08:20"
   }
 ]
