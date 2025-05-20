@@ -1,5 +1,35 @@
 [
   {
+    "asin": "B008Q01P8M",
+    "title": "フジワラ(FUJIWARA) カリスマ六宝型 30号 シルバー",
+    "current_price": 613.0,
+    "original_price": 994.0,
+    "discount_amount": 381.0,
+    "discount_percent": 38.329979879275655,
+    "url": "https://www.amazon.co.jp/dp/B008Q01P8M?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-20 18:55:37"
+  },
+  {
+    "asin": "B007E5JU5A",
+    "title": "D&M(ディーアンドエム) 膝サポーター バレーボール 膝用 10mm 薄型 パッド付 大人用 1個入 日本製 黒 Mサイズ D-809 トリコットニー ディファンク 衝撃 通気 伸縮 吸汗 速乾 サポート ユニセックス JVA公認",
+    "current_price": 1227.0,
+    "original_price": 1815.0,
+    "discount_amount": 588.0,
+    "discount_percent": 32.396694214876035,
+    "url": "https://www.amazon.co.jp/dp/B007E5JU5A?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-20 18:55:40"
+  },
+  {
+    "asin": "B00UWIAD3Y",
+    "title": "ニッタク(Nittaku) ルミスターショーツ NW-2503 ブラック O",
+    "current_price": 3639.0,
+    "original_price": 4400.0,
+    "discount_amount": 761.0,
+    "discount_percent": 17.295454545454543,
+    "url": "https://www.amazon.co.jp/dp/B00UWIAD3Y?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-20 18:55:44"
+  },
+  {
     "asin": "B017MLYEAQ",
     "title": "スノー滑らナイゼン オールスパイクLサイズ",
     "current_price": 1155.0,
@@ -2042,41 +2072,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-15 15:36:22"
-  },
-  {
-    "asin": "B0F37TMQYK",
-    "title": "アサヒ飲料 三ツ矢THE檸檬 570ml×24本[サイダー]",
-    "current_price": 1698.0,
-    "original_price": 2958.0,
-    "discount_amount": 1260.0,
-    "discount_percent": 42.59634888438134,
-    "url": "https://www.amazon.co.jp/dp/B0F37TMQYK?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-15 15:49:14"
-  },
-  {
-    "asin": "B00061HGVY",
-    "title": "タミヤ(TAMIYA) 1/72 ウォーバードコレクション No.54 アメリカ陸軍 ノースアメリカン F-51D マスタング 朝鮮戦争仕様 プラモデル 60754",
-    "current_price": 881.0,
-    "original_price": 1100.0,
-    "discount_amount": 219.0,
-    "discount_percent": 19.90909090909091,
-    "url": "https://www.amazon.co.jp/dp/B00061HGVY?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-15 14:39:21"
-  },
-  {
-    "asin": "B018VO4BPG",
-    "title": "【第2類医薬品】アレジオン20 6錠",
-    "current_price": 741.0,
-    "original_price": 1518.0,
-    "discount_amount": 777.0,
-    "discount_percent": 51.18577075098815,
-    "url": "https://www.amazon.co.jp/dp/B018VO4BPG?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-15 13:44:37"
   }
 ]
