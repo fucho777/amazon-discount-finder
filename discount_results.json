@@ -1,5 +1,25 @@
 [
   {
+    "asin": "B017MLYEAQ",
+    "title": "スノー滑らナイゼン オールスパイクLサイズ",
+    "current_price": 1155.0,
+    "original_price": 1408.0,
+    "discount_amount": 253.0,
+    "discount_percent": 17.96875,
+    "url": "https://www.amazon.co.jp/dp/B017MLYEAQ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-20 16:23:21"
+  },
+  {
+    "asin": "B003VTQXA8",
+    "title": "phiten(ファイテン) チタンテープ X30 伸縮タイプ 5cmX4.5m【リラックスサポート】【パフォーマンスサポート】",
+    "current_price": 1655.0,
+    "original_price": 2530.0,
+    "discount_amount": 875.0,
+    "discount_percent": 34.58498023715415,
+    "url": "https://www.amazon.co.jp/dp/B003VTQXA8?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-20 16:31:02"
+  },
+  {
     "asin": "B0B5QRZFN2",
     "title": "[チャムス] Other Guitar Strap Sweat Nylon メンズ H-Gray/Basic Navy",
     "current_price": 3927.0,
@@ -2058,29 +2078,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-15 13:44:37"
-  },
-  {
-    "asin": "B081NQQ1QN",
-    "title": "[プーマ] ランニングシューズ スペースランナー/ALT 【Amazon.co.jp限定】 24年春夏カラー プーマ ブラック/プーマ ホワイト (01) 26.5 cm",
-    "current_price": 3781.0,
-    "original_price": 6050.0,
-    "discount_amount": 2269.0,
-    "discount_percent": 37.50413223140496,
-    "url": "https://www.amazon.co.jp/dp/B081NQQ1QN?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-15 13:54:23"
-  },
-  {
-    "asin": "B0CQ4LWFR7",
-    "title": "[ミズノ] ランニングシューズ マキシマイザー 26 通勤 通学 ジョギング スニーカー スポーツ 運動 ブラック/ホワイト 24.0 cm 3E",
-    "current_price": 4385.0,
-    "original_price": 6490.0,
-    "discount_amount": 2105.0,
-    "discount_percent": 32.43451463790446,
-    "url": "https://www.amazon.co.jp/dp/B0CQ4LWFR7?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-15 13:54:30"
   }
 ]
