@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0C2C8S1H2",
+    "title": "チャオ (CIAO) ピュアちゅ~る まぐろ・かつおバラエティ 20本 猫用おやつ",
+    "current_price": 763.0,
+    "original_price": 1078.0,
+    "discount_amount": 315.0,
+    "discount_percent": 29.22077922077922,
+    "url": "https://www.amazon.co.jp/dp/B0C2C8S1H2?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-21 06:45:40"
+  },
+  {
     "asin": "B0D6QPPF1J",
     "title": "[PUMA] 68768102_ESS 2 COLOR NO.1 ロゴ Tシャツ_プーマ ホワイト_S",
     "current_price": 1925.0,
@@ -2056,17 +2066,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-15 15:23:32"
-  },
-  {
-    "asin": "B0DHDCR1YJ",
-    "title": "シャオミ(Xiaomi) SIMフリー スマートフォン Redmi 14C 8GB+256GB 6.88インチディスプレイ 5160 mAh 大容量バッテリー 18W急速充電 docomo/au/SoftBank/Rakuten Mobile 回線対応 ミッドナイトブラック",
-    "current_price": 17980.0,
-    "original_price": 21800.0,
-    "discount_amount": 3820.0,
-    "discount_percent": 17.522935779816514,
-    "url": "https://www.amazon.co.jp/dp/B0DHDCR1YJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-15 15:25:28"
   }
 ]
