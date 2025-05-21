@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0C8WFPND2",
+    "title": "[チャンピオン] スウェット 半袖 裏毛 ワンポイントロゴ ショートスリーブクルーネックスウェットシャツ ベーシック C3-Z020 メンズ オートミール XL",
+    "current_price": 3500.0,
+    "original_price": 5390.0,
+    "discount_amount": 1890.0,
+    "discount_percent": 35.064935064935064,
+    "url": "https://www.amazon.co.jp/dp/B0C8WFPND2?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-21 10:47:05"
+  },
+  {
     "asin": "B0C2C8S1H2",
     "title": "チャオ (CIAO) ピュアちゅ~る まぐろ・かつおバラエティ 20本 猫用おやつ",
     "current_price": 763.0,
@@ -2054,17 +2064,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-15 15:23:23"
-  },
-  {
-    "asin": "B0096JYZMA",
-    "title": "SALONIA サロニア ストレートアイロン ヘアアイロン 24mm 耐熱ポーチ付 海外対応 SL-004S ブラック",
-    "current_price": 2980.0,
-    "original_price": 3828.0,
-    "discount_amount": 848.0,
-    "discount_percent": 22.152560083594565,
-    "url": "https://www.amazon.co.jp/dp/B0096JYZMA?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-15 15:23:32"
   }
 ]
