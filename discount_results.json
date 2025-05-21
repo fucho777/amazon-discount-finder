@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0D6QPPF1J",
+    "title": "[PUMA] 68768102_ESS 2 COLOR NO.1 ロゴ Tシャツ_プーマ ホワイト_S",
+    "current_price": 1925.0,
+    "original_price": 2750.0,
+    "discount_amount": 825.0,
+    "discount_percent": 30.0,
+    "url": "https://www.amazon.co.jp/dp/B0D6QPPF1J?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-21 05:05:11"
+  },
+  {
     "asin": "B00U8N38NU",
     "title": "SWANS(スワンズ) スイミング セームタオル 速乾 SA-126 BL ブルー タオル 40cm×100㎝ 水泳 プール",
     "current_price": 1202.0,
@@ -2058,17 +2068,5 @@
     "posted_to_twitter": true,
     "posted_to_threads": false,
     "posted_at": "2025-04-15 15:25:28"
-  },
-  {
-    "asin": "B07VCP8JXS",
-    "title": "SALONIA サロニア スピーディーイオン ドライヤー 大風量 速乾 軽量 マイナスイオン ヘアドライヤー SL-013BK ブラック",
-    "current_price": 4672.0,
-    "original_price": 5918.0,
-    "discount_amount": 1246.0,
-    "discount_percent": 21.054410273741127,
-    "url": "https://www.amazon.co.jp/dp/B07VCP8JXS?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-15 15:32:24"
   }
 ]
