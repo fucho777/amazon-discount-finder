@@ -1,5 +1,25 @@
 [
   {
+    "asin": "B077HQG6WV",
+    "title": "ディアナチュラスタイル ビタミンB群 60粒 (60日分)",
+    "current_price": 363.0,
+    "original_price": 540.0,
+    "discount_amount": 177.0,
+    "discount_percent": 32.77777777777778,
+    "url": "https://www.amazon.co.jp/dp/B077HQG6WV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-22 01:20:42"
+  },
+  {
+    "asin": "B004WSWM0W",
+    "title": "ゼット(ZETT)少年野球 イージーソックス BK250M ブラック 21-24cm",
+    "current_price": 852.0,
+    "original_price": 1100.0,
+    "discount_amount": 248.0,
+    "discount_percent": 22.545454545454547,
+    "url": "https://www.amazon.co.jp/dp/B004WSWM0W?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-22 01:28:13"
+  },
+  {
     "asin": "B0D8PKJ3T4",
     "title": "【本体一括購入】Y!mobile OPPO Reno11 A ダークグリーン 【MNP乗り換え・シンプルS専用】 【事務手数料無料】 購入後申込必須 ※開通後発送",
     "current_price": 12560.0,
@@ -2030,29 +2050,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-16 01:56:44"
-  },
-  {
-    "asin": "B09K7NZMNV",
-    "title": "エリエール トイレットペーパー 消臭プラス(+) 1.5倍巻き 37.5m×32ロール(8ロール×4パック) ダブル パルプ100% フレッシュクリアの香り 【ハーフケース】【EC限定ケース入数】",
-    "current_price": 2101.0,
-    "original_price": 3190.0,
-    "discount_amount": 1089.0,
-    "discount_percent": 34.13793103448276,
-    "url": "https://www.amazon.co.jp/dp/B09K7NZMNV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-15 21:28:02"
-  },
-  {
-    "asin": "B0CB879X1H",
-    "title": "【医薬部外品】なめらか本舗 薬用リンクルナイトクリーム ホワイト 豆乳イソフラボン",
-    "current_price": 973.0,
-    "original_price": 1210.0,
-    "discount_amount": 237.0,
-    "discount_percent": 19.58677685950413,
-    "url": "https://www.amazon.co.jp/dp/B0CB879X1H?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-15 20:31:53"
   }
 ]
