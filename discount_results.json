@@ -1,5 +1,25 @@
 [
   {
+    "asin": "B07F2PGVJ3",
+    "title": "【PS4】The Last of Us Remastered PlayStation Hits 【CEROレーティング「Z」】",
+    "current_price": 990.0,
+    "original_price": 2189.0,
+    "discount_amount": 1199.0,
+    "discount_percent": 54.773869346733676,
+    "url": "https://www.amazon.co.jp/dp/B07F2PGVJ3?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-29 14:33:09"
+  },
+  {
+    "asin": "B0BGGTDJRQ",
+    "title": "[アディダス] ランニングシューズ コアランナー RUNFALCON 3.0 LSI57 メンズ コアブラック/フットウェアホワイト/コアブラック(HQ3790) 26.5 cm",
+    "current_price": 4899.0,
+    "original_price": 6600.0,
+    "discount_amount": 1701.0,
+    "discount_percent": 25.772727272727273,
+    "url": "https://www.amazon.co.jp/dp/B0BGGTDJRQ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-29 14:59:49"
+  },
+  {
     "asin": "B0DGDCVDCK",
     "title": "フレアフレグランス IROKA ピュアフリージア つめかえ 1200ml",
     "current_price": 899.0,
@@ -1988,29 +2008,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-16 04:37:14"
-  },
-  {
-    "asin": "B08XR3JJ87",
-    "title": "AGF(エージーエフ) ちょっと贅沢な珈琲店 ブラックインボックス スティックブラック 焙煎アソート 【中煎りブレンド、深煎りブレンド各15本、浅煎りブレンド、中深煎りブレンド各10本】 50個 (x 1)",
-    "current_price": 1346.0,
-    "original_price": 1662.0,
-    "discount_amount": 316.0,
-    "discount_percent": 19.01323706377858,
-    "url": "https://www.amazon.co.jp/dp/B08XR3JJ87?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-16 04:49:30"
-  },
-  {
-    "asin": "B0DXFD7SGS",
-    "title": "Redmi Pad SE 8.7 4G 8.7インチディスプレイ 4+128GB(最大2TB拡張) 90Hz 低ブルーライト 最大輝度600nit 5:3アスペクト比 MediaTek Helio G85 WidevineL1 Dolby Atmos対応 デュアルスピーカー 6650mAh 18W急速充電 Wi-Fi Bluethooth 読書 会議 適用 グラファイトグレー",
-    "current_price": 17980.0,
-    "original_price": 25436.0,
-    "discount_amount": 7456.0,
-    "discount_percent": 29.312785029092623,
-    "url": "https://www.amazon.co.jp/dp/B0DXFD7SGS?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": true,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-16 03:07:20"
   }
 ]
