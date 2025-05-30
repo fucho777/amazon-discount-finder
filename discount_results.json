@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B01N28GV00",
+    "title": "ARIA アリア ウクレレ ギグバッグ コンサート サイズ エスニック柄 12㎜パッド 柄E AEC-CU",
+    "current_price": 2638.0,
+    "original_price": 3520.0,
+    "discount_amount": 882.0,
+    "discount_percent": 25.05681818181818,
+    "url": "https://www.amazon.co.jp/dp/B01N28GV00?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-30 05:07:34"
+  },
+  {
     "asin": "B0CTJZCJH1",
     "title": "MSI GeForce RTX 3050 LP 6G OC PCIe4.0 ロープロファイルサイズ 補助電源不要 デュアルファン搭載 グラフィックスボード VD8790",
     "current_price": 26242.0,
@@ -1992,17 +2002,5 @@
     "posted_to_twitter": false,
     "posted_to_threads": false,
     "posted_at": "2025-04-16 06:52:36"
-  },
-  {
-    "asin": "B0BJML5QFC",
-    "title": "2022 Apple 10.9インチiPad (Wi-Fi, 64GB) - ブルー (第10世代)",
-    "current_price": 49800.0,
-    "original_price": 58800.0,
-    "discount_amount": 9000.0,
-    "discount_percent": 15.306122448979592,
-    "url": "https://www.amazon.co.jp/dp/B0BJML5QFC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-16 05:20:04"
   }
 ]
