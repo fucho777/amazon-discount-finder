@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B09H2X6R6C",
+    "title": "【PS5】グランツーリスモ7",
+    "current_price": 3509.0,
+    "original_price": 5780.0,
+    "discount_amount": 2271.0,
+    "discount_percent": 39.29065743944637,
+    "url": "https://www.amazon.co.jp/dp/B09H2X6R6C?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-30 08:28:11"
+  },
+  {
     "asin": "B0C3339YXH",
     "title": "エポック(EPOCH) シルバニアファミリー ゆうえんち おみせやさん 【 できたてハンバーガーワゴン 】 ミ-91 STマーク認証 3歳以上 おもちゃ ドールハウス Sylvanian Families",
     "current_price": 3182.0,
@@ -1988,17 +1998,5 @@
     "discount_percent": 27.100840336134453,
     "url": "https://www.amazon.co.jp/dp/B07XZC1QR3?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-04-21 04:22:16"
-  },
-  {
-    "asin": "B09G9YRX1P",
-    "title": "【Amazon.co.jp限定】 Restock サントリー 天然水 ラベルレス 2L ×9本",
-    "current_price": 1254.0,
-    "original_price": 1476.0,
-    "discount_amount": 222.0,
-    "discount_percent": 15.040650406504067,
-    "url": "https://www.amazon.co.jp/dp/B09G9YRX1P?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "posted_to_twitter": false,
-    "posted_to_threads": false,
-    "posted_at": "2025-04-16 06:32:54"
   }
 ]
