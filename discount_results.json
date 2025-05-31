@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0B2SD8BVX",
+    "title": "Amazon Fire Max 11 タブレット - 11インチ 2Kディスプレイ 64GB",
+    "current_price": 26980.0,
+    "original_price": 34980.0,
+    "discount_amount": 8000.0,
+    "discount_percent": 22.870211549456833,
+    "url": "https://www.amazon.co.jp/dp/B0B2SD8BVX?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-31 22:20:40"
+  },
+  {
     "asin": "B09TWQ6H74",
     "title": "【PS4】グランツーリスモ7",
     "current_price": 2900.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 50.046224961479204,
     "url": "https://www.amazon.co.jp/dp/B0BR8674YZ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-04-21 04:32:03"
-  },
-  {
-    "asin": "B0C2XN8HKD",
-    "title": "Amazon Fire HD 10 タブレット - 10インチHD ディスプレイ 32GB ブラック",
-    "current_price": 12980.0,
-    "original_price": 19980.0,
-    "discount_amount": 7000.0,
-    "discount_percent": 35.03503503503504,
-    "url": "https://www.amazon.co.jp/dp/B0C2XN8HKD?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-21 04:19:26"
   }
 ]
