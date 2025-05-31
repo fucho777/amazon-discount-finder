@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B01MUWYJYG",
+    "title": "オムロン 上腕式血圧計 HEM-7600シリーズ ブラック HEM-7600T-BK",
+    "current_price": 15980.0,
+    "original_price": 21636.0,
+    "discount_amount": 5656.0,
+    "discount_percent": 26.141615825476062,
+    "url": "https://www.amazon.co.jp/dp/B01MUWYJYG?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-31 12:26:39"
+  },
+  {
     "asin": "B01B14RGRI",
     "title": "MSI GeForce GT710 GDDR3 2GB グラフィックスボード VD5931",
     "current_price": 4323.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 23.189522342064713,
     "url": "https://www.amazon.co.jp/dp/B09B2RLPLV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-04-21 04:19:36"
-  },
-  {
-    "asin": "B084FT21FJ",
-    "title": "Sarlisi 脱毛器 無痛脱毛 自動照射 60万発9段階 全身適用 VIO対応 家庭用 男女兼用 ipl 光脱毛器 髭 だつもうき脱毛器 メンズ サーリシ White Ai01",
-    "current_price": 9624.0,
-    "original_price": 12504.0,
-    "discount_amount": 2880.0,
-    "discount_percent": 23.032629558541267,
-    "url": "https://www.amazon.co.jp/dp/B084FT21FJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-21 04:19:39"
   }
 ]
