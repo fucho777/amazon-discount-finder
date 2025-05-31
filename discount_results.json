@@ -1,5 +1,35 @@
 [
   {
+    "asin": "B01B14RGRI",
+    "title": "MSI GeForce GT710 GDDR3 2GB グラフィックスボード VD5931",
+    "current_price": 4323.0,
+    "original_price": 5907.0,
+    "discount_amount": 1584.0,
+    "discount_percent": 26.81564245810056,
+    "url": "https://www.amazon.co.jp/dp/B01B14RGRI?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-31 08:27:20"
+  },
+  {
+    "asin": "B0CJ4SQMTX",
+    "title": "アンサー PS Portal用 プロテクトポーチEVA ブラック ANS-PSV034BK",
+    "current_price": 1573.0,
+    "original_price": 1980.0,
+    "discount_amount": 407.0,
+    "discount_percent": 20.555555555555554,
+    "url": "https://www.amazon.co.jp/dp/B0CJ4SQMTX?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-31 08:37:48"
+  },
+  {
+    "asin": "B08LZ9V4JW",
+    "title": "[ニューバランス] ランニングシューズ ME432 【Amazon.co.jp限定】 スニーカー 白 通学 軽量 メンズ GRAY/BLUE(LL2) 25.5 cm 2E",
+    "current_price": 4543.0,
+    "original_price": 6490.0,
+    "discount_amount": 1947.0,
+    "discount_percent": 30.0,
+    "url": "https://www.amazon.co.jp/dp/B08LZ9V4JW?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-05-31 09:12:32"
+  },
+  {
     "asin": "B0B8Z7GHGK",
     "title": "ドギーマン 無添加良品 噛みごたえ牛すじのササミ巻き 12本",
     "current_price": 283.0,
@@ -1968,35 +1998,5 @@
     "discount_percent": 23.032629558541267,
     "url": "https://www.amazon.co.jp/dp/B084FT21FJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-04-21 04:19:39"
-  },
-  {
-    "asin": "B0D78D88Y8",
-    "title": "SteelSeries ワイヤレス ゲーミングヘッドセット Arctis Nova 5 white ヘッドホン 軽量 無線 ワイヤレス Switch PC PS5 PS4 対応 急速充電 60時間連続使用可能 調整可能 国内正規品 メーカー保証1年 61671 ホワイト",
-    "current_price": 18680.0,
-    "original_price": 21980.0,
-    "discount_amount": 3300.0,
-    "discount_percent": 15.013648771610555,
-    "url": "https://www.amazon.co.jp/dp/B0D78D88Y8?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-21 04:19:42"
-  },
-  {
-    "asin": "B0D44M7NKP",
-    "title": "SALONIA サロニア スムースシャイン ドライヤー 大風量 速乾 軽量 ヘアドライヤー ホワイト【Amazon.co.jp限定】",
-    "current_price": 10560.0,
-    "original_price": 13200.0,
-    "discount_amount": 2640.0,
-    "discount_percent": 20.0,
-    "url": "https://www.amazon.co.jp/dp/B0D44M7NKP?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-21 04:20:09"
-  },
-  {
-    "asin": "B09DSY4VCK",
-    "title": "【Amazon.co.jp限定】LG ゲーミング モニター UltraGear 34WP60C-B 34インチ/21:9 曲面 ウルトラワイド(3440×1440)/VA/160Hz/1ms MBR/HDR/FreeSync Premium/HDMI×2,DisplayPort×1",
-    "current_price": 49800.0,
-    "original_price": 60610.0,
-    "discount_amount": 10810.0,
-    "discount_percent": 17.835340702854314,
-    "url": "https://www.amazon.co.jp/dp/B09DSY4VCK?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-21 04:20:09"
   }
 ]
