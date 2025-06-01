@@ -1,5 +1,25 @@
 [
   {
+    "asin": "B07NHQRBJ5",
+    "title": "【PS4】ワンダと巨像 Value Selection",
+    "current_price": 900.0,
+    "original_price": 2179.0,
+    "discount_amount": 1279.0,
+    "discount_percent": 58.69664983937586,
+    "url": "https://www.amazon.co.jp/dp/B07NHQRBJ5?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-01 10:40:15"
+  },
+  {
+    "asin": "B0F2T48QTB",
+    "title": "温泡 瀬戸内レモン 入浴剤 アソート 12錠入 メントール配合 炭酸入浴剤 アロマ 詰め合わせ リラックス",
+    "current_price": 356.0,
+    "original_price": 427.0,
+    "discount_amount": 71.0,
+    "discount_percent": 16.627634660421545,
+    "url": "https://www.amazon.co.jp/dp/B0F2T48QTB?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-01 10:50:14"
+  },
+  {
     "asin": "B0F6XWL4LF",
     "title": "GXTRACE オフィスチェア デスクチェア 椅子 ゲーミングチェア ゲームチェア ブラック 腰サポート 跳ね上げ式アームレスト 3Dヘッドレスト 通気性メッシュ パソコンチェア ブラック",
     "current_price": 8980.0,
@@ -1978,25 +1998,5 @@
     "discount_percent": 32.651515151515156,
     "url": "https://www.amazon.co.jp/dp/B0DHC96S9G?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-04-22 09:27:09"
-  },
-  {
-    "asin": "B0CT281C33",
-    "title": "Anker Eufy Solar Wall Light Cam S120 (ライト付き屋外防犯カメラ）【ソーラーセキュリティカメラ/ワイヤレス対応 / 2K / 連続給電可能/自動点灯/AI動作検知 / IP65防塵防水 / スポットライト/追加料金不要】",
-    "current_price": 11240.0,
-    "original_price": 14990.0,
-    "discount_amount": 3750.0,
-    "discount_percent": 25.01667778519013,
-    "url": "https://www.amazon.co.jp/dp/B0CT281C33?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-22 09:27:13"
-  },
-  {
-    "asin": "B0DTP4WLPC",
-    "title": "パナソニック ドライヤー イオニティ 速乾 大風量 ホワイト EH-NE4K-W",
-    "current_price": 3519.0,
-    "original_price": 4400.0,
-    "discount_amount": 881.0,
-    "discount_percent": 20.022727272727273,
-    "url": "https://www.amazon.co.jp/dp/B0DTP4WLPC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-22 09:27:16"
   }
 ]
