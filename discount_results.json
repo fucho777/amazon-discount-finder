@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0BW37QY2V",
+    "title": "Amazon Fire TV Stick 4K Max(マックス) | Fire TV Stick史上最もパワフル | ストリーミングメディアプレイヤー",
+    "current_price": 9980.0,
+    "original_price": 12980.0,
+    "discount_amount": 3000.0,
+    "discount_percent": 23.112480739599384,
+    "url": "https://www.amazon.co.jp/dp/B0BW37QY2V?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-02 12:30:26"
+  },
+  {
     "asin": "B09SL2TRJW",
     "title": "ロリエ しあわせ素肌ライナーボタニカル 消臭54コ入× 3セット(162コ)+おまけ付き 【Amazon.co.jp限定】",
     "current_price": 826.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 33.438922985547414,
     "url": "https://www.amazon.co.jp/dp/B0DC71NK8T?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-04-22 19:20:31"
-  },
-  {
-    "asin": "B0C6LD957K",
-    "title": "ブラウン 電気シェーバー シリーズ5 電動 髭剃り メンズ 【Amazon.co.jp限定】 51-M1200s-V ミント キワゾリトリマー 防水設計 充電式 コードレス ディープキャッチ網刃",
-    "current_price": 8980.0,
-    "original_price": 12800.0,
-    "discount_amount": 3820.0,
-    "discount_percent": 29.843750000000004,
-    "url": "https://www.amazon.co.jp/dp/B0C6LD957K?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-22 19:20:34"
   }
 ]
