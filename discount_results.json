@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B08W9MRJHR",
+    "title": "トラスコ中山(TRUSCO) のぼり用注水式ベース 白 11L NBRB11",
+    "current_price": 1964.0,
+    "original_price": 2794.0,
+    "discount_amount": 830.0,
+    "discount_percent": 29.70651395848246,
+    "url": "https://www.amazon.co.jp/dp/B08W9MRJHR?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-02 17:05:34"
+  },
+  {
     "asin": "B0BW37QY2V",
     "title": "Amazon Fire TV Stick 4K Max(マックス) | Fire TV Stick史上最もパワフル | ストリーミングメディアプレイヤー",
     "current_price": 9980.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 23.00462249614792,
     "url": "https://www.amazon.co.jp/dp/B0CLY8LTQZ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-04-22 20:29:39"
-  },
-  {
-    "asin": "B0DC71NK8T",
-    "title": "ティファール 電気ケトル 1.2L 大容量 転倒お湯もれロック 「ジャスティン ロック ブラック」 省スチーム設計 KO5908JP",
-    "current_price": 3362.0,
-    "original_price": 5051.0,
-    "discount_amount": 1689.0,
-    "discount_percent": 33.438922985547414,
-    "url": "https://www.amazon.co.jp/dp/B0DC71NK8T?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-22 19:20:31"
   }
 ]
