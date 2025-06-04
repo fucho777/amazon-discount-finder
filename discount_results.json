@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B004S6FJOE",
+    "title": "デグーセレクション 400g(200g×2袋)",
+    "current_price": 784.0,
+    "original_price": 1166.0,
+    "discount_amount": 382.0,
+    "discount_percent": 32.76157804459691,
+    "url": "https://www.amazon.co.jp/dp/B004S6FJOE?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-04 08:50:49"
+  },
+  {
     "asin": "B0DK33FC7B",
     "title": "【法人割引】BTM スチール書庫 スチールキャビネット鍵付き オフィスキャビネット 高さ180cm 5段 ロッカー 書類保管庫 オフィス/事務所/更衣室/学校/業務用 棚板可動 A4対応 収納",
     "current_price": 19601.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 17.857142857142858,
     "url": "https://www.amazon.co.jp/dp/B09B9MX8JX?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-04-23 18:37:13"
-  },
-  {
-    "asin": "B09CTRHVQ2",
-    "title": "GXTRACE ゲーミングチェア ゲームチェア オットマン付き オフィスチェア 人間工学 １６５度 リクライニング ハイバック テレワーク 椅子 PCチェア (White)",
-    "current_price": 15700.0,
-    "original_price": 20800.0,
-    "discount_amount": 5100.0,
-    "discount_percent": 24.519230769230766,
-    "url": "https://www.amazon.co.jp/dp/B09CTRHVQ2?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-23 12:50:06"
   }
 ]
