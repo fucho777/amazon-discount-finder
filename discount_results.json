@@ -1,5 +1,25 @@
 [
   {
+    "asin": "B09N996G4R",
+    "title": "【PS5】アンチャーテッド トレジャーハンターコレクション",
+    "current_price": 1691.0,
+    "original_price": 3600.0,
+    "discount_amount": 1909.0,
+    "discount_percent": 53.02777777777777,
+    "url": "https://www.amazon.co.jp/dp/B09N996G4R?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-06 16:38:51"
+  },
+  {
+    "asin": "B0CQ4CBL3K",
+    "title": "【PS5】Rise of the Ronin Z version ( ライズオブローニン )【CEROレーティング「Z」】",
+    "current_price": 4727.0,
+    "original_price": 6980.0,
+    "discount_amount": 2253.0,
+    "discount_percent": 32.277936962750715,
+    "url": "https://www.amazon.co.jp/dp/B0CQ4CBL3K?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-06 16:38:54"
+  },
+  {
     "asin": "B0B1P81W6W",
     "title": "シルバニアファミリー お家 【 赤い屋根の大きなお家 -屋根裏はひみつのお部屋- 】 ハー51 STマーク認証 3歳以上 おもちゃ ドールハウス Sylvanian Families エポック社 EPOCH",
     "current_price": 6580.0,
@@ -1978,25 +1998,5 @@
     "discount_percent": 27.577879739193435,
     "url": "https://www.amazon.co.jp/dp/B0CBMDMYMK?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-04-28 07:52:01"
-  },
-  {
-    "asin": "B09VT19MQQ",
-    "title": "[アディダス] スニーカー グランドコート TD ライフスタイル コート カジュアル LIT50 フットウェアホワイト/チームロイヤルブルー/ビビッドレッド(GW9252) 27.0 cm",
-    "current_price": 3002.0,
-    "original_price": 7150.0,
-    "discount_amount": 4148.0,
-    "discount_percent": 58.01398601398602,
-    "url": "https://www.amazon.co.jp/dp/B09VT19MQQ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-27 06:34:40"
-  },
-  {
-    "asin": "B000FQULYO",
-    "title": "大正製薬 リポビタンD 100mL×50本 【指定医薬部外品】 栄養ドリンク 疲労回復・栄養補給に タウリン配合",
-    "current_price": 6100.0,
-    "original_price": 7581.0,
-    "discount_amount": 1481.0,
-    "discount_percent": 19.535681308534496,
-    "url": "https://www.amazon.co.jp/dp/B000FQULYO?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-04-26 18:33:48"
   }
 ]
