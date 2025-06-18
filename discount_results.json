@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B01MUE9X2K",
+    "title": "[トクホ] コカ・コーラ プラス 470ml PET×24本",
+    "current_price": 2909.0,
+    "original_price": 3446.0,
+    "discount_amount": 537.0,
+    "discount_percent": 15.583284968078932,
+    "url": "https://www.amazon.co.jp/dp/B01MUE9X2K?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-18 13:17:37"
+  },
+  {
     "asin": "B0CB879X1H",
     "title": "【医薬部外品】なめらか本舗 薬用リンクルナイトクリーム ホワイト 豆乳イソフラボン",
     "current_price": 973.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 27.9020979020979,
     "url": "https://www.amazon.co.jp/dp/B0DNYCNHHH?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-05-12 12:47:44"
-  },
-  {
-    "asin": "B0DVSP11PG",
-    "title": "【Amazon.co.jp限定】Lenovo Tab タブレット (10.1インチ ワイド パネル MediaTek Helio G85 プロセッサー 4GB 64GB Wi-Fiモデル) ルナグレー ZAEH0157JP 【AndroidOS】",
-    "current_price": 27300.0,
-    "original_price": 37180.0,
-    "discount_amount": 9880.0,
-    "discount_percent": 26.573426573426573,
-    "url": "https://www.amazon.co.jp/dp/B0DVSP11PG?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-12 12:47:48"
   }
 ]
