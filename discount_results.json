@@ -1,5 +1,35 @@
 [
   {
+    "asin": "B000FQULYO",
+    "title": "【指定医薬部外品】リポビタンD 100mL×50本 大正製薬 栄養ドリンク 疲労回復・栄養補給に タウリン配合",
+    "current_price": 6106.0,
+    "original_price": 7581.0,
+    "discount_amount": 1475.0,
+    "discount_percent": 19.45653607703469,
+    "url": "https://www.amazon.co.jp/dp/B000FQULYO?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-19 05:06:27"
+  },
+  {
+    "asin": "B0BX5T79LS",
+    "title": "シーバ リッチ キャットフード ささみ 成猫用 35g×12個(まとめ買い)",
+    "current_price": 1117.0,
+    "original_price": 1458.0,
+    "discount_amount": 341.0,
+    "discount_percent": 23.388203017832648,
+    "url": "https://www.amazon.co.jp/dp/B0BX5T79LS?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-19 05:10:47"
+  },
+  {
+    "asin": "B0DLGDQCQD",
+    "title": "【2025年最新Earaku Smart】 空気伝導 Bluetooth イヤホン Earaku(イアラク) 超軽量13g Bluetooth 5.3 EDR AAC対応 骨伝導の進級版 オープンイヤー デザイン ワイヤレス 日本語音声ガイド ENCノイズキャンセリング 耳掛け式 Type-C急速充電 ネイビー",
+    "current_price": 3112.0,
+    "original_price": 4299.0,
+    "discount_amount": 1187.0,
+    "discount_percent": 27.611072342405212,
+    "url": "https://www.amazon.co.jp/dp/B0DLGDQCQD?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-19 05:26:09"
+  },
+  {
     "asin": "B0D4Z7SPGQ",
     "title": "アタック 【大容量】抗菌EX 洗濯洗剤 液体 ぎゅうぎゅうつめこみ洗いでも強力洗浄 つめかえ用 2900ｇ",
     "current_price": 986.0,
@@ -1968,35 +1998,5 @@
     "discount_percent": 24.303621169916433,
     "url": "https://www.amazon.co.jp/dp/B0D4Z7RRLP?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-05-13 09:39:59"
-  },
-  {
-    "asin": "B0CQ84RC1G",
-    "title": "ライオン デントヘルス薬用ハミガキDX 85g",
-    "current_price": 927.0,
-    "original_price": 1551.0,
-    "discount_amount": 624.0,
-    "discount_percent": 40.232108317214696,
-    "url": "https://www.amazon.co.jp/dp/B0CQ84RC1G?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-13 09:40:54"
-  },
-  {
-    "asin": "B09S32HVVB",
-    "title": "ドギーマン 無添加良品 香りあふれる贅沢ささみスティック 120ｇ",
-    "current_price": 487.0,
-    "original_price": 745.0,
-    "discount_amount": 258.0,
-    "discount_percent": 34.630872483221474,
-    "url": "https://www.amazon.co.jp/dp/B09S32HVVB?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-13 06:48:41"
-  },
-  {
-    "asin": "B09G2TPXQR",
-    "title": "[アディダス] ジャージ上下セット エアロレディ セレーノカット 3ストライプス トラックスーツ IZA33 メンズ ブラック/ホワイト (H28922) XO",
-    "current_price": 4229.0,
-    "original_price": 7689.0,
-    "discount_amount": 3460.0,
-    "discount_percent": 44.99934972037976,
-    "url": "https://www.amazon.co.jp/dp/B09G2TPXQR?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-13 06:53:07"
   }
 ]
