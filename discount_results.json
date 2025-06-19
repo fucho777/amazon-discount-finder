@@ -1,5 +1,35 @@
 [
   {
+    "asin": "B0CCY1DF6P",
+    "title": "きき湯【薬用入浴剤】カルシウム炭酸湯 ラムネの香り 360g(約12回分) バスクリン 炭酸入浴剤",
+    "current_price": 551.0,
+    "original_price": 658.0,
+    "discount_amount": 107.0,
+    "discount_percent": 16.261398176291795,
+    "url": "https://www.amazon.co.jp/dp/B0CCY1DF6P?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-19 10:50:21"
+  },
+  {
+    "asin": "B0D22C1WPY",
+    "title": "【Amazon.co.jp限定】フィリックスパウチ ダブルのおいしさ お肉バラエティ(チキン＆ビーフ、ビーフ＆ターキー) 50gx48袋入り(12袋x4箱)",
+    "current_price": 2378.0,
+    "original_price": 2798.0,
+    "discount_amount": 420.0,
+    "discount_percent": 15.010721944245889,
+    "url": "https://www.amazon.co.jp/dp/B0D22C1WPY?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-19 11:05:47"
+  },
+  {
+    "asin": "B0C6LTL5Y9",
+    "title": "GSI クレオス(GSI Creos) 新水性ホビーカラー セールカラー 半光沢 10ml ホビー用塗料 H85",
+    "current_price": 164.0,
+    "original_price": 220.0,
+    "discount_amount": 56.0,
+    "discount_percent": 25.454545454545453,
+    "url": "https://www.amazon.co.jp/dp/B0C6LTL5Y9?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-19 11:14:19"
+  },
+  {
     "asin": "B0DZ2NNJVC",
     "title": "Dyson(ダイソン) 掃除機 コードレス Dyson V8 Slim Fluffy Extra スティック ハンディクリーナー サイクロン (SV10K EXT BU AM)【Amazon.co.jp限定】【より小さく。より軽く。性能はそのままに。】",
     "current_price": 29800.0,
@@ -1968,35 +1998,5 @@
     "discount_percent": 25.8125,
     "url": "https://www.amazon.co.jp/dp/B0D9ZG8RN4?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-05-13 18:48:38"
-  },
-  {
-    "asin": "B07R3SNQRV",
-    "title": "ぷよぷよeスポーツ - Switch",
-    "current_price": 1600.0,
-    "original_price": 2189.0,
-    "discount_amount": 589.0,
-    "discount_percent": 26.907263590680675,
-    "url": "https://www.amazon.co.jp/dp/B07R3SNQRV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-13 13:42:46"
-  },
-  {
-    "asin": "B08KR3NZKJ",
-    "title": "タミヤ 1/24 スポーツカーシリーズ No.357 ロータス スーパー7 シリーズII プラモデル 24357",
-    "current_price": 1982.0,
-    "original_price": 2500.0,
-    "discount_amount": 518.0,
-    "discount_percent": 20.72,
-    "url": "https://www.amazon.co.jp/dp/B08KR3NZKJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-13 13:54:11"
-  },
-  {
-    "asin": "B09N6R7RWF",
-    "title": "フィリックス パウチ 我慢できない隠し味ゼリー お肉バラエティ 50gX12袋",
-    "current_price": 585.0,
-    "original_price": 699.0,
-    "discount_amount": 114.0,
-    "discount_percent": 16.30901287553648,
-    "url": "https://www.amazon.co.jp/dp/B09N6R7RWF?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-13 13:06:00"
   }
 ]
