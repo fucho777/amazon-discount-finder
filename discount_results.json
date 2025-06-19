@@ -1,5 +1,45 @@
 [
   {
+    "asin": "B0CNPDF7VJ",
+    "title": "[山善] 炊飯器 一人暮らし 5.5合 マイコン式 二人暮らし 玄米 雑穀米 炊き分け13種 最短20分炊飯 「メニューに合わせた白米炊き分け機能付き」 クリーンモード搭載 予約 保温 ブラック YJP-DM102(B)",
+    "current_price": 6280.0,
+    "original_price": 7980.0,
+    "discount_amount": 1700.0,
+    "discount_percent": 21.303258145363408,
+    "url": "https://www.amazon.co.jp/dp/B0CNPDF7VJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-19 02:01:11"
+  },
+  {
+    "asin": "B0D6YJW5VC",
+    "title": "Motorola(モトローラ) motorola g64 5G 8GB/128GB スペースブラック 【正規代理店品】 PB2G0000JP",
+    "current_price": 27514.0,
+    "original_price": 34800.0,
+    "discount_amount": 7286.0,
+    "discount_percent": 20.9367816091954,
+    "url": "https://www.amazon.co.jp/dp/B0D6YJW5VC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-19 02:04:11"
+  },
+  {
+    "asin": "B01CQMC9QW",
+    "title": "[グリマー] 長袖 4.4オンス ドライ UV ジップ パーカー 00338-AMZ メンズ ネイビー L (日本サイズL相当)",
+    "current_price": 1235.0,
+    "original_price": 2295.0,
+    "discount_amount": 1060.0,
+    "discount_percent": 46.187363834422655,
+    "url": "https://www.amazon.co.jp/dp/B01CQMC9QW?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-19 02:35:39"
+  },
+  {
+    "asin": "B07SZZMQJF",
+    "title": "[アンダーアーマー] UA HG ARMOUR MOCK SS Mens メンズ 001 日本 SM (日本サイズS相当)",
+    "current_price": 2816.0,
+    "original_price": 3850.0,
+    "discount_amount": 1034.0,
+    "discount_percent": 26.857142857142858,
+    "url": "https://www.amazon.co.jp/dp/B07SZZMQJF?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-19 02:35:43"
+  },
+  {
     "asin": "B01MUE9X2K",
     "title": "[トクホ] コカ・コーラ プラス 470ml PET×24本",
     "current_price": 2909.0,
@@ -1958,45 +1998,5 @@
     "discount_percent": 23.747680890538035,
     "url": "https://www.amazon.co.jp/dp/B0D7VDRYTN?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-05-13 06:53:10"
-  },
-  {
-    "asin": "B0DF725SYZ",
-    "title": "【特価セット品 マウスパッド】SteelSeries Apex Pro TKL (2023) US配列 + マウスパッド QCK 25cm×21cm×0.2cm",
-    "current_price": 30707.0,
-    "original_price": 36360.0,
-    "discount_amount": 5653.0,
-    "discount_percent": 15.547304730473046,
-    "url": "https://www.amazon.co.jp/dp/B0DF725SYZ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-12 21:33:03"
-  },
-  {
-    "asin": "B0B1T7LCD7",
-    "title": "ヴェルテクス・オリジナルズ オービットガールズ ENTRY NO.01 フィオナ・フルムーン 全高約400mm ノンスケール PVC/ABS製 塗装済み 完成品 フィギュア",
-    "current_price": 19182.0,
-    "original_price": 43780.0,
-    "discount_amount": 24598.0,
-    "discount_percent": 56.18547281863865,
-    "url": "https://www.amazon.co.jp/dp/B0B1T7LCD7?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-12 15:43:08"
-  },
-  {
-    "asin": "B09WY9816W",
-    "title": "MORSTORM&AniMester 『陰陽師』 千姫 1/4スケール PVC&レジン製 塗装済み完成品フィギュア",
-    "current_price": 18581.0,
-    "original_price": 25010.0,
-    "discount_amount": 6429.0,
-    "discount_percent": 25.705717712914833,
-    "url": "https://www.amazon.co.jp/dp/B09WY9816W?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-12 15:43:11"
-  },
-  {
-    "asin": "B0DNYCNHHH",
-    "title": "アイリスオーヤマ タブレット 10 インチ android14 保護フィルム付き 国内メーカー GPS 加速度 センサー搭載 読書 映画鑑賞 日本語サポート Wi-Fiモデル TE10D2M64-V1B",
-    "current_price": 16496.0,
-    "original_price": 22880.0,
-    "discount_amount": 6384.0,
-    "discount_percent": 27.9020979020979,
-    "url": "https://www.amazon.co.jp/dp/B0DNYCNHHH?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-12 12:47:44"
   }
 ]
