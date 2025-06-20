@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B07R3SNQRV",
+    "title": "ぷよぷよeスポーツ - Switch",
+    "current_price": 1600.0,
+    "original_price": 2189.0,
+    "discount_amount": 589.0,
+    "discount_percent": 26.907263590680675,
+    "url": "https://www.amazon.co.jp/dp/B07R3SNQRV?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-20 22:37:24"
+  },
+  {
     "asin": "B0DQ8QGZBN",
     "title": "Bluetoothヘッドセット【2025年業界高水準傑作 マイク付き 脱着式オープン型】 Earaku(イアラク) MicCuff 一体両用 通話用イヤホン OWSイヤホン 片耳・両耳使用可能 耳掛け Bluetooth5.４EDR ENCノイズキャンセリング 耳を塞がない ミュート機能 Type-C充電 IPX防水 運転 オンライン会議",
     "current_price": 7979.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 20.642424242424244,
     "url": "https://www.amazon.co.jp/dp/B0D5Y36XZX?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-05-16 08:37:37"
-  },
-  {
-    "asin": "B0DBKY5YKK",
-    "title": "パナソニック シェーバー ラムダッシュ 3枚刃 電動 髭剃り メンズ ES-L320W-K 黒",
-    "current_price": 7873.0,
-    "original_price": 12100.0,
-    "discount_amount": 4227.0,
-    "discount_percent": 34.93388429752066,
-    "url": "https://www.amazon.co.jp/dp/B0DBKY5YKK?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-16 06:21:41"
   }
 ]
