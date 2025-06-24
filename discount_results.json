@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0DYJHD1DM",
+    "title": "moto g05 フレッシュラベンダー",
+    "current_price": 15214.0,
+    "original_price": 20800.0,
+    "discount_amount": 5586.0,
+    "discount_percent": 26.855769230769234,
+    "url": "https://www.amazon.co.jp/dp/B0DYJHD1DM?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-24 08:42:45"
+  },
+  {
     "asin": "B0DHCTRH16",
     "title": "【PS5】モンスターハンターワイルズ",
     "current_price": 6199.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 15.2,
     "url": "https://www.amazon.co.jp/dp/B0CWL9YQ9R?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-05-19 01:23:50"
-  },
-  {
-    "asin": "B00CF9RT1W",
-    "title": "タミヤ(TAMIYA) 楽しい工作シリーズ No.123 白色プラバン 0.5mm厚 B4サイズ 4枚入 工作素材 70123",
-    "current_price": 509.0,
-    "original_price": 792.0,
-    "discount_amount": 283.0,
-    "discount_percent": 35.73232323232323,
-    "url": "https://www.amazon.co.jp/dp/B00CF9RT1W?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-19 01:26:41"
   }
 ]
