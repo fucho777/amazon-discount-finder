@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0F5QJ6CCL",
+    "title": "たまごっちのプチプチおみせっち おまちど～さま！ -Switch",
+    "current_price": 4855.0,
+    "original_price": 5940.0,
+    "discount_amount": 1085.0,
+    "discount_percent": 18.265993265993266,
+    "url": "https://www.amazon.co.jp/dp/B0F5QJ6CCL?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-06-27 08:51:28"
+  },
+  {
     "asin": "B08HNDLYNG",
     "title": "[指定医薬部外品] エーザイ チョコラBB ライト 100mL×10本(ボール)",
     "current_price": 1262.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 17.96875,
     "url": "https://www.amazon.co.jp/dp/B017MLYEAQ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-05-20 16:23:21"
-  },
-  {
-    "asin": "B003VTQXA8",
-    "title": "phiten(ファイテン) チタンテープ X30 伸縮タイプ 5cmX4.5m【リラックスサポート】【パフォーマンスサポート】",
-    "current_price": 1655.0,
-    "original_price": 2530.0,
-    "discount_amount": 875.0,
-    "discount_percent": 34.58498023715415,
-    "url": "https://www.amazon.co.jp/dp/B003VTQXA8?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-20 16:31:02"
   }
 ]
