@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B000IA8900",
+    "title": "花ごころ バラの土 生産者が認めるブレンド 12L",
+    "current_price": 936.0,
+    "original_price": 1250.0,
+    "discount_amount": 314.0,
+    "discount_percent": 25.119999999999997,
+    "url": "https://www.amazon.co.jp/dp/B000IA8900?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-04 13:02:20"
+  },
+  {
     "asin": "B0DFH95C13",
     "title": "GTRACING ゲーミングチェア ファブリック オットマン 椅子 イス テレワーク 腰痛対策 pcチェア デスクチェア 蒸れない ソファーの座り心地 【ふわふわPP綿採用】 【安心の非再生ウレタン採用】【ポケットコイル採用】 分区サポート 肉厚クッション 140度リクライニング 広い座面 ハイバック 高さ調節 200-BLK",
     "current_price": 17425.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 16.19047619047619,
     "url": "https://www.amazon.co.jp/dp/B0D21S5SPG?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-05-26 08:28:38"
-  },
-  {
-    "asin": "B0D2D8V544",
-    "title": "Xiaomi POCO F6 Pro 12GB+512GB 日本語版 Simフリー スマートフォン Qualcomm Snapdragon 8 Gen 2搭載 120Hz 有機ELディスプレイ 120W Xiaomiハイパーチャージ ブラック",
-    "current_price": 54980.0,
-    "original_price": 64980.0,
-    "discount_amount": 10000.0,
-    "discount_percent": 15.389350569405972,
-    "url": "https://www.amazon.co.jp/dp/B0D2D8V544?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-26 01:21:08"
   }
 ]
