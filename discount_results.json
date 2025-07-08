@@ -1,5 +1,25 @@
 [
   {
+    "asin": "B0D6RH7B2H",
+    "title": "[ルコック] テニス スコート リバーシブルゲームスコート レディス L レディス ホワイト",
+    "current_price": 6084.0,
+    "original_price": 9020.0,
+    "discount_amount": 2936.0,
+    "discount_percent": 32.549889135254986,
+    "url": "https://www.amazon.co.jp/dp/B0D6RH7B2H?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-08 19:17:01"
+  },
+  {
+    "asin": "B0D2ZZ647Q",
+    "title": "[ニューバランス] ランニングシューズ W413 現行モデル ランニング ウォーキング スニーカー 白 通学 幅広 軽量 レディース LP3(PURPLE) 23.5 cm D",
+    "current_price": 5460.0,
+    "original_price": 6930.0,
+    "discount_amount": 1470.0,
+    "discount_percent": 21.21212121212121,
+    "url": "https://www.amazon.co.jp/dp/B0D2ZZ647Q?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-08 19:33:03"
+  },
+  {
     "asin": "B09PYN3C1V",
     "title": "【特価セット品 マウスパッド】SteelSeries Aerox 3 Snow Wireless + マウスパッド QCK 45cm×40cm×0.2cm QcK",
     "current_price": 15998.0,
@@ -1978,25 +1998,5 @@
     "discount_percent": 15.00245941957698,
     "url": "https://www.amazon.co.jp/dp/B0CVL7M39R?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-05-29 20:32:47"
-  },
-  {
-    "asin": "B07F2PGVJ3",
-    "title": "【PS4】The Last of Us Remastered PlayStation Hits 【CEROレーティング「Z」】",
-    "current_price": 990.0,
-    "original_price": 2189.0,
-    "discount_amount": 1199.0,
-    "discount_percent": 54.773869346733676,
-    "url": "https://www.amazon.co.jp/dp/B07F2PGVJ3?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-29 14:33:09"
-  },
-  {
-    "asin": "B0BGGTDJRQ",
-    "title": "[アディダス] ランニングシューズ コアランナー RUNFALCON 3.0 LSI57 メンズ コアブラック/フットウェアホワイト/コアブラック(HQ3790) 26.5 cm",
-    "current_price": 4899.0,
-    "original_price": 6600.0,
-    "discount_amount": 1701.0,
-    "discount_percent": 25.772727272727273,
-    "url": "https://www.amazon.co.jp/dp/B0BGGTDJRQ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-29 14:59:49"
   }
 ]
