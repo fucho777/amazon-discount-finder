@@ -1,5 +1,45 @@
 [
   {
+    "asin": "B000F3NQ6M",
+    "title": "エーワン 手作りチケット 連続タイプ 4列11連 880枚分 51467",
+    "current_price": 451.0,
+    "original_price": 638.0,
+    "discount_amount": 187.0,
+    "discount_percent": 29.310344827586203,
+    "url": "https://www.amazon.co.jp/dp/B000F3NQ6M?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-09 02:34:23"
+  },
+  {
+    "asin": "B00OGWUNVE",
+    "title": "タカラトミー(TAKARA TOMY) 『 トミカ No.118 ランボルギーニ ヴェネーノ(箱) 』 ミニカー 車 おもちゃ 3歳以上 箱入り 玩具安全基準合格 STマーク認証 TOMICA",
+    "current_price": 382.0,
+    "original_price": 594.0,
+    "discount_amount": 212.0,
+    "discount_percent": 35.69023569023569,
+    "url": "https://www.amazon.co.jp/dp/B00OGWUNVE?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-09 03:00:48"
+  },
+  {
+    "asin": "B0BV793KD1",
+    "title": "レゴ(LEGO) シティ 旅客機 おもちゃ 玩具 誕生日 プレゼント ブロック 男の子 女の子 子供 7歳 8歳 9歳 小学生 街づくり 乗り物 車 ミニカー 60367",
+    "current_price": 11109.0,
+    "original_price": 13164.0,
+    "discount_amount": 2055.0,
+    "discount_percent": 15.610756608933455,
+    "url": "https://www.amazon.co.jp/dp/B0BV793KD1?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-09 03:00:52"
+  },
+  {
+    "asin": "B0D6MZBJ23",
+    "title": "THE NORTH FACE(ザノースフェイス) 半袖 カットソー Tシャツ S/S FD Colorful Logo Cotton Tee ブラック M",
+    "current_price": 3845.0,
+    "original_price": 5500.0,
+    "discount_amount": 1655.0,
+    "discount_percent": 30.09090909090909,
+    "url": "https://www.amazon.co.jp/dp/B0D6MZBJ23?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-09 03:15:09"
+  },
+  {
     "asin": "B0D6RH7B2H",
     "title": "[ルコック] テニス スコート リバーシブルゲームスコート レディス L レディス ホワイト",
     "current_price": 6084.0,
@@ -1958,45 +1998,5 @@
     "discount_percent": 39.29065743944637,
     "url": "https://www.amazon.co.jp/dp/B09H2X6R6C?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-05-30 08:28:11"
-  },
-  {
-    "asin": "B0C3339YXH",
-    "title": "エポック(EPOCH) シルバニアファミリー ゆうえんち おみせやさん 【 できたてハンバーガーワゴン 】 ミ-91 STマーク認証 3歳以上 おもちゃ ドールハウス Sylvanian Families",
-    "current_price": 3182.0,
-    "original_price": 5200.0,
-    "discount_amount": 2018.0,
-    "discount_percent": 38.80769230769231,
-    "url": "https://www.amazon.co.jp/dp/B0C3339YXH?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-30 06:56:35"
-  },
-  {
-    "asin": "B01N28GV00",
-    "title": "ARIA アリア ウクレレ ギグバッグ コンサート サイズ エスニック柄 12㎜パッド 柄E AEC-CU",
-    "current_price": 2638.0,
-    "original_price": 3520.0,
-    "discount_amount": 882.0,
-    "discount_percent": 25.05681818181818,
-    "url": "https://www.amazon.co.jp/dp/B01N28GV00?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-30 05:07:34"
-  },
-  {
-    "asin": "B0CTJZCJH1",
-    "title": "MSI GeForce RTX 3050 LP 6G OC PCIe4.0 ロープロファイルサイズ 補助電源不要 デュアルファン搭載 グラフィックスボード VD8790",
-    "current_price": 26242.0,
-    "original_price": 32801.0,
-    "discount_amount": 6559.0,
-    "discount_percent": 19.996341574951984,
-    "url": "https://www.amazon.co.jp/dp/B0CTJZCJH1?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-30 01:17:05"
-  },
-  {
-    "asin": "B0CVL7M39R",
-    "title": "アタックZERO アタック液体史上 最高の清潔力。無菌レベルの消臭力 詰め替え 2100ｇ",
-    "current_price": 1728.0,
-    "original_price": 2033.0,
-    "discount_amount": 305.0,
-    "discount_percent": 15.00245941957698,
-    "url": "https://www.amazon.co.jp/dp/B0CVL7M39R?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-29 20:32:47"
   }
 ]
