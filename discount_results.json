@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0D6MSLS7H",
+    "title": "THE NORTH FACE(ザノースフェイス) ロングパンツ Flexible Long Pant ブラック M",
+    "current_price": 7922.0,
+    "original_price": 10000.0,
+    "discount_amount": 2078.0,
+    "discount_percent": 20.78,
+    "url": "https://www.amazon.co.jp/dp/B0D6MSLS7H?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-11 02:53:55"
+  },
+  {
     "asin": "B0DQ1WVY6Q",
     "title": "【特価セット】SteelSeries ゲーミングキーボード テンキーレス Apex 9 TKL JP 有線 日本語配列 レスポンスタイム0.2ms 搭載 アクチュエーションポイント1.0mm設定可能 OptiPoint光学スイッチ 高耐久 ブラック【エレコム(ELECOM) エアダスターセット】",
     "current_price": 18673.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 33.25,
     "url": "https://www.amazon.co.jp/dp/B0CPL57KRB?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-05-31 14:52:51"
-  },
-  {
-    "asin": "B01MUWYJYG",
-    "title": "オムロン 上腕式血圧計 HEM-7600シリーズ ブラック HEM-7600T-BK",
-    "current_price": 15980.0,
-    "original_price": 21636.0,
-    "discount_amount": 5656.0,
-    "discount_percent": 26.141615825476062,
-    "url": "https://www.amazon.co.jp/dp/B01MUWYJYG?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-05-31 12:26:39"
   }
 ]
