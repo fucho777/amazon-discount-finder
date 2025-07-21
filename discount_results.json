@@ -1,5 +1,25 @@
 [
   {
+    "asin": "B002CG8VC4",
+    "title": "ササガワ(Sasagawa) タカ印 証書 商品券 マルチケット 9-1300 フラワー 25シート",
+    "current_price": 884.0,
+    "original_price": 1220.0,
+    "discount_amount": 336.0,
+    "discount_percent": 27.54098360655738,
+    "url": "https://www.amazon.co.jp/dp/B002CG8VC4?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-21 20:19:21"
+  },
+  {
+    "asin": "B0BN5KMQ4H",
+    "title": "THE NORTH FACE(ザノースフェイス) ジャケット ES エニータイムウインドフーディ メンズ 防風 静電ケア UVプロテクト ブラック XL",
+    "current_price": 9800.0,
+    "original_price": 14000.0,
+    "discount_amount": 4200.0,
+    "discount_percent": 30.0,
+    "url": "https://www.amazon.co.jp/dp/B0BN5KMQ4H?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-21 20:25:39"
+  },
+  {
     "asin": "B084FSDB5S",
     "title": "[グンゼ] YG 清涼CUT OFF®シリーズ VネックTシャツ 脇パッド付 短袖深V YV1912 メンズ スモークオレンジ M",
     "current_price": 1320.0,
@@ -1978,25 +1998,5 @@
     "discount_percent": 15.659999999999998,
     "url": "https://www.amazon.co.jp/dp/B0D6N8275H?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-06-07 02:13:36"
-  },
-  {
-    "asin": "B0018RJM2G",
-    "title": "ゼブラ(ZEBRA) 蛍光ペン オプテックスケア 10色 WKCR1-10C",
-    "current_price": 641.0,
-    "original_price": 1100.0,
-    "discount_amount": 459.0,
-    "discount_percent": 41.72727272727273,
-    "url": "https://www.amazon.co.jp/dp/B0018RJM2G?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-06-06 18:56:52"
-  },
-  {
-    "asin": "B09N996G4R",
-    "title": "【PS5】アンチャーテッド トレジャーハンターコレクション",
-    "current_price": 1691.0,
-    "original_price": 3600.0,
-    "discount_amount": 1909.0,
-    "discount_percent": 53.02777777777777,
-    "url": "https://www.amazon.co.jp/dp/B09N996G4R?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-06-06 16:38:51"
   }
 ]
