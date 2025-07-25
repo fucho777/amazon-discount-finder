@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B097P6C9HJ",
+    "title": "ASUSTek NVIDIA RTX3060 搭載 Axial-techファンと2スロット設計 DUAL-RTX3060-O12G-V2",
+    "current_price": 37354.0,
+    "original_price": 46627.0,
+    "discount_amount": 9273.0,
+    "discount_percent": 19.8876187616617,
+    "url": "https://www.amazon.co.jp/dp/B097P6C9HJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-25 06:18:53"
+  },
+  {
     "asin": "B0BGXGGKPM",
     "title": "[アディダス] ソックス 薄手・軽量アンクルソックス3足組 EBL54 メンズ ブラック/ホワイト (IC1282) S",
     "current_price": 1200.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 15.571428571428573,
     "url": "https://www.amazon.co.jp/dp/B081GRZRRJ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-06-08 14:15:36"
-  },
-  {
-    "asin": "B0BBFSTNFM",
-    "title": "ぷよぷよテトリス2 スペシャルプライス - PS5",
-    "current_price": 2727.0,
-    "original_price": 3850.0,
-    "discount_amount": 1123.0,
-    "discount_percent": 29.168831168831165,
-    "url": "https://www.amazon.co.jp/dp/B0BBFSTNFM?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-06-08 03:39:49"
   }
 ]
