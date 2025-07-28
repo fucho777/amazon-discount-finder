@@ -1,5 +1,35 @@
 [
   {
+    "asin": "B01B14RGRI",
+    "title": "MSI GeForce GT710 GDDR3 2GB グラフィックスボード VD5931",
+    "current_price": 3919.0,
+    "original_price": 5907.0,
+    "discount_amount": 1988.0,
+    "discount_percent": 33.65498561029287,
+    "url": "https://www.amazon.co.jp/dp/B01B14RGRI?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-28 22:11:07"
+  },
+  {
+    "asin": "B0C7V6KPKS",
+    "title": "DUEL(デュエル) 魚に見えないピンクフロロ ショックリーダー 30m 8Lbs",
+    "current_price": 779.0,
+    "original_price": 946.0,
+    "discount_amount": 167.0,
+    "discount_percent": 17.653276955602536,
+    "url": "https://www.amazon.co.jp/dp/B0C7V6KPKS?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-28 22:24:05"
+  },
+  {
+    "asin": "B0CV98Q7S6",
+    "title": "[アドバンスト・テクノロジー・グローブ] エーティージー 【在庫限り特価】耐切創手袋 マキシカット・ウルトラ ４４－５７４５ ＸＬサイズ 44-5745-XL",
+    "current_price": 1738.0,
+    "original_price": 2618.0,
+    "discount_amount": 880.0,
+    "discount_percent": 33.61344537815126,
+    "url": "https://www.amazon.co.jp/dp/B0CV98Q7S6?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-28 22:24:43"
+  },
+  {
     "asin": "B0DHSFJQK5",
     "title": "レゴ(LEGO) クリエイター どうぶつ：クモ おもちゃ 玩具 誕生日 プレゼント ブロック 男の子 女の子 子供 7歳 8歳 9歳 小学生 動物 生き物 31159",
     "current_price": 1507.0,
@@ -1968,35 +1998,5 @@
     "discount_percent": 25.37313432835821,
     "url": "https://www.amazon.co.jp/dp/B019W9L2YC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-06-14 04:40:10"
-  },
-  {
-    "asin": "B002VIJKFK",
-    "title": "ザムスト(ZAMST) 手首 サポーター リストラップ ゴルフ テニス Mサイズ 左右兼用 ブラック 374202",
-    "current_price": 1572.0,
-    "original_price": 2090.0,
-    "discount_amount": 518.0,
-    "discount_percent": 24.784688995215312,
-    "url": "https://www.amazon.co.jp/dp/B002VIJKFK?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-06-14 04:41:53"
-  },
-  {
-    "asin": "B0F9VMJKTZ",
-    "title": "BTM 【法人割引】【新色登場】BTM 猫 ケージ キャットケージ 3段 多頭飼い 自由組み合わせ 猫ドア付き ハンモック付き 大型 猫ケージ キャスター付き キャットハウス ペットケージ 脱走防止 留守番 保護 おしゃれ",
-    "current_price": 8388.0,
-    "original_price": 10067.0,
-    "discount_amount": 1679.0,
-    "discount_percent": 16.678255686897785,
-    "url": "https://www.amazon.co.jp/dp/B0F9VMJKTZ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-06-14 04:43:37"
-  },
-  {
-    "asin": "B0BVPVBG3W",
-    "title": "ソニー ワイヤレスノイズキャンセリングヘッドホン WH-CH720N： ノイズキャンセリング搭載/Bluetooth対応/軽量設計 約192g/高性能マイク搭載/外音取り込み搭載/360Reality Audio対応/ブルー WH-CH720N L",
-    "current_price": 15755.0,
-    "original_price": 22000.0,
-    "discount_amount": 6245.0,
-    "discount_percent": 28.386363636363637,
-    "url": "https://www.amazon.co.jp/dp/B0BVPVBG3W?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-06-14 04:47:15"
   }
 ]
