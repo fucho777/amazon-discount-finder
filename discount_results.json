@@ -1,5 +1,15 @@
 [
   {
+    "asin": "B0D5H6KDCQ",
+    "title": "[アシックス] バレーボールシューズ GEL-ROCKET 11 1073A065 ユニセックス 105(ホワイト ブルー) 25.0 cm 2E",
+    "current_price": 7000.0,
+    "original_price": 9000.0,
+    "discount_amount": 2000.0,
+    "discount_percent": 22.22222222222222,
+    "url": "https://www.amazon.co.jp/dp/B0D5H6KDCQ?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
+    "found_at": "2025-07-30 22:44:34"
+  },
+  {
     "asin": "B01B14RGRI",
     "title": "MSI GeForce GT710 GDDR3 2GB グラフィックスボード VD5931",
     "current_price": 3919.0,
@@ -1988,15 +1998,5 @@
     "discount_percent": 15.015243902439025,
     "url": "https://www.amazon.co.jp/dp/B0B9G4QR1M?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
     "found_at": "2025-06-14 04:37:14"
-  },
-  {
-    "asin": "B019W9L2YC",
-    "title": "タカ印 ポップシール 22-2203 3割引 500片",
-    "current_price": 300.0,
-    "original_price": 402.0,
-    "discount_amount": 102.0,
-    "discount_percent": 25.37313432835821,
-    "url": "https://www.amazon.co.jp/dp/B019W9L2YC?tag=zaikochecker-22&linkCode=ogi&th=1&psc=1",
-    "found_at": "2025-06-14 04:40:10"
   }
 ]
